@@ -1,0 +1,164 @@
+{
+  "shared": {
+    "announcement": {
+      "close": "不再显示此公告",
+      "title": "公告"
+    },
+    "app": {
+      "name": {
+        "abbr": "MCSL",
+        "future": "Future",
+        "name": "MCServerLauncher"
+      }
+    },
+    "daemon": {
+      "connect": {
+        "host": {
+          "label": "主机名",
+          "placeholder": "请输入主机名..."
+        },
+        "name": {
+          "label": "守护进程名称",
+          "placeholder": "请为守护进程命名..."
+        },
+        "password": {
+          "label": "密码",
+          "placeholder": "请输入密码..."
+        },
+        "port": {
+          "label": "端口",
+          "placeholder": "请输入端口..."
+        },
+        "preview": "你将要连接",
+        "save": "保存连接",
+        "secure": "使用加密连接",
+        "test": {
+          "failed": "连接测试失败！请检查填写是否正确！",
+          "success": "连接测试成功！立即保存守护进程吧！",
+          "test": "测试连接",
+          "testing": "测试连接中..."
+        },
+        "title": "连接守护进程",
+        "username": {
+          "label": "用户名",
+          "placeholder": "请输入用户名..."
+        }
+      }
+    },
+    "eula": {
+      "agree": {
+        "countdown": "同意（{time}秒）",
+        "normal": "同意"
+      },
+      "disagree": "不同意并退出",
+      "title": "最终用户许可协议"
+    },
+    "settings": {
+      "general": {
+        "locale": {
+          "auto": "跟随系统",
+          "label": "语言"
+        },
+        "theme": {
+          "dark": "深色模式",
+          "label": "主题",
+          "light": "浅色模式",
+          "system": "跟随系统"
+        }
+      }
+    },
+    "sidebar": {
+      "collapse": "折叠侧栏",
+      "daemon": "守护进程",
+      "help-center": "帮助中心",
+      "home": "主页",
+      "instances": "实例管理",
+      "newInstance": "新建实例",
+      "settings": "设置"
+    },
+    "update": {
+      "failed": "更新失败！原因：{reason}",
+      "get-failed": "检查更新失败！原因：{reason}",
+      "updating": "正在更新..."
+    },
+    "welcome": {
+      "done": {
+        "close": "进入 MCSL",
+        "subtitle": "立即开始使用 MCSL Future 吧!",
+        "title": "好耶! 大功告成!"
+      },
+      "settings": "配置 MCSL Future",
+      "subtitle": "请先配置 MCSL Future",
+      "welcome": "欢迎！"
+    }
+  },
+  "ui": {
+    "common": {
+      "cancel": "取消",
+      "confirm": "确认",
+      "continue": "继续",
+      "copy": "复制",
+      "done": "完成",
+      "next-step": "下一步",
+      "prev-step": "上一步"
+    },
+    "form": {
+      "invalid": {
+        "format": "格式错误！",
+        "range": "数值必须在 {min} 到 {max} 之间！",
+        "require": "请填写此项！"
+      }
+    },
+    "language": {
+      "country": "中国",
+      "name": "简体中文"
+    },
+    "loading": {
+      "default": "加载中...",
+      "success": "加载成功！"
+    },
+    "notification": {
+      "title": {
+        "error": "错误",
+        "warning": "警告"
+      }
+    }
+  },
+  "web": {
+    "app": {
+      "name": {
+        "suffix": "Web"
+      }
+    },
+    "auth": {
+      "login": {
+        "failed": {
+          "expired": "登录过期！请重新登录！",
+          "normal": "登录失败！原因：{reason}",
+          "verify": "登录验证失败！原因：{reason}"
+        },
+        "password": "密码",
+        "remember": "记住此设备",
+        "submit": "登录",
+        "subtitle": "为了您的数据安全，请登录以使用 MCSL Future Web",
+        "success": "登录成功！",
+        "title": "登录验证",
+        "username": "用户名"
+      },
+      "register": {
+        "confirm-invalid": "输入的两次密码不一致！",
+        "failed": "注册失败！原因：{reason}",
+        "password": "密码（8位以上，需包含大小写字母和数字）",
+        "password-confirm": "重复密码",
+        "submit": "注册",
+        "subtitle": "请注册管理员账号以开始使用 MCSL Future Web",
+        "success": "注册成功！请登录账号！",
+        "title": "创建管理员账号",
+        "username": "用户名（2-16位，可包含字母数字或下划线）"
+      }
+    },
+    "request": {
+      "failed-reason": {}
+    }
+  }
+}

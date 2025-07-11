@@ -1,0 +1,134 @@
+{
+  "shared": {
+    "announcement": {
+      "close": "Do not show again",
+      "title": "Announcement"
+    },
+    "app": {
+      "name": {
+        "abbr": "MCSL",
+        "future": "Future",
+        "name": "MCServerLauncher"
+      }
+    },
+    "eula": {
+      "agree": {
+        "countdown": "Agree ({time}s)",
+        "normal": "Agree"
+      },
+      "disagree": "Disagree & Quit",
+      "title": "End User License Agreement"
+    },
+    "index": {
+      "overview": {
+        "daemon-address": {
+          "label": "Daemon Address"
+        },
+        "daemon-name": {
+          "label": "Daemon Name"
+        },
+        "disk-usage": {
+          "desc": "Used / Total",
+          "label": "Disk Usage"
+        },
+        "instances": "Instances",
+        "title": "Overview",
+        "username": "Account Username"
+      }
+    },
+    "settings": {
+      "general": {
+        "locale": {
+          "auto": "System",
+          "label": "Language"
+        },
+        "theme": {
+          "dark": "Dark",
+          "label": "Theme",
+          "light": "Light",
+          "system": "System"
+        }
+      }
+    },
+    "sidebar": {
+      "collapse": "Collapse",
+      "help-center": "Help Center",
+      "home": "Home",
+      "instances": "Instances",
+      "newInstance": "Create instance",
+      "settings": "Settings",
+      "tasks": "Tasks"
+    },
+    "update": {
+      "failed": "Failed to update! Reason: {reason}",
+      "get-failed": "Failed to check update! Reason: {reason}",
+      "updating": "Updating..."
+    },
+    "welcome": {
+      "done": {
+        "close": "Finish",
+        "subtitle": "Welcome to MCSL Future!",
+        "title": "Well done!"
+      },
+      "settings": "Configuration",
+      "subtitle": "Please finish the configuration first",
+      "welcome": "Hello!"
+    }
+  },
+  "ui": {
+    "common": {
+      "next-step": "Next",
+      "prev-step": "Back"
+    },
+    "form": {
+      "invalid": {
+        "format": "Error format!",
+        "require": "Please input!"
+      }
+    },
+    "language": {
+      "country": "US",
+      "name": "English"
+    },
+    "loading": {
+      "default": "Loading...",
+      "success": "Successfully loaded!"
+    },
+    "notification": {
+      "title": {
+        "error": "Error",
+        "warning": "Warning"
+      }
+    }
+  },
+  "web": {
+    "app": {
+      "name": {
+        "suffix": "Web"
+      }
+    },
+    "auth": {
+      "login": {
+        "failed": {
+          "normal": "Login failed! Reason: {reason}"
+        },
+        "password": "Password",
+        "remember": "Remember Me",
+        "submit": "Login",
+        "success": "Logged in!",
+        "title": "Login",
+        "username": "Username"
+      },
+      "register": {
+        "confirm-invalid": "Password confirmation does not match!",
+        "failed": "Failed to create! Reason: {reason}",
+        "password": "Password (8 or more digits, must contain upper and lower case letters and numbers)’",
+        "password-confirm": "Confirm Password",
+        "submit": "Create",
+        "success": "Administrator account created! Please login!",
+        "title": "Creating Administrator Account",
+        "username": "Username (2-16 digits, can contain alphanumerics or underscores)"
+      }
+    }
+  }
+}

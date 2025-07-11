@@ -1,0 +1,7 @@
+{
+  "name": "@repo/locales",
+  "private": true,
+  "scripts": {
+    "fix": "node scripts/format-locale.js"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "shared": {
+    "announcement": {
+      "close": "关掉关掉一定要关掉",
+      "title": "大喇叭"
+    },
+    "app": {
+      "name": {
+        "abbr": "MCSL",
+        "future": "Future",
+        "name": "MCServerLauncher"
+      }
+    },
+    "daemon": {
+      "connect": {
+        "name": {
+          "label": "看大门的名字",
+          "placeholder": "给看大门的起个名"
+        },
+        "test": {
+          "success": "连接测试成功！立刻保存看大门的信息吧！",
+          "testing": "正在测试你给的奇妙地址通不通"
+        },
+        "title": "连接给MCSL主程序看大门的"
+      }
+    },
+    "eula": {
+      "agree": {
+        "countdown": "看完先（{time}秒）",
+        "normal": "我没意见"
+      },
+      "disagree": "我有意见，不丸了",
+      "title": "最终用户许可协议"
+    },
+    "settings": {
+      "general": {
+        "locale": {
+          "auto": "跟着系统",
+          "label": "兰格位居"
+        },
+        "theme": {
+          "dark": "黑化！",
+          "label": "花里胡哨",
+          "light": "净化！",
+          "system": "跟着系统"
+        }
+      }
+    },
+    "sidebar": {
+      "collapse": "折叠侧栏",
+      "daemon": "看大门的",
+      "help-center": "小葵花玩家课堂",
+      "home": "家",
+      "instances": "管理发现的大陆",
+      "newInstance": "发现新大陆",
+      "settings": "控制面板"
+    },
+    "update": {
+      "failed": "头抬起，你不是最新的，因为 {reason}",
+      "get-failed": "你拿不到最新的你了！因为 {reason}",
+      "updating": "好东西就要来了..."
+    },
+    "welcome": {
+      "done": {
+        "close": "MCSL，让我进去！",
+        "subtitle": "立即开始创建你的传奇土豆!",
+        "title": "好耶！是新的冒险！"
+      },
+      "settings": "配置 MCSL Future",
+      "subtitle": "请先配置 MCSL Future",
+      "welcome": "海内存知己，天涯若比邻"
+    }
+  },
+  "ui": {
+    "common": {
+      "cancel": "取消",
+      "next-step": "下一台阶",
+      "prev-step": "上一台阶"
+    },
+    "form": {
+      "invalid": {
+        "format": "你输入的东西有点逆天了你知道吗",
+        "range": "数值需要在{min} 到 {max} 之间，你逆天了孩子！",
+        "require": "空着东西让你吃了是吧！"
+      }
+    },
+    "language": {
+      "country": "天朝",
+      "name": "梗体中文"
+    },
+    "loading": {
+      "daemon": "正在连接守护进程...",
+      "default": "请坐和放宽...",
+      "success": "走起！"
+    },
+    "notification": {
+      "title": {
+        "warning": "粗大四啦"
+      }
+    }
+  },
+  "web": {
+    "app": {
+      "name": {
+        "suffix": "Web"
+      }
+    },
+    "auth": {
+      "login": {
+        "failed": {
+          "normal": "你的登录请求爆了！原因：{reason}",
+          "verify": "你的登录验证请求爆了！原因：{reason}"
+        },
+        "remember": "记住这台娃娃丢",
+        "submit": "启动！",
+        "subtitle": "为了保护你的服务器不被HACK DOG爆破，请登录以继续"
+      },
+      "register": {
+        "confirm-invalid": "你认为我们的字符串判断有问题？",
+        "failed": "你的注册请求爆了！原因：{reason}",
+        "subtitle": "使用前需创建用于神权的账号",
+        "title": "创建神权狗账号",
+        "username": "用户名（名字只有1个字符和超过16个字符的滚出去！可包含字母数字或下划线）"
+      }
+    }
+  }
+}
