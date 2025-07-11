@@ -1,4 +1,8 @@
 {
+  "language": {
+    "country": "US",
+    "name": "English"
+  },
   "shared": {
     "announcement": {
       "close": "Do not show again",
@@ -85,10 +89,6 @@
         "format": "Error format!",
         "require": "Please input!"
       }
-    },
-    "language": {
-      "country": "US",
-      "name": "English"
     },
     "loading": {
       "default": "Loading...",

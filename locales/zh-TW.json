@@ -1,4 +1,8 @@
 {
+  "language": {
+    "country": "台灣",
+    "name": "繁體中文"
+  },
   "shared": {
     "announcement": {
       "close": "不再顯示此公告",
@@ -112,10 +116,6 @@
         "range": "數值必須在 {min} 到 {max} 之間！",
         "require": "請填寫此項！"
       }
-    },
-    "language": {
-      "country": "中國",
-      "name": "繁体中文"
     },
     "loading": {
       "daemon": "正在连接守护进程...",
