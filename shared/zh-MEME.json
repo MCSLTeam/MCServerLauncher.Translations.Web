@@ -1,0 +1,72 @@
+{
+  "announcement": {
+    "close": "关掉关掉一定要关掉",
+    "title": "大喇叭"
+  },
+  "app": {
+    "name": {
+      "abbr": "MCSL",
+      "future": "Future",
+      "name": "MCServerLauncher"
+    }
+  },
+  "daemon": {
+    "connect": {
+      "name": {
+        "label": "看大门的名字",
+        "placeholder": "给看大门的起个名"
+      },
+      "test": {
+        "success": "连接测试成功！立刻保存看大门的信息吧！",
+        "testing": "正在测试你给的奇妙地址通不通"
+      },
+      "title": "连接给MCSL主程序看大门的"
+    }
+  },
+  "eula": {
+    "agree": {
+      "countdown": "看完先（{time}秒）",
+      "normal": "我没意见"
+    },
+    "disagree": "我有意见，不丸了",
+    "title": "最终用户许可协议"
+  },
+  "settings": {
+    "general": {
+      "locale": {
+        "auto": "跟着系统",
+        "label": "兰格位居"
+      },
+      "theme": {
+        "dark": "黑化！",
+        "label": "花里胡哨",
+        "light": "净化！",
+        "system": "跟着系统"
+      }
+    }
+  },
+  "sidebar": {
+    "collapse": "折叠侧栏",
+    "daemon": "看大门的",
+    "help-center": "小葵花玩家课堂",
+    "home": "家",
+    "instances": "管理发现的大陆",
+    "newInstance": "发现新大陆",
+    "settings": "控制面板"
+  },
+  "update": {
+    "failed": "头抬起，你不是最新的，因为 {reason}",
+    "get-failed": "你拿不到最新的你了！因为 {reason}",
+    "updating": "好东西就要来了..."
+  },
+  "welcome": {
+    "done": {
+      "close": "MCSL，让我进去！",
+      "subtitle": "立即开始创建你的传奇土豆!",
+      "title": "好耶！是新的冒险！"
+    },
+    "settings": "配置 MCSL Future",
+    "subtitle": "请先配置 MCSL Future",
+    "welcome": "海内存知己，天涯若比邻"
+  }
+}

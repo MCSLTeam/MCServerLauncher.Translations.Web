@@ -1,0 +1,26 @@
+{
+  "common": {
+    "next-step": "Next",
+    "prev-step": "Back"
+  },
+  "form": {
+    "invalid": {
+      "format": "Error format!",
+      "require": "Please input!"
+    }
+  },
+  "language": {
+    "country": "US",
+    "name": "English"
+  },
+  "loading": {
+    "default": "Loading...",
+    "success": "Successfully loaded!"
+  },
+  "notification": {
+    "title": {
+      "warning": "Warning",
+      "error": "Error"
+    }
+  }
+}

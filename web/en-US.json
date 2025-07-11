@@ -1,0 +1,30 @@
+{
+  "app": {
+    "name": {
+      "suffix": "Web"
+    }
+  },
+  "auth": {
+    "login": {
+      "failed": {
+        "normal": "Login failed! Reason: {reason}"
+      },
+      "password": "Password",
+      "remember": "Remember Me",
+      "submit": "Login",
+      "success": "Logged in!",
+      "title": "Login",
+      "username": "Username"
+    },
+    "register": {
+      "confirm-invalid": "Password confirmation does not match!",
+      "failed": "Failed to create! Reason: {reason}",
+      "password": "Password (8 or more digits, must contain upper and lower case letters and numbers)’",
+      "password-confirm": "Confirm Password",
+      "submit": "Create",
+      "success": "Administrator account created! Please login!",
+      "title": "Creating Administrator Account",
+      "username": "Username (2-16 digits, can contain alphanumerics or underscores)"
+    }
+  }
+}
