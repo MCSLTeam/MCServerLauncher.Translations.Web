@@ -47,6 +47,14 @@
             "connect": "请输入令牌...",
             "edit": "请输入令牌（留空不作修改）"
           }
+        },
+        "username": {
+          "label": "用戶名",
+          "placeholder": "請輸入用戶名..."
+        },
+        "password": {
+          "label": "密碼",
+          "placeholder": "請輸入密碼..."
         }
       },
       "list": {
@@ -99,7 +107,8 @@
     "welcome": {
       "done": {
         "close": "進入 MCSL",
-        "subtitle": "立即開始使用 MCSL Future 吧！"
+        "subtitle": "立即開始使用 MCSL Future 吧！",
+        "title": "好耶！大功告成！"
       },
       "settings": "配置 MCSL Future",
       "subtitle": "請先配置 MCSL Future",
@@ -108,7 +117,13 @@
   },
   "ui": {
     "common": {
-      "cancel": "取消"
+      "cancel": "取消",
+      "confirm": "確認",
+      "continue": "繼續",
+      "copy": "複製",
+      "done": "完成",
+      "next-step": "下一步",
+      "prev-step": "上一步"
     },
     "form": {
       "invalid": {
@@ -124,7 +139,8 @@
     },
     "notification": {
       "title": {
-        "warning": "警告"
+        "warning": "警告",
+        "error": "錯誤"
       }
     }
   },
