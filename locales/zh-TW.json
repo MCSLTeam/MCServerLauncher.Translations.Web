@@ -1,181 +1,181 @@
 {
-  "language": {
-    "country": "台灣",
-    "name": "繁體中文"
-  },
-  "shared": {
-    "announcement": {
-      "close": "不再顯示此公告",
-      "title": "公告"
+    "language": {
+        "country": "台灣",
+        "name": "繁體中文"
     },
-    "app": {
-      "name": {
-        "abbr": "MCSL",
-        "future": "Future",
-        "name": "MCServerLauncher"
-      }
-    },
-    "daemon": {
-      "connect": {
-        "failed": "守护进程 {name} 连接失败！原因：{reason}",
-        "host": {
-          "label": "主機名",
-          "placeholder": "請輸入主機名..."
+    "shared": {
+        "announcement": {
+            "close": "不再顯示此公告",
+            "title": "公告"
         },
-        "name": {
-          "label": "守護進程名稱",
-          "placeholder": "請為守護進程命名..."
+        "app": {
+            "name": {
+                "abbr": "MCSL",
+                "future": "Future",
+                "name": "MCServerLauncher"
+            }
         },
-        "port": {
-          "label": "連接埠",
-          "placeholder": "請輸入連接埠..."
+        "daemon": {
+            "connect": {
+                "failed": "守护进程 {name} 连接失败！原因：{reason}",
+                "host": {
+                    "label": "主機名",
+                    "placeholder": "請輸入主機名..."
+                },
+                "name": {
+                    "label": "守護進程名稱",
+                    "placeholder": "請為守護進程命名..."
+                },
+                "port": {
+                    "label": "連接埠",
+                    "placeholder": "請輸入連接埠..."
+                },
+                "preview": "你將要連接",
+                "save": "保存連接",
+                "secure": "使用加密連接",
+                "test": {
+                    "failed": "连接测试失败！请检查填写是否正确！原因：{reason}",
+                    "success": "連接測試成功！ 立即保存守護進程吧！",
+                    "test": "測試連接",
+                    "testing": "測試連線中..."
+                },
+                "title": "連接守護進程",
+                "token": {
+                    "invalid": "请填写一个主令牌！",
+                    "label": "令牌",
+                    "placeholder": {
+                        "connect": "请输入令牌...",
+                        "edit": "请输入令牌（留空不作修改）"
+                    }
+                },
+                "username": {
+                    "label": "用戶名",
+                    "placeholder": "請輸入用戶名..."
+                },
+                "password": {
+                    "label": "密碼",
+                    "placeholder": "請輸入密碼..."
+                }
+            },
+            "list": {
+                "empty": "暂无任何守护进程",
+                "failed": "获取守护进程列表失败！原因：{reason}",
+                "search": "搜索守护进程..."
+            },
+            "status": {
+                "connecting": "连接中",
+                "failed": "连接失败",
+                "open": "已连接"
+            }
         },
-        "preview": "你將要連接",
-        "save": "保存連接",
-        "secure": "使用加密連接",
-        "test": {
-          "failed": "连接测试失败！请检查填写是否正确！原因：{reason}",
-          "success": "連接測試成功！ 立即保存守護進程吧！",
-          "test": "測試連接",
-          "testing": "測試連線中..."
+        "eula": {
+            "agree": {
+                "countdown": "同意（{time}秒）",
+                "normal": "同意"
+            },
+            "disagree": "不同意並退出",
+            "title": "最終使用者許可協定"
         },
-        "title": "連接守護進程",
-        "token": {
-          "invalid": "请填写一个主令牌！",
-          "label": "令牌",
-          "placeholder": {
-            "connect": "请输入令牌...",
-            "edit": "请输入令牌（留空不作修改）"
-          }
+        "settings": {
+            "general": {
+                "locale": {
+                    "auto": "跟隨系統",
+                    "label": "語言"
+                },
+                "theme": {
+                    "dark": "深色模式",
+                    "label": "主題",
+                    "light": "淺色模式",
+                    "system": "跟隨系統"
+                }
+            }
         },
-        "username": {
-          "label": "用戶名",
-          "placeholder": "請輸入用戶名..."
+        "sidebar": {
+            "collapse": "摺疊側欄",
+            "daemon": "守護進程",
+            "help-center": "幫助中心",
+            "home": "主頁",
+            "instances": "實例管理",
+            "newInstance": "新建實例",
+            "settings": "設置"
         },
-        "password": {
-          "label": "密碼",
-          "placeholder": "請輸入密碼..."
+        "update": {
+            "failed": "更新失敗！原因：{reason}",
+            "get-failed": "檢查更新失敗！原因：{reason}",
+            "updating": "更新中..."
+        },
+        "welcome": {
+            "done": {
+                "close": "進入 MCSL",
+                "subtitle": "立即開始使用 MCSL Future 吧！",
+                "title": "好耶！大功告成！"
+            },
+            "settings": "配置 MCSL Future",
+            "subtitle": "請先配置 MCSL Future",
+            "welcome": "歡迎！"
         }
-      },
-      "list": {
-        "empty": "暂无任何守护进程",
-        "failed": "获取守护进程列表失败！原因：{reason}",
-        "search": "搜索守护进程..."
-      },
-      "status": {
-        "connecting": "连接中",
-        "failed": "连接失败",
-        "open": "已连接"
-      }
     },
-    "eula": {
-      "agree": {
-        "countdown": "同意（{time}秒）",
-        "normal": "同意"
-      },
-      "disagree": "不同意並退出",
-      "title": "最終使用者許可協定"
-    },
-    "settings": {
-      "general": {
-        "locale": {
-          "auto": "跟隨系統",
-          "label": "語言"
+    "ui": {
+        "common": {
+            "cancel": "取消",
+            "confirm": "確認",
+            "continue": "繼續",
+            "copy": "複製",
+            "done": "完成",
+            "next-step": "下一步",
+            "prev-step": "上一步"
         },
-        "theme": {
-          "dark": "深色模式",
-          "label": "主題",
-          "light": "淺色模式",
-          "system": "跟隨系統"
+        "form": {
+            "invalid": {
+                "format": "格式錯誤！",
+                "range": "數值必須在 {min} 到 {max} 之間！",
+                "require": "請填寫此項！"
+            }
+        },
+        "loading": {
+            "daemon": "正在连接守护进程...",
+            "default": "正在加載...",
+            "success": "加載成功！"
+        },
+        "notification": {
+            "title": {
+                "warning": "警告",
+                "error": "錯誤"
+            }
         }
-      }
     },
-    "sidebar": {
-      "collapse": "摺疊側欄",
-      "daemon": "守護進程",
-      "help-center": "幫助中心",
-      "home": "主頁",
-      "instances": "實例管理",
-      "newInstance": "新建實例",
-      "settings": "設置"
-    },
-    "update": {
-      "failed": "更新失敗！原因：{reason}",
-      "get-failed": "檢查更新失敗！原因：{reason}",
-      "updating": "更新中..."
-    },
-    "welcome": {
-      "done": {
-        "close": "進入 MCSL",
-        "subtitle": "立即開始使用 MCSL Future 吧！",
-        "title": "好耶！大功告成！"
-      },
-      "settings": "配置 MCSL Future",
-      "subtitle": "請先配置 MCSL Future",
-      "welcome": "歡迎！"
-    }
-  },
-  "ui": {
-    "common": {
-      "cancel": "取消",
-      "confirm": "確認",
-      "continue": "繼續",
-      "copy": "複製",
-      "done": "完成",
-      "next-step": "下一步",
-      "prev-step": "上一步"
-    },
-    "form": {
-      "invalid": {
-        "format": "格式錯誤！",
-        "range": "數值必須在 {min} 到 {max} 之間！",
-        "require": "請填寫此項！"
-      }
-    },
-    "loading": {
-      "daemon": "正在连接守护进程...",
-      "default": "正在加載...",
-      "success": "加載成功！"
-    },
-    "notification": {
-      "title": {
-        "warning": "警告",
-        "error": "錯誤"
-      }
-    }
-  },
-  "web": {
-    "app": {
-      "name": {
-        "suffix": "Web"
-      }
-    },
-    "auth": {
-      "login": {
-        "failed": {
-          "expired": "登錄過期！ 請重新登錄！",
-          "normal": "登錄失敗！原因：{reason}",
-          "verify": "登錄驗證失敗！ 原因：{reason}"
+    "web": {
+        "app": {
+            "name": {
+                "suffix": "Web"
+            }
         },
-        "password": "密碼",
-        "remember": "記住此設備",
-        "submit": "登錄",
-        "subtitle": "為了你的數據安全，請登錄以使用 MCSL Future Web",
-        "success": "登錄成功！",
-        "title": "登錄驗證",
-        "username": "用戶名"
-      },
-      "register": {
-        "confirm-invalid": "輸入的兩次密碼不一致！",
-        "failed": "註冊失敗！原因：{reason}",
-        "password": "密碼（8位以上，需包含大小寫字母和數字）",
-        "password-confirm": "重複密碼",
-        "submit": "註冊",
-        "subtitle": "請註冊管理員賬號以開始使用 MCSL Future Web",
-        "success": "註冊成功！請登錄賬號！",
-        "title": "創建管理員賬號",
-        "username": "用戶名（2-16位，可包含字母數字或下劃線）"
-      }
+        "auth": {
+            "login": {
+                "failed": {
+                    "expired": "登錄過期！ 請重新登錄！",
+                    "normal": "登錄失敗！原因：{reason}",
+                    "verify": "登錄驗證失敗！ 原因：{reason}"
+                },
+                "password": "密碼",
+                "remember": "記住此設備",
+                "submit": "登錄",
+                "subtitle": "為了你的數據安全，請登錄以使用 MCSL Future Web",
+                "success": "登錄成功！",
+                "title": "登錄驗證",
+                "username": "用戶名"
+            },
+            "register": {
+                "confirm-invalid": "輸入的兩次密碼不一致！",
+                "failed": "註冊失敗！原因：{reason}",
+                "password": "密碼（8位以上，需包含大小寫字母和數字）",
+                "password-confirm": "重複密碼",
+                "submit": "註冊",
+                "subtitle": "請註冊管理員賬號以開始使用 MCSL Future Web",
+                "success": "註冊成功！請登錄賬號！",
+                "title": "創建管理員賬號",
+                "username": "用戶名（2-16位，可包含字母數字或下劃線）"
+            }
+        }
     }
-  }
 }
