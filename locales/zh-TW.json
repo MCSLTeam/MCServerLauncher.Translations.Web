@@ -1,6 +1,6 @@
 {
     "language": {
-        "country": "台灣",
+        "country": "中國台灣",
         "name": "繁體中文"
     },
     "shared": {
@@ -24,11 +24,11 @@
                 },
                 "name": {
                     "label": "守護進程名稱",
-                    "placeholder": "請為守護進程命名..."
+                    "placeholder": "請為守護進程命名…"
                 },
                 "port": {
                     "label": "連接埠",
-                    "placeholder": "請輸入連接埠..."
+                    "placeholder": "請輸入連接埠…"
                 },
                 "preview": "你將要連接",
                 "save": "保存連接",
@@ -37,7 +37,7 @@
                     "failed": "连接测试失败！请检查填写是否正确！原因：{reason}",
                     "success": "連接測試成功！ 立即保存守護進程吧！",
                     "test": "測試連接",
-                    "testing": "測試連線中..."
+                    "testing": "測試連線中…"
                 },
                 "title": "連接守護進程",
                 "token": {
@@ -50,11 +50,11 @@
                 },
                 "username": {
                     "label": "用戶名",
-                    "placeholder": "請輸入用戶名..."
+                    "placeholder": "請輸入用戶名…"
                 },
                 "password": {
                     "label": "密碼",
-                    "placeholder": "請輸入密碼..."
+                    "placeholder": "請輸入密碼…"
                 }
             },
             "list": {
@@ -102,7 +102,7 @@
         "update": {
             "failed": "更新失敗！原因：{reason}",
             "get-failed": "檢查更新失敗！原因：{reason}",
-            "updating": "更新中..."
+            "updating": "更新中…"
         },
         "welcome": {
             "done": {
@@ -134,7 +134,7 @@
         },
         "loading": {
             "daemon": "正在连接守护进程...",
-            "default": "正在加載...",
+            "default": "正在加載…",
             "success": "加載成功！"
         },
         "notification": {
