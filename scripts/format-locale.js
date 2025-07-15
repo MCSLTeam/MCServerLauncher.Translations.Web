@@ -22,7 +22,7 @@ for (const path of paths) {
             }
             return value;
           },
-          2,
+          4,
         ) + "\n";
       const changed = content !== result;
       if (changed) fs.writeFileSync(path + file, result);

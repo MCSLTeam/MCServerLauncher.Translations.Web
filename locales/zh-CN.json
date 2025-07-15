@@ -117,9 +117,14 @@
             "default": "加载中…",
             "success": "加载成功！"
         },
+        "meter-group": {
+            "label": "{label}（{percentage}%）",
+            "unallocated": "计算中"
+        },
         "notification": {
             "title": {
                 "error": "错误",
+                "success": "成功",
                 "warning": "警告"
             }
         }
