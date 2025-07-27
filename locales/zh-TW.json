@@ -140,8 +140,13 @@
         "notification": {
             "title": {
                 "error": "錯誤",
-                "warning": "警告"
+                "warning": "警告",
+                "success": "成功"
             }
+        },
+        "meter-group": {
+            "label": "{label}（{percentage}%）",
+            "unallocated": "計算中"
         }
     },
     "web": {
