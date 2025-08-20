@@ -59,7 +59,7 @@
             "help-center": "Help Center",
             "home": "Home",
             "instances": "Instances",
-            "newInstance": "Create instance",
+            "new-instance": "Create instance",
             "settings": "Settings",
             "tasks": "Tasks"
         },
@@ -129,6 +129,80 @@
                 "title": "Creating Administrator Account",
                 "username": "Username (2-16 digits, can contain alphanumerics or underscores)"
             }
+        }
+    },
+    "yup": {
+        "array": {
+            "length": "\"{label}\" must have {length} items",
+            "max": "\"{label}\" field must have less than or equal to {max} items",
+            "min": "\"{label}\" field must have at least {min} items"
+        },
+        "boolean": {
+            "is-value": "\"{label}\" field must be: {value}",
+            "values": {
+                "false": "false",
+                "true": "true"
+            }
+        },
+        "date": {
+            "max": "\"{label}\" field must be at earlier than {max}",
+            "min": "\"{label}\" field must be later than {min}"
+        },
+        "mixed": {
+            "default": "\"{label}\" is invalid",
+            "defined": "\"{label}\" must be defined",
+            "not-one-of": "\"{label}\" must not be one of the following values: {values}",
+            "not-type": {
+                "cast": " (cast from the value \"{value}\")",
+                "mixed": "\"{label}\" must match the configured type. The validated value was: {value}{cast}",
+                "not-mixed": "\"{label}\" must be {type}, but the final value was: {value}{cast}",
+                "types": {
+                    "array": "an array",
+                    "boolean": "a boolean",
+                    "date": "a date",
+                    "function": "a function",
+                    "mixed": "any type",
+                    "number": "a number",
+                    "object": "an object",
+                    "string": "a string",
+                    "tuple": "a tuple"
+                }
+            },
+            "notnull": "\"{label}\" cannot be null",
+            "one-of": "\"{label}\" must be one of the following values: {values}",
+            "required": "\"{label}\" is a required field"
+        },
+        "number": {
+            "integer": "\"{label}\" must be an integer",
+            "less-than": "\"{label}\" must be less than {less}",
+            "max": "\"{label}\" must be less than or equal to {max}",
+            "min": "\"{label}\" must be greater than or equal to {min}",
+            "more-than": "\"{label}\" must be greater than {more}",
+            "negative": "\"{label}\" must be a negative number",
+            "positive": "\"{label}\" must be a positive number"
+        },
+        "object": {
+            "exact": "\"{label}\" object contains unknown properties: {properties}",
+            "no-unknown": "\"{label}\" field has unspecified keys: {unknown}"
+        },
+        "string": {
+            "datetime": "\"{label}\" must be a valid ISO date-time",
+            "datetime-offset": "\"{label}\" must be a valid ISO date-time with UTC \"Z\" timezone",
+            "datetime-precision": "\"{label}\" must be a valid ISO date-time with a sub-second precision of exactly {precision} digits",
+            "email": "\"{label}\" must be a valid email",
+            "length": "\"{label}\" must be exactly {length} characters",
+            "lowercase": "\"{label}\" must be a lowercase string",
+            "matches": "\"{label}\" must match the following regex: {regex}",
+            "max": "\"{label}\" must be at most {max} characters",
+            "min": "\"{label}\" must be at least {min} characters",
+            "trim": "\"{label}\" must be a trimmed string",
+            "uppercase": "\"{label}\" must be a upper case string",
+            "url": "\"{label}\" must be a valid URL",
+            "uuid": "\"{label}\" must be a valid UUID"
+        },
+        "tuple": {
+            "max": "\"{label}\" tuple value has too many items, expected a length of {typeLen} but got {valueLen} for value: {value}",
+            "min": "\"{label}\" tuple value has too few items, expected a length of {typeLen} but got {valueLen} for value: {value}"
         }
     }
 }

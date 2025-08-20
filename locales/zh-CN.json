@@ -77,7 +77,7 @@
             "help-center": "帮助中心",
             "home": "主页",
             "instances": "实例管理",
-            "newInstance": "新建实例",
+            "new-instance": "新建实例",
             "settings": "设置"
         },
         "update": {
@@ -161,6 +161,80 @@
                 "title": "创建管理员账号",
                 "username": "用户名（2-16位，可包含字母数字或下划线）"
             }
+        }
+    },
+    "yup": {
+        "array": {
+            "length": "“{label}”必须包含 {length} 个元素",
+            "max": "“{label}”不能超过 {max} 个元素",
+            "min": "“{label}”至少需要 {min} 个元素"
+        },
+        "boolean": {
+            "is-value": "“{label}”的值必须为：{value}",
+            "values": {
+                "false": "否",
+                "true": "是"
+            }
+        },
+        "date": {
+            "max": "“{label}”必须早于 {max}",
+            "min": "“{label}”必须晚于 {min}"
+        },
+        "mixed": {
+            "default": "“{label}”无效",
+            "defined": "“{label}”需被定义",
+            "not-type": {
+                "cast": "（转换自值“{value}”）",
+                "mixed": "“{label}”必须匹配配置的类型，但当前值为：{value}{cast}",
+                "not-mixed": "“{label}” 必须是{type}，但当前值为：{value}{cast}",
+                "types": {
+                    "array": "一个数组",
+                    "boolean": "一个布尔值",
+                    "date": "一个日期",
+                    "function": "一个函数",
+                    "mixed": "任何类型",
+                    "number": "一个数字",
+                    "object": "一个对象",
+                    "string": "一个字符串",
+                    "tuple": "一个元组"
+                }
+            },
+            "not-null": "“${label}”不可为 null",
+            "not-one-of": "“{label}”不能是以下值之一：{values}",
+            "one-of": "“{label}”必须是以下值之一：{values}",
+            "required": "请填写“{label}”"
+        },
+        "number": {
+            "integer": "“{label}”必须是整数",
+            "less-than": "“{label}”必须小于 {less}",
+            "max": "“{label}”必须小于或等于 {max}",
+            "min": "“{label}”必须大于或等于 {min}",
+            "more-than": "“{label}”必须大于 {more}",
+            "negative": "“{label}”必须是负数",
+            "positive": "“{label}”必须是正数"
+        },
+        "object": {
+            "exact": "“{label}”对象包含未声明的属性: {properties}",
+            "no-unknown": "“{label}”包含未指定的键: {unknown}"
+        },
+        "string": {
+            "datetime": "“{label}”必须是有效的 ISO 标准日期时间",
+            "datetime-offset": "“{label}”必须是带 UTC \"Z\" 时区的ISO日期时间",
+            "datetime-precision": "“{label}”必须是精确到 {precision} 位小数的 ISO 日期时间",
+            "email": "“{label}”必须是有效的电子邮件地址",
+            "length": "“{label}”的长度必须为 {length} 个字符",
+            "lowercase": "“{label}”必须是小写字符串",
+            "matches": "“{label}”必须匹配正则表达式：{regex}",
+            "max": "“{label}”不能超过 {max} 个字符",
+            "min": "“{label}”至少需要 {min} 个字符",
+            "trim": "“{label}”必须是去空格的字符串",
+            "uppercase": "“{label}”必须是大写字符串",
+            "url": "“{label}”必须是有效的 URL",
+            "uuid": "“{label}”必须是有效的 UUID"
+        },
+        "tuple": {
+            "max": "“{label}”元组的长度过长，预期长度为 {typeLen}，但实际长度为 {valueLen}，提供的值为：{value}",
+            "min": "“{label}”元组的长度过短，预期长度为 {typeLen}，但实际长度为 {valueLen}，提供的值为：{value}"
         }
     }
 }
