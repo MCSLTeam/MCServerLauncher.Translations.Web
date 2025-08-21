@@ -183,6 +183,8 @@
         "mixed": {
             "default": "“{label}”无效",
             "defined": "“{label}”需被定义",
+            "not-null": "“${label}”不可为 null",
+            "not-one-of": "“{label}”不能是以下值之一：{values}",
             "not-type": {
                 "cast": "（转换自值“{value}”）",
                 "mixed": "“{label}”必须匹配配置的类型，但当前值为：{value}{cast}",
@@ -199,8 +201,6 @@
                     "tuple": "一个元组"
                 }
             },
-            "not-null": "“${label}”不可为 null",
-            "not-one-of": "“{label}”不能是以下值之一：{values}",
             "one-of": "“{label}”必须是以下值之一：{values}",
             "required": "请填写“{label}”"
         },

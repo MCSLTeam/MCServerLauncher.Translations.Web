@@ -137,16 +137,16 @@
             "default": "正在加載…",
             "success": "加載成功！"
         },
-        "notification": {
-            "title": {
-                "error": "錯誤",
-                "warning": "警告",
-                "success": "成功"
-            }
-        },
         "meter-group": {
             "label": "{label}（{percentage}%）",
             "unallocated": "計算中"
+        },
+        "notification": {
+            "title": {
+                "error": "錯誤",
+                "success": "成功",
+                "warning": "警告"
+            }
         }
     },
     "web": {
