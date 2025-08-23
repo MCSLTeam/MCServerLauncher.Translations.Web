@@ -77,6 +77,24 @@
             "settings": "Configuration",
             "subtitle": "Please finish the configuration first",
             "welcome": "Hello!"
+        },
+        "daemon": {
+            "connect": {
+                "name": {
+                    "label": "Daemon Name"
+                },
+                "password": {
+                    "label": "Password",
+                    "placeholder": "Please input password…"
+                },
+                "port": {
+                    "label": "Port"
+                },
+                "host": {
+                    "label": "Hostname",
+                    "placeholder": "Please input hostname…"
+                }
+            }
         }
     },
     "ui": {
