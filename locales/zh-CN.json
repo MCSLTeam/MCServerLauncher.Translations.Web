@@ -9,6 +9,7 @@
             "title": "公告"
         },
         "app": {
+            "desc": "新一代服务器管理工具",
             "name": {
                 "abbr": "MCSL",
                 "future": "Future",
