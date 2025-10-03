@@ -79,7 +79,9 @@
         "common": {
             "cancel": "取消",
             "next-step": "下一台阶",
-            "prev-step": "上一台阶"
+            "prev-step": "上一台阶",
+            "confirm": "这看起来不错!",
+            "continue": "让我惊喜吧"
         },
         "form": {
             "invalid": {
@@ -95,7 +97,8 @@
         },
         "notification": {
             "title": {
-                "warning": "粗大四啦"
+                "warning": "粗大四啦",
+                "success": "轰! 嚓嚓! 你已经完成了!"
             }
         }
     },

@@ -61,7 +61,8 @@
             "instances": "Instances",
             "new-instance": "Create instance",
             "settings": "Settings",
-            "tasks": "Tasks"
+            "tasks": "Tasks",
+            "daemon": "daemon"
         },
         "update": {
             "failed": "Failed to update! Reason: {reason}",
@@ -77,28 +78,73 @@
             "settings": "Configuration",
             "subtitle": "Please finish the configuration first",
             "welcome": "Hello!"
+        },
+        "daemon": {
+            "connect": {
+                "name": {
+                    "label": "Daemon Name",
+                    "placeholder": "Please name the daemon…"
+                },
+                "password": {
+                    "label": "Password",
+                    "placeholder": "Please input password…"
+                },
+                "port": {
+                    "label": "Port",
+                    "placeholder": "Please enter the port…"
+                },
+                "host": {
+                    "label": "Hostname",
+                    "placeholder": "Please input hostname…"
+                },
+                "preview": "Please enter the port",
+                "save": "Save the connection",
+                "secure": "Use an encrypted connection",
+                "test": {
+                    "success": "Connection test successful! Save the daemon immediately!",
+                    "test": "Test connection",
+                    "testing": "Testing the connection…",
+                    "failed": "Test connection failed! Please check if the information filled in is correct!"
+                },
+                "title": "Connect to the daemon",
+                "username": {
+                    "label": "username",
+                    "placeholder": "Please enter a username…"
+                }
+            }
         }
     },
     "ui": {
         "common": {
             "next-step": "Next",
-            "prev-step": "Back"
+            "prev-step": "Back",
+            "cancel": "Cancel",
+            "confirm": "Confirm",
+            "copy": "copy",
+            "done": "Completed",
+            "continue": "Continue"
         },
         "form": {
             "invalid": {
                 "format": "Error format!",
-                "require": "Please input!"
+                "require": "Please input!",
+                "range": "The value must be between {min} and {max}!"
             }
         },
         "loading": {
-            "default": "Loading...",
+            "default": "Loading…",
             "success": "Successfully loaded!"
         },
         "notification": {
             "title": {
                 "error": "Error",
-                "warning": "Warning"
+                "warning": "Warning",
+                "success": "success"
             }
+        },
+        "meter-group": {
+            "unallocated": "Calculating",
+            "label": "{label}（{percentage}%）"
         }
     },
     "web": {
@@ -110,14 +156,17 @@
         "auth": {
             "login": {
                 "failed": {
-                    "normal": "Login failed! Reason: {reason}"
+                    "normal": "Login failed! Reason: {reason}",
+                    "expired": "Login expired! Please log in again!",
+                    "verify": "Login verification failed! Reason: {reason}"
                 },
                 "password": "Password",
                 "remember": "Remember Me",
                 "submit": "Login",
                 "success": "Logged in!",
-                "title": "Login",
-                "username": "Username"
+                "title": "Login verification",
+                "username": "Username",
+                "subtitle": "For your data security, please log in to use MCSL Future Web."
             },
             "register": {
                 "confirm-invalid": "Password confirmation does not match!",
@@ -127,7 +176,8 @@
                 "submit": "Create",
                 "success": "Administrator account created! Please login!",
                 "title": "Creating Administrator Account",
-                "username": "Username (2-16 digits, can contain alphanumerics or underscores)"
+                "username": "Username (2-16 digits, can contain alphanumerics or underscores)",
+                "subtitle": "Please register an administrator account to start using MCSL Future Web"
             }
         }
     },
@@ -170,7 +220,8 @@
             },
             "notnull": "\"{label}\" cannot be null",
             "one-of": "\"{label}\" must be one of the following values: {values}",
-            "required": "\"{label}\" is a required field"
+            "required": "\"{label}\" is a required field",
+            "not-null": "\"${label}\" cannot be null"
         },
         "number": {
             "integer": "\"{label}\" must be an integer",
