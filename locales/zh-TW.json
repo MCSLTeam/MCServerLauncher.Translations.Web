@@ -13,7 +13,8 @@
                 "abbr": "MCSL",
                 "future": "Future",
                 "name": "MCServerLauncher"
-            }
+            },
+            "desc": "新一代伺服器管理工具"
         },
         "daemon": {
             "connect": {
@@ -38,7 +39,7 @@
                 "save": "保存連接",
                 "secure": "使用加密連接",
                 "test": {
-                    "failed": "连接测试失败！请检查填写是否正确！原因：{reason}",
+                    "failed": "測試連接失敗！請確認填寫無誤！",
                     "success": "連接測試成功！ 立即保存守護進程吧！",
                     "test": "測試連接",
                     "testing": "測試連線中…"
@@ -181,6 +182,80 @@
                 "title": "創建管理員賬號",
                 "username": "用戶名（2-16位，可包含字母數字或下劃線）"
             }
+        }
+    },
+    "yup": {
+        "array": {
+            "length": "“{label}”必須包含 {length} 個元素",
+            "max": "“{label}”不得超過 {max} 個元素",
+            "min": "“{label}”至少需要 {min} 个元素"
+        },
+        "boolean": {
+            "is-value": "“{label}”的值必須為：{value}",
+            "values": {
+                "false": "否",
+                "true": "是"
+            }
+        },
+        "date": {
+            "max": "“{label}”必須早於 {max}",
+            "min": "“{label}”必須晚於 {min}"
+        },
+        "mixed": {
+            "default": "“{label}”無效",
+            "defined": "“{label}”需被定義",
+            "not-null": "“${label}”不可爲 null",
+            "not-one-of": "“{label}”不能是以下值之一：{values}",
+            "not-type": {
+                "cast": "（轉換自值“{value}”）",
+                "mixed": "“{label}”必須匹配配置的類型，但當前值：{value}{cast}",
+                "not-mixed": "“{label}” 必須是{type}，但當前值：{value}{cast}",
+                "types": {
+                    "array": "一個數組",
+                    "boolean": "一個布林值",
+                    "date": "一個日期",
+                    "function": "一個函數",
+                    "mixed": "任何類型",
+                    "number": "一個數字",
+                    "object": "一個物件",
+                    "string": "一個字符串",
+                    "tuple": "一個元組"
+                }
+            },
+            "one-of": "“{label}”必須是以下值之一：{values}",
+            "required": "請填寫“{label}”"
+        },
+        "number": {
+            "integer": "“{label}”必須為整數",
+            "less-than": "“{label}”必須小於 {less}",
+            "max": "“{label}”必須小於或等於 {max}",
+            "min": "“{label}”必須大於或等於 {min}",
+            "more-than": "“{label}”必須大於 {more}",
+            "negative": "“{label}”必須是負數",
+            "positive": "“{label}”必須是正數"
+        },
+        "object": {
+            "exact": "“{label}”物件包含未宣告的屬性: {properties}",
+            "no-unknown": "“{label}”包含未指定的鍵: {unknown}"
+        },
+        "string": {
+            "datetime": "“{label}”必須是有效的 ISO 標準日期時間",
+            "datetime-offset": "“{label}”必須是帶有 UTC “Z”時區的 ISO 日期時間",
+            "datetime-precision": "“{label}”必須是精確到 {precision} 位小數的 ISO 日期時間",
+            "email": "“{label}”必須是有效的電子郵箱地址",
+            "length": "“{label}”的長度必須爲 {length} 個字符",
+            "lowercase": "“{label}”必須是小寫字符串",
+            "matches": "“{label}”必須匹配正則表達式：{regex}",
+            "max": "“{label}”不得超過 {max} 個字符",
+            "min": "“{label}”至少需要 {min} 個字符",
+            "trim": "「{label}」必須是去除空格的字串",
+            "uppercase": "“{label}”必須是大寫字符串",
+            "url": "“{label}”必須是有效的 URL",
+            "uuid": "“{label}”必須是有效的 UUID"
+        },
+        "tuple": {
+            "max": "“{label}”元組的長度過長，預期長度為 {typeLen}，但實際長度為 {valueLen}，提供的值爲：{value}",
+            "min": "“{label}”元組的長度過短，預期長度為 {typeLen}，但實際長度為 {valueLen}，提供的值為：{value}"
         }
     }
 }
