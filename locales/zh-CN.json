@@ -220,7 +220,7 @@
         },
         "string": {
             "datetime": "“{label}”必须是有效的 ISO 标准日期时间",
-            "datetime-offset": "“{label}”必须是带 UTC \"Z\" 时区的ISO日期时间",
+            "datetime-offset": "“{label}”必须是带 UTC \"Z\" 时区的 ISO 日期时间",
             "datetime-precision": "“{label}”必须是精确到 {precision} 位小数的 ISO 日期时间",
             "email": "“{label}”必须是有效的电子邮件地址",
             "length": "“{label}”的长度必须为 {length} 个字符",

@@ -15,6 +15,40 @@
                 "name": "MCServerLauncher"
             }
         },
+        "daemon": {
+            "connect": {
+                "host": {
+                    "label": "Hostname",
+                    "placeholder": "Please input hostname…"
+                },
+                "name": {
+                    "label": "Daemon Name",
+                    "placeholder": "Please name the daemon…"
+                },
+                "password": {
+                    "label": "Password",
+                    "placeholder": "Please input password…"
+                },
+                "port": {
+                    "label": "Port",
+                    "placeholder": "Please enter the port…"
+                },
+                "preview": "Please enter the port",
+                "save": "Save the connection",
+                "secure": "Use an encrypted connection",
+                "test": {
+                    "failed": "Test connection failed! Please check if the information filled in is correct!",
+                    "success": "Connection test successful! Save the daemon immediately!",
+                    "test": "Test connection",
+                    "testing": "Testing the connection…"
+                },
+                "title": "Connect to the daemon",
+                "username": {
+                    "label": "username",
+                    "placeholder": "Please enter a username…"
+                }
+            }
+        },
         "eula": {
             "agree": {
                 "countdown": "Agree ({time}s)",
@@ -56,13 +90,13 @@
         },
         "sidebar": {
             "collapse": "Collapse",
+            "daemon": "daemon",
             "help-center": "Help Center",
             "home": "Home",
             "instances": "Instances",
             "new-instance": "Create instance",
             "settings": "Settings",
-            "tasks": "Tasks",
-            "daemon": "daemon"
+            "tasks": "Tasks"
         },
         "update": {
             "failed": "Failed to update! Reason: {reason}",
@@ -78,73 +112,39 @@
             "settings": "Configuration",
             "subtitle": "Please finish the configuration first",
             "welcome": "Hello!"
-        },
-        "daemon": {
-            "connect": {
-                "name": {
-                    "label": "Daemon Name",
-                    "placeholder": "Please name the daemon…"
-                },
-                "password": {
-                    "label": "Password",
-                    "placeholder": "Please input password…"
-                },
-                "port": {
-                    "label": "Port",
-                    "placeholder": "Please enter the port…"
-                },
-                "host": {
-                    "label": "Hostname",
-                    "placeholder": "Please input hostname…"
-                },
-                "preview": "Please enter the port",
-                "save": "Save the connection",
-                "secure": "Use an encrypted connection",
-                "test": {
-                    "success": "Connection test successful! Save the daemon immediately!",
-                    "test": "Test connection",
-                    "testing": "Testing the connection…",
-                    "failed": "Test connection failed! Please check if the information filled in is correct!"
-                },
-                "title": "Connect to the daemon",
-                "username": {
-                    "label": "username",
-                    "placeholder": "Please enter a username…"
-                }
-            }
         }
     },
     "ui": {
         "common": {
-            "next-step": "Next",
-            "prev-step": "Back",
             "cancel": "Cancel",
             "confirm": "Confirm",
+            "continue": "Continue",
             "copy": "copy",
             "done": "Completed",
-            "continue": "Continue"
+            "next-step": "Next",
+            "prev-step": "Back"
         },
         "form": {
             "invalid": {
                 "format": "Error format!",
-                "require": "Please input!",
-                "range": "The value must be between {min} and {max}!"
+                "range": "The value must be between {min} and {max}!",
+                "require": "Please input!"
             }
         },
         "loading": {
             "default": "Loading…",
             "success": "Successfully loaded!"
         },
+        "meter-group": {
+            "label": "{label}（{percentage}%）",
+            "unallocated": "Calculating"
+        },
         "notification": {
             "title": {
                 "error": "Error",
-                "warning": "Warning",
-                "success": "success"
+                "success": "success",
+                "warning": "Warning"
             }
-        },
-        "meter-group": {
-            "unallocated": "Calculating",
-            "label": "{label}（{percentage}%）"
         }
     },
     "web": {
@@ -156,17 +156,17 @@
         "auth": {
             "login": {
                 "failed": {
-                    "normal": "Login failed! Reason: {reason}",
                     "expired": "Login expired! Please log in again!",
+                    "normal": "Login failed! Reason: {reason}",
                     "verify": "Login verification failed! Reason: {reason}"
                 },
                 "password": "Password",
                 "remember": "Remember Me",
                 "submit": "Login",
+                "subtitle": "For your data security, please log in to use MCSL Future Web.",
                 "success": "Logged in!",
                 "title": "Login verification",
-                "username": "Username",
-                "subtitle": "For your data security, please log in to use MCSL Future Web."
+                "username": "Username"
             },
             "register": {
                 "confirm-invalid": "Password confirmation does not match!",
@@ -174,10 +174,10 @@
                 "password": "Password (8 or more digits, must contain upper and lower case letters and numbers)’",
                 "password-confirm": "Confirm Password",
                 "submit": "Create",
+                "subtitle": "Please register an administrator account to start using MCSL Future Web",
                 "success": "Administrator account created! Please login!",
                 "title": "Creating Administrator Account",
-                "username": "Username (2-16 digits, can contain alphanumerics or underscores)",
-                "subtitle": "Please register an administrator account to start using MCSL Future Web"
+                "username": "Username (2-16 digits, can contain alphanumerics or underscores)"
             }
         }
     },
@@ -201,6 +201,7 @@
         "mixed": {
             "default": "\"{label}\" is invalid",
             "defined": "\"{label}\" must be defined",
+            "not-null": "\"${label}\" cannot be null",
             "not-one-of": "\"{label}\" must not be one of the following values: {values}",
             "not-type": {
                 "cast": " (cast from the value \"{value}\")",
@@ -220,8 +221,7 @@
             },
             "notnull": "\"{label}\" cannot be null",
             "one-of": "\"{label}\" must be one of the following values: {values}",
-            "required": "\"{label}\" is a required field",
-            "not-null": "\"${label}\" cannot be null"
+            "required": "\"{label}\" is a required field"
         },
         "number": {
             "integer": "\"{label}\" must be an integer",
