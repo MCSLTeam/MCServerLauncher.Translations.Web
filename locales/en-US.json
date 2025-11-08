@@ -15,7 +15,24 @@
                 "name": "MCServerLauncher"
             }
         },
-        "daemon": {
+        "dashboard": {
+            "title": "Dashboard"
+        },
+        "eula": {
+            "agree": {
+                "countdown": "Agree ({time}s)",
+                "normal": "Agree"
+            },
+            "disagree": "Disagree & Quit",
+            "title": "End User License Agreement"
+        },
+        "help-center": {
+            "title": "Help Center"
+        },
+        "instances": {
+            "title": "Instances"
+        },
+        "nodes": {
             "connect": {
                 "host": {
                     "label": "Hostname",
@@ -47,32 +64,11 @@
                     "label": "username",
                     "placeholder": "Please enter a username…"
                 }
-            }
-        },
-        "eula": {
-            "agree": {
-                "countdown": "Agree ({time}s)",
-                "normal": "Agree"
             },
-            "disagree": "Disagree & Quit",
-            "title": "End User License Agreement"
+            "title": "Remote Nodes"
         },
-        "index": {
-            "overview": {
-                "daemon-address": {
-                    "label": "Daemon Address"
-                },
-                "daemon-name": {
-                    "label": "Daemon Name"
-                },
-                "disk-usage": {
-                    "desc": "Used / Total",
-                    "label": "Disk Usage"
-                },
-                "instances": "Instances",
-                "title": "Overview",
-                "username": "Account Username"
-            }
+        "resource-center": {
+            "title": "Resource Center"
         },
         "settings": {
             "general": {
@@ -86,22 +82,19 @@
                     "light": "Light",
                     "system": "System"
                 }
-            }
+            },
+            "title": "Settings"
         },
-        "sidebar": {
-            "collapse": "Collapse",
-            "daemon": "daemon",
-            "help-center": "Help Center",
-            "home": "Home",
-            "instances": "Instances",
-            "new-instance": "Create instance",
-            "settings": "Settings",
-            "tasks": "Tasks"
+        "tasks": {
+            "title": "Tasks"
         },
         "update": {
             "failed": "Failed to update! Reason: {reason}",
             "get-failed": "Failed to check update! Reason: {reason}",
             "updating": "Updating..."
+        },
+        "users": {
+            "title": "Users"
         },
         "welcome": {
             "done": {

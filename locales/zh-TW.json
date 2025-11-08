@@ -16,7 +16,21 @@
                 "name": "MCServerLauncher"
             }
         },
-        "daemon": {
+        "eula": {
+            "agree": {
+                "countdown": "同意（{time}秒）",
+                "normal": "同意"
+            },
+            "disagree": "不同意並退出",
+            "title": "最終使用者許可協定"
+        },
+        "help-center": {
+            "title": "幫助中心"
+        },
+        "instances": {
+            "title": "實例管理"
+        },
+        "nodes": {
             "connect": {
                 "failed": "守护进程 {name} 连接失败！原因：{reason}",
                 "host": {
@@ -69,14 +83,6 @@
                 "open": "已连接"
             }
         },
-        "eula": {
-            "agree": {
-                "countdown": "同意（{time}秒）",
-                "normal": "同意"
-            },
-            "disagree": "不同意並退出",
-            "title": "最終使用者許可協定"
-        },
         "settings": {
             "general": {
                 "locale": {
@@ -89,16 +95,8 @@
                     "light": "淺色模式",
                     "system": "跟隨系統"
                 }
-            }
-        },
-        "sidebar": {
-            "collapse": "摺疊側欄",
-            "daemon": "守護進程",
-            "help-center": "幫助中心",
-            "home": "主頁",
-            "instances": "實例管理",
-            "new-instance": "新建實例",
-            "settings": "設置"
+            },
+            "title": "設置"
         },
         "update": {
             "failed": "更新失敗！原因：{reason}",
