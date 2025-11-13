@@ -101,9 +101,6 @@
             "get-failed": "检查更新失败！原因：{reason}",
             "updating": "正在更新…"
         },
-        "users": {
-            "title": "用户管理"
-        },
         "welcome": {
             "done": {
                 "close": "进入 MCSL",
@@ -180,6 +177,9 @@
                 "title": "创建管理员账号",
                 "username": "用户名（2-16位，可包含字母数字或下划线）"
             }
+        },
+        "users": {
+            "title": "用户管理"
         }
     },
     "yup": {

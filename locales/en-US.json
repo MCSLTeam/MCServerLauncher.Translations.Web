@@ -93,9 +93,6 @@
             "get-failed": "Failed to check update! Reason: {reason}",
             "updating": "Updating..."
         },
-        "users": {
-            "title": "Users"
-        },
         "welcome": {
             "done": {
                 "close": "Finish",
@@ -172,6 +169,9 @@
                 "title": "Creating Administrator Account",
                 "username": "Username (2-16 digits, can contain alphanumerics or underscores)"
             }
+        },
+        "users": {
+            "title": "Users"
         }
     },
     "yup": {
