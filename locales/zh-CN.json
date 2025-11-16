@@ -38,7 +38,30 @@
             "title": "帮助中心"
         },
         "instances": {
-            "title": "实例管理"
+            "sorting": {
+                "created": "按创建时间",
+                "lastrun": "按最近运行时间",
+                "name": "按实例名称",
+                "no-grouping": "不分组",
+                "node": "按节点名称",
+                "status": "按实例状态",
+                "type": "按实例类型",
+                "updated": "按上次修改时间",
+                "user-grouping": "按自定义分组"
+            },
+            "title": "实例管理",
+            "types": {
+                "cs2": "反恐精英2",
+                "hydrid": "混合端",
+                "mc": "Minecraft",
+                "mcbe": "基岩版",
+                "mcje": "Java版",
+                "mod": "模组端",
+                "plugin": "插件端",
+                "proxy": "群组端",
+                "terraria": "泰拉瑞亚",
+                "vanilla": "原版端"
+            }
         },
         "nodes": {
             "connect": {
