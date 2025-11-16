@@ -38,7 +38,45 @@
             "title": "帮助中心"
         },
         "instances": {
-            "title": "实例管理"
+            "sorting": {
+                "grouping": "分组：",
+                "methods": {
+                    "created": "按创建时间",
+                    "lastrun": "按最近运行时间",
+                    "name": "按实例名称",
+                    "no-grouping": "不分组",
+                    "node": "按节点名称",
+                    "status": "按实例状态",
+                    "type": "按实例类型",
+                    "updated": "按上次修改时间",
+                    "user-grouping": "按自定义分组"
+                },
+                "no-group": "未分组",
+                "search-empty": "没有找到匹配的实例",
+                "search-placeholder": "搜索实例...",
+                "sorting": "排序："
+            },
+            "status": {
+                "crashed": "已崩溃",
+                "installing": "安装中",
+                "running": "运行中",
+                "starting": "启动中",
+                "stopped": "已停止",
+                "stopping": "停止中"
+            },
+            "title": "实例管理",
+            "types": {
+                "cs2": "反恐精英2",
+                "hydrid": "混合端",
+                "mc": "Minecraft",
+                "mcbe": "基岩版",
+                "mcje": "Java版",
+                "minecraft": "Minecraft",
+                "mod": "模组端",
+                "plugin": "插件端",
+                "proxy": "群组端",
+                "terraria": "泰拉瑞亚"
+            }
         },
         "nodes": {
             "connect": {
@@ -114,10 +152,12 @@
     },
     "ui": {
         "common": {
+            "ascending": "升序",
             "cancel": "取消",
             "confirm": "确认",
             "continue": "继续",
             "copy": "复制",
+            "descending": "降序",
             "done": "完成",
             "next-step": "下一步",
             "prev-step": "上一步"
