@@ -78,6 +78,12 @@
                 "terraria": "泰拉瑞亚"
             }
         },
+        "navbar": {
+            "back": "后退",
+            "collapse-sidebar": "折叠侧边栏",
+            "expand-sidebar": "展开菜单",
+            "forward": "前进"
+        },
         "nodes": {
             "connect": {
                 "host": {
