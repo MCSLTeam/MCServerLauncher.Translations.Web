@@ -13,7 +13,8 @@
                 "abbr": "MCSL",
                 "future": "Future",
                 "name": "MCServerLauncher"
-            }
+            },
+            "desc": "A brand new server management tool"
         },
         "eula": {
             "agree": {
@@ -67,7 +68,7 @@
         "update": {
             "failed": "Failed to update! Reason: {reason}",
             "get-failed": "Failed to check update! Reason: {reason}",
-            "updating": "Updating..."
+            "updating": "Updating…"
         },
         "welcome": {
             "done": {
