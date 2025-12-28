@@ -45,7 +45,7 @@
         "settings": {
             "general": {
                 "locale": {
-                    "auto": "跟着系统",
+                    "system": "跟着系统",
                     "label": "兰格位居"
                 },
                 "theme": {

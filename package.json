@@ -2,6 +2,10 @@
   "name": "@repo/locales",
   "private": true,
   "scripts": {
-    "fix": "node scripts/format-locale.js"
+    "fix": "node scripts/format-locale.js",
+    "update-eula": "node scripts/update-eula.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
   }
 }

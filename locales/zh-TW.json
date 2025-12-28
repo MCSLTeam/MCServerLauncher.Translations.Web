@@ -86,7 +86,7 @@
         "settings": {
             "general": {
                 "locale": {
-                    "auto": "跟隨系統",
+                    "system": "跟隨系統",
                     "label": "語言"
                 },
                 "theme": {
