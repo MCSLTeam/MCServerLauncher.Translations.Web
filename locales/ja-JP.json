@@ -2,5 +2,8 @@
     "language": {
         "country": "日本",
         "name": "日本語"
+    },
+    "shared": {
+        "eula": {}
     }
 }

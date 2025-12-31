@@ -2,5 +2,8 @@
     "language": {
         "country": "香港特別行政區",
         "name": "繁體中文"
+    },
+    "shared": {
+        "eula": {}
     }
 }

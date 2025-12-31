@@ -27,11 +27,11 @@
             "title": "仪表盘"
         },
         "eula": {
-            "agree": {
-                "countdown": "同意（{time}秒）",
-                "normal": "同意"
+            "accept": {
+                "countdown": "同意并进入（{time}秒）",
+                "normal": "同意并进入"
             },
-            "disagree": "不同意并退出",
+            "reject": "不同意并退出",
             "title": "最终用户许可协议"
         },
         "help-center": {
@@ -125,8 +125,8 @@
         "settings": {
             "general": {
                 "locale": {
-                    "system": "跟随系统",
-                    "label": "语言"
+                    "label": "语言",
+                    "system": "跟随系统"
                 },
                 "theme": {
                     "dark": "深色模式",

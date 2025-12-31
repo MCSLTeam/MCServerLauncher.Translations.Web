@@ -45,8 +45,8 @@
         "settings": {
             "general": {
                 "locale": {
-                    "system": "跟着系统",
-                    "label": "兰格位居"
+                    "label": "兰格位居",
+                    "system": "跟着系统"
                 },
                 "theme": {
                     "dark": "黑化！",

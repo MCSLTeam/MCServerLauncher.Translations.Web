@@ -1,6 +1,6 @@
 const fs = require("node:fs");
 
-const paths = ["./locales/"];
+const paths = ["./eula/", "./locales/"];
 
 for (const path of paths) {
   fs.readdirSync(path).forEach((file) => {

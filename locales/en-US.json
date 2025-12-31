@@ -73,8 +73,8 @@
         "settings": {
             "general": {
                 "locale": {
-                    "system": "System",
-                    "label": "Language"
+                    "label": "Language",
+                    "system": "System"
                 },
                 "theme": {
                     "dark": "Dark",
