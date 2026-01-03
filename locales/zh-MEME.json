@@ -16,11 +16,11 @@
             }
         },
         "eula": {
-            "agree": {
+            "accept": {
                 "countdown": "看完先（{time}秒）",
                 "normal": "我没意见"
             },
-            "disagree": "我有意见，不丸了",
+            "reject": "我有意见，不丸了",
             "title": "最终用户许可协议"
         },
         "help-center": {

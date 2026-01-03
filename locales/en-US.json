@@ -19,11 +19,11 @@
             "title": "Dashboard"
         },
         "eula": {
-            "agree": {
-                "countdown": "Agree ({time}s)",
-                "normal": "Agree"
+            "accept": {
+                "countdown": "Accept & Enter ({time}s)",
+                "normal": "Accept & Enter"
             },
-            "disagree": "Disagree & Quit",
+            "reject": "Reject & Quit",
             "title": "End User License Agreement"
         },
         "help-center": {

@@ -17,11 +17,11 @@
             }
         },
         "eula": {
-            "agree": {
-                "countdown": "同意（{time}秒）",
+            "accept": {
+                "countdown": "同意並進入（{time}秒）",
                 "normal": "同意"
             },
-            "disagree": "不同意並退出",
+            "reject": "不同意並退出",
             "title": "最終使用者許可協定"
         },
         "help-center": {
