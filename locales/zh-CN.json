@@ -188,7 +188,12 @@
                 "error": "错误",
                 "success": "成功",
                 "warning": "警告"
-            }
+            },
+          "message": {
+            "not-allowed": "系统通知已被禁用！请在浏览器设置中允许！",
+            "not-supported": "当前浏览器不支持系统通知！",
+            "request": "请在弹窗中点击允许以显示系统通知"
+          }
         }
     },
     "web": {
