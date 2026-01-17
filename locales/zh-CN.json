@@ -53,7 +53,7 @@
                 },
                 "no-group": "未分组",
                 "search-empty": "没有找到匹配的实例",
-                "search-placeholder": "搜索实例...",
+                "search-placeholder": "搜索实例…",
                 "sorting": "排序："
             },
             "status": {
@@ -184,16 +184,16 @@
             "unallocated": "计算中"
         },
         "notification": {
+            "message": {
+                "not-allowed": "系统通知已被禁用！请在浏览器设置中允许！",
+                "not-supported": "当前浏览器不支持系统通知！",
+                "request": "请在弹窗中点击允许以显示系统通知"
+            },
             "title": {
                 "error": "错误",
                 "success": "成功",
                 "warning": "警告"
-            },
-          "message": {
-            "not-allowed": "系统通知已被禁用！请在浏览器设置中允许！",
-            "not-supported": "当前浏览器不支持系统通知！",
-            "request": "请在弹窗中点击允许以显示系统通知"
-          }
+            }
         }
     },
     "web": {
@@ -202,7 +202,7 @@
                 "admin-exists": "管理员已存在",
                 "internal-server-error": "服务器内部错误",
                 "invalid-token": "无效的登录信息",
-                "login-failed": "登录失败",
+                "login-failed": "用户名或密码错误",
                 "network-error": "网络错误",
                 "permission-denied": "权限不足",
                 "user-not-found": "用户不存在",
@@ -216,34 +216,39 @@
         },
         "auth": {
             "login": {
-                "failed": {
-                    "expired": "登录过期！请重新登录！",
-                    "normal": "登录失败！原因：{reason}",
-                    "verify": "登录验证失败！原因：{reason}"
-                },
-                "password": "密码",
-                "remember": "记住此设备",
+                "error": "登录失败！原因：{reason}",
+                "expired": "登录过期！请重新登录！",
                 "submit": "登录",
-                "subtitle": "为了您的数据安全，请登录以使用 MCSL Future Web",
                 "success": "登录成功！",
-                "title": "登录验证",
-                "username": "用户名"
+                "title": "登录验证"
+            },
+            "password": {
+                "format": "8 位字符以上，需包含大小写字母和数字",
+                "invalid": "“密码”需包含大小写字母和数字",
+                "label": "密码",
+                "placeholder": "请输入密码…"
+            },
+            "password-confirm": {
+                "invalid": "两次输入的密码不一致！",
+                "label": "确认密码",
+                "placeholder": "请再次输入密码…"
             },
             "register": {
-                "confirm-invalid": "输入的两次密码不一致！",
-                "failed": "注册失败！原因：{reason}",
-                "password": "密码（8位以上，需包含大小写字母和数字）",
-                "password-confirm": "重复密码",
+                "error": "注册失败！原因：{reason}",
                 "submit": "注册",
-                "subtitle": "请注册管理员账号以开始使用 MCSL Future Web",
                 "success": "注册成功！请登录账号！",
-                "title": "创建管理员账号",
-                "username": "用户名（2-16位，可包含字母数字或下划线）"
+                "title": "创建管理员账号"
+            },
+            "remember": "记住此设备",
+            "username": {
+                "format": "2 - 16位字符",
+                "label": "用户名",
+                "placeholder": "请输入用户名…"
             }
         },
         "loading": {
-            "connect-backend": "正在连接 Web 后端...",
-            "connect-backend-error": "无法连接 Web 后端！请检查网络设置！请刷新页面以重试！"
+            "connect-backend": "正在连接 Web 后端…",
+            "connect-backend-error": "无法连接 Web 后端！请刷新页面以重试！原因：{reason}"
         },
         "users": {
             "title": "用户管理"
