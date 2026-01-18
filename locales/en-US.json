@@ -9,12 +9,12 @@
             "title": "Announcement"
         },
         "app": {
+            "desc": "A brand new server management tool",
             "name": {
                 "abbr": "MCSL",
                 "future": "Future",
                 "name": "MCServerLauncher"
-            },
-            "desc": "A brand new server management tool"
+            }
         },
         "dashboard": {
             "title": "Dashboard"

@@ -164,8 +164,10 @@
             "continue": "继续",
             "copy": "复制",
             "descending": "降序",
+            "do-not-show-again": "不再显示",
             "done": "完成",
             "next-step": "下一步",
+            "ok": "好的",
             "prev-step": "上一步"
         },
         "form": {
@@ -249,6 +251,9 @@
         "loading": {
             "connect-backend": "正在连接 Web 后端…",
             "connect-backend-error": "无法连接 Web 后端！请刷新页面以重试！原因：{reason}"
+        },
+        "tasks": {
+            "exit-dialog": "当前正在运行任务，关闭此标签页将强制终止任务，请保持页面开启。"
         },
         "users": {
             "title": "用户管理"
