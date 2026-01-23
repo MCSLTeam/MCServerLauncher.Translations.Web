@@ -221,6 +221,7 @@
             "login": {
                 "error": "登录失败！原因：{reason}",
                 "expired": "登录过期！请重新登录！",
+                "refresh-error": "登录令牌刷新失败！原因：{reason}",
                 "submit": "登录",
                 "success": "登录成功！",
                 "title": "登录验证"
@@ -255,6 +256,10 @@
         },
         "tasks": {
             "exit-dialog": "当前正在运行任务，关闭此标签页将强制终止任务，请保持页面开启。"
+        },
+        "user-center": {
+            "title": "用户中心",
+            "user-fetch-error": "获取用户信息失败！原因：{reason}"
         },
         "users": {
             "title": "用户管理"
