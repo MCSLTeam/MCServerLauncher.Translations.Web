@@ -72,15 +72,17 @@
             "title": "Resource Center"
         },
         "settings": {
-            "general": {
-                "locale": {
-                    "label": "Language",
-                    "system": "System"
-                },
+            "appearance": {
                 "theme": {
                     "dark": "Dark",
                     "label": "Theme",
                     "light": "Light",
+                    "system": "System"
+                }
+            },
+            "general": {
+                "locale": {
+                    "label": "Language",
                     "system": "System"
                 }
             },

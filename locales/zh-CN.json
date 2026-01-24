@@ -12,10 +12,10 @@
     },
     "shared": {
         "404": {
-            "title": "啊嘞？页面不见了",
-            "subtitle": "404 - 页面未找到",
             "back": "返回上一页",
-            "home": "返回首页（{countdown}秒）"
+            "home": "返回首页（{countdown}秒）",
+            "subtitle": "404 - 页面未找到",
+            "title": "啊嘞？页面不见了"
         },
         "announcement": {
             "close": "不再显示此公告",
@@ -138,18 +138,29 @@
             "title": "资源中心"
         },
         "settings": {
-            "general": {
-                "locale": {
-                    "label": "语言",
-                    "system": "跟随系统"
-                },
+            "about": {
+                "title": "关于"
+            },
+            "appearance": {
                 "theme": {
                     "dark": "深色模式",
                     "label": "主题",
                     "light": "浅色模式",
                     "system": "跟随系统"
-                }
+                },
+                "title": "外观设置"
             },
+            "general": {
+                "locale": {
+                    "label": "语言",
+                    "system": "跟随系统"
+                },
+                "title": "通用设置"
+            },
+            "instance": {
+                "title": "实例设置"
+            },
+            "require-reload": "此选项可能需要刷新页面才可生效",
             "title": "设置"
         },
         "tasks": {

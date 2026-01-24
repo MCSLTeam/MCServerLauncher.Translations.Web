@@ -84,15 +84,17 @@
             }
         },
         "settings": {
-            "general": {
-                "locale": {
-                    "label": "語言",
-                    "system": "跟隨系統"
-                },
+            "appearance": {
                 "theme": {
                     "dark": "深色模式",
                     "label": "主題",
                     "light": "淺色模式",
+                    "system": "跟隨系統"
+                }
+            },
+            "general": {
+                "locale": {
+                    "label": "語言",
                     "system": "跟隨系統"
                 }
             },
