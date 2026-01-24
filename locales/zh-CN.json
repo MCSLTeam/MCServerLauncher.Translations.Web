@@ -37,6 +37,14 @@
         "help-center": {
             "title": "帮助中心"
         },
+        "instance": {
+            "action": {
+                "kill": "强制终止",
+                "restart": "重启",
+                "start": "启动",
+                "stop": "停止"
+            }
+        },
         "instances": {
             "sorting": {
                 "grouping": "分组：",
@@ -164,6 +172,7 @@
             "confirm": "确认",
             "continue": "继续",
             "copy": "复制",
+            "delete": "删除",
             "descending": "降序",
             "do-not-show-again": "不再显示",
             "done": "完成",
