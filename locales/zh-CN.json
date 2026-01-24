@@ -11,6 +11,12 @@
         "name": "简体中文"
     },
     "shared": {
+        "404": {
+            "title": "啊嘞？页面不见了",
+            "subtitle": "404 - 页面未找到",
+            "back": "返回上一页",
+            "home": "返回首页（{countdown}秒）"
+        },
         "announcement": {
             "close": "不再显示此公告",
             "title": "公告"
