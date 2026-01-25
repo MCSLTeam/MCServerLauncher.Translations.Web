@@ -22,6 +22,7 @@
             "title": "公告"
         },
         "app": {
+            "copyright": "Copyright © 2022-{year} MCSLTeam. All rights reserved.",
             "desc": "新一代服务器管理工具",
             "name": {
                 "abbr": "MCSL",
@@ -139,11 +140,83 @@
         },
         "settings": {
             "about": {
+                "about": {
+                    "afdian": "通过爱发电赞助",
+                    "disclaimer": "非 MINECRAFT 官方产品。未经 MOJANG 或 MICROSOFT 批准，也不与 MOJANG 或 MICROSOFT 关联",
+                    "email": "联系邮箱",
+                    "github": "项目仓库",
+                    "i18n": "翻译项目",
+                    "qq": "官方 QQ 群"
+                },
+                "auto-download-updates": {
+                    "desc": "启用后，MCSL Future 会在后台自动检查并下载最新版本。",
+                    "label": "自动下载更新"
+                },
+                "check-updates": {
+                    "button": "检查更新",
+                    "desc": "立即检查 MCSL Future 是否有最新版本。",
+                    "label": "检查更新"
+                },
+                "dependencies": {
+                    "app": "App 依赖项",
+                    "common": "通用依赖项",
+                    "title": "开源项目使用列表",
+                    "web": "Web 依赖项"
+                },
+                "info": {
+                    "build": {
+                        "commit": "提交：**[{commitBranch} - {commitHash}](https://github.com/MCSLTeam/MCServerLauncher-Future-Web/commit/{commitHash})**",
+                        "platform": "平台：**{platform}**",
+                        "time": "构建时间：**{buildTime}**",
+                        "title": "构建信息",
+                        "version": "版本：**{versionCodename} ({version})**"
+                    },
+                    "license": {
+                        "content": "此项目受开源协议 [GNU General Public License Version 3.0](https://github.com/MCSLTeam/MCServerLauncher-Future-Web/blob/main/LICENSE) 保护。\n\n此项目受《中华人民共和国著作权法》和国际条约保护，如未经授权而擅自复制或传播本程序或其中任何部分，将受到严厉的民事和刑事制裁，并将在法律许可的最大限度内受到起诉。",
+                        "title": "开源协议"
+                    },
+                    "title": "软件信息"
+                },
+                "special-thanks": {
+                    "bakaxl": {
+                        "desc": "提供了 Quilt 加载器的部署思路！"
+                    },
+                    "bmcl": {
+                        "desc": "提供了性能强大的 BMCLAPI 镜像！"
+                    },
+                    "inkore": {
+                        "desc": "在开发过程中给予了大量技术支持！"
+                    },
+                    "join-group": "加入群聊",
+                    "qq": {
+                        "desc": "一直陪伴着我们，还给予了很多建议！",
+                        "title": "MCSL QQ 交流群的各位群友"
+                    },
+                    "sponsor": "赞助一下",
+                    "title": "特别鸣谢",
+                    "website": "前往官网"
+                },
                 "title": "关于"
             },
             "appearance": {
+                "rendering": {
+                    "advanced": {
+                        "desc": "华丽：启用所有动画与样式，可能在没有硬件加速渲染下造成性能问题。",
+                        "label": "华丽模式"
+                    },
+                    "basic": {
+                        "desc": "基础：移除部分华丽动画，仅保留基础的动效。",
+                        "label": "基础模式"
+                    },
+                    "fast": {
+                        "desc": "流畅：尽可能移除所有动画，以获得更流畅的渲染。",
+                        "label": "流畅模式"
+                    },
+                    "label": "渲染模式"
+                },
                 "theme": {
                     "dark": "深色模式",
+                    "desc": "切换界面风格，让使用更舒适。",
                     "label": "主题",
                     "light": "浅色模式",
                     "system": "跟随系统"
@@ -152,6 +225,7 @@
             },
             "general": {
                 "locale": {
+                    "desc": "切换界面显示语言，让操作更顺畅。",
                     "label": "语言",
                     "system": "跟随系统"
                 },
@@ -160,7 +234,7 @@
             "instance": {
                 "title": "实例设置"
             },
-            "require-reload": "此选项可能需要刷新页面才可生效",
+            "require-reload": "此选项更改后可能需要刷新页面才可生效。",
             "title": "设置"
         },
         "tasks": {
