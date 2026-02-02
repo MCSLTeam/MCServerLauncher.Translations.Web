@@ -75,6 +75,18 @@
                 "title": "文件管理"
             },
             "overview": {
+                "performance": {
+                    "cpu": {
+                        "label": "CPU 使用率",
+                        "title": "CPU 使用率 (%)"
+                    },
+                    "mem": {
+                        "label": "内存占用",
+                        "title": "内存占用 (MiB)"
+                    },
+                    "time": "时间",
+                    "title": "性能监控"
+                },
                 "title": "概览"
             },
             "settings": {
