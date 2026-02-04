@@ -37,8 +37,31 @@
                 "name": "MCServerLauncher"
             }
         },
+        "close-confirm": {
+            "cancel": "取消",
+            "confirm": "关闭",
+            "desc": "你所做的更改将会永久消失！（真的很久！）",
+            "title": "你确定要关闭吗？"
+        },
         "create-instance": {
-            "button": "创建实例"
+            "button": "创建实例",
+            "title": "实例创建选项",
+            "type": {
+                "core": {
+                    "desc": "从互联网下载服务端核心或从本地上传核心",
+                    "title": "核心安装"
+                },
+                "pack": {
+                    "desc": "通过压缩包或整合包安装",
+                    "title": "压缩包安装"
+                },
+                "script": {
+                    "desc": "运行自动化脚本以安装核心",
+                    "title": "脚本安装"
+                },
+                "subtitle": "选择安装方式以开始安装",
+                "title": "安装方式"
+            }
         },
         "dashboard": {
             "title": "仪表盘"
@@ -321,6 +344,12 @@
             "next-step": "下一步",
             "ok": "好的",
             "prev-step": "上一步"
+        },
+        "editor": {
+            "lang": {
+                "auto": "自动检测语言",
+                "search-placeholder": "搜索语言…"
+            }
         },
         "form": {
             "invalid": {
