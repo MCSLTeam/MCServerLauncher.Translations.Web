@@ -401,7 +401,6 @@
             "login": {
                 "error": "登录失败！原因：{reason}",
                 "expired": "登录过期！请重新登录！",
-                "refresh-error": "登录令牌刷新失败！原因：{reason}",
                 "submit": "登录",
                 "success": "登录成功！",
                 "title": "登录验证"
@@ -432,7 +431,8 @@
         },
         "loading": {
             "connect-backend": "正在连接 Web 后端…",
-            "connect-backend-error": "无法连接 Web 后端！请刷新页面以重试！原因：{reason}"
+            "connect-backend-error": "无法连接 Web 后端！请刷新页面以重试！原因：{reason}",
+            "user-fetch": "正在获取用户信息…"
         },
         "tasks": {
             "exit-dialog": "当前正在运行任务，关闭此标签页将强制终止任务，请保持页面开启。"

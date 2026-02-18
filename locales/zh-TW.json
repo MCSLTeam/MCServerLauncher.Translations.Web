@@ -32,7 +32,6 @@
         },
         "nodes": {
             "connect": {
-                "failed": "守护进程 {name} 连接失败！原因：{reason}",
                 "host": {
                     "label": "主機名",
                     "placeholder": "請輸入主機名…"
@@ -59,28 +58,10 @@
                     "testing": "測試連線中…"
                 },
                 "title": "連接守護進程",
-                "token": {
-                    "invalid": "请填写一个主令牌！",
-                    "label": "令牌",
-                    "placeholder": {
-                        "connect": "请输入令牌...",
-                        "edit": "请输入令牌（留空不作修改）"
-                    }
-                },
                 "username": {
                     "label": "用戶名",
                     "placeholder": "請輸入用戶名…"
                 }
-            },
-            "list": {
-                "empty": "暂无任何守护进程",
-                "failed": "获取守护进程列表失败！原因：{reason}",
-                "search": "搜索守护进程..."
-            },
-            "status": {
-                "connecting": "连接中",
-                "failed": "连接失败",
-                "open": "已连接"
             }
         },
         "settings": {
@@ -134,7 +115,6 @@
             }
         },
         "loading": {
-            "daemon": "正在连接守护进程...",
             "default": "正在加載…",
             "success": "加載成功！"
         },
@@ -158,29 +138,14 @@
         },
         "auth": {
             "login": {
-                "failed": {
-                    "expired": "登錄過期！ 請重新登錄！",
-                    "normal": "登錄失敗！原因：{reason}",
-                    "verify": "登錄驗證失敗！ 原因：{reason}"
-                },
-                "password": "密碼",
-                "remember": "記住此設備",
                 "submit": "登錄",
-                "subtitle": "為了你的數據安全，請登錄以使用 MCSL Future Web",
                 "success": "登錄成功！",
-                "title": "登錄驗證",
-                "username": "用戶名"
+                "title": "登錄驗證"
             },
             "register": {
-                "confirm-invalid": "輸入的兩次密碼不一致！",
-                "failed": "註冊失敗！原因：{reason}",
-                "password": "密碼（8位以上，需包含大小寫字母和數字）",
-                "password-confirm": "重複密碼",
                 "submit": "註冊",
-                "subtitle": "請註冊管理員賬號以開始使用 MCSL Future Web",
                 "success": "註冊成功！請登錄賬號！",
-                "title": "創建管理員賬號",
-                "username": "用戶名（2-16位，可包含字母數字或下劃線）"
+                "title": "創建管理員賬號"
             }
         }
     },

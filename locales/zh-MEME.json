@@ -91,7 +91,6 @@
             }
         },
         "loading": {
-            "daemon": "正在连接守护进程...",
             "default": "请坐和放宽...",
             "success": "走起！"
         },
@@ -110,20 +109,10 @@
         },
         "auth": {
             "login": {
-                "failed": {
-                    "normal": "你的登录请求爆了！原因：{reason}",
-                    "verify": "你的登录验证请求爆了！原因：{reason}"
-                },
-                "remember": "记住这台娃娃丢",
-                "submit": "启动！",
-                "subtitle": "为了保护你的服务器不被HACK DOG爆破，请登录以继续"
+                "submit": "启动！"
             },
             "register": {
-                "confirm-invalid": "你认为我们的字符串判断有问题？",
-                "failed": "你的注册请求爆了！原因：{reason}",
-                "subtitle": "使用前需创建用于神权的账号",
-                "title": "创建神权狗账号",
-                "username": "用户名（名字只有1个字符和超过16个字符的滚出去！可包含字母数字或下划线）"
+                "title": "创建神权狗账号"
             }
         }
     }

@@ -148,29 +148,14 @@
         },
         "auth": {
             "login": {
-                "failed": {
-                    "expired": "Login expired! Please log in again!",
-                    "normal": "Login failed! Reason: {reason}",
-                    "verify": "Login verification failed! Reason: {reason}"
-                },
-                "password": "Password",
-                "remember": "Remember Me",
                 "submit": "Login",
-                "subtitle": "For your data security, please log in to use MCSL Future Web.",
                 "success": "Logged in!",
-                "title": "Login verification",
-                "username": "Username"
+                "title": "Login verification"
             },
             "register": {
-                "confirm-invalid": "Password confirmation does not match!",
-                "failed": "Failed to create! Reason: {reason}",
-                "password": "Password (8 or more digits, must contain upper and lower case letters and numbers)’",
-                "password-confirm": "Confirm Password",
                 "submit": "Create",
-                "subtitle": "Please register an administrator account to start using MCSL Future Web",
                 "success": "Administrator account created! Please login!",
-                "title": "Creating Administrator Account",
-                "username": "Username (2-16 digits, can contain alphanumerics or underscores)"
+                "title": "Creating Administrator Account"
             }
         },
         "users": {
@@ -215,7 +200,6 @@
                     "tuple": "a tuple"
                 }
             },
-            "notnull": "\"{label}\" cannot be null",
             "one-of": "\"{label}\" must be one of the following values: {values}",
             "required": "\"{label}\" is a required field"
         },
