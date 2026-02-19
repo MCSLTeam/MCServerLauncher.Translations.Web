@@ -6,6 +6,6 @@
     "update-eula": "node scripts/update-eula.js"
   },
   "dependencies": {
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^3.3.2"
   }
 }
