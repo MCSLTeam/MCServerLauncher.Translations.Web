@@ -82,7 +82,7 @@
             "title": "設置"
         },
         "update": {
-            "failed": "更新失敗！原因：{reason}",
+            "error": "更新失敗！原因：{reason}",
             "get-failed": "檢查更新失敗！原因：{reason}",
             "updating": "更新中…"
         },

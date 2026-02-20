@@ -38,8 +38,6 @@
             }
         },
         "close-confirm": {
-            "cancel": "取消",
-            "confirm": "关闭",
             "desc": "你所做的更改将会永久消失！（真的很久！）",
             "title": "你确定要关闭吗？"
         },
@@ -315,7 +313,7 @@
             "title": "任务列表"
         },
         "update": {
-            "failed": "更新失败！原因：{reason}",
+            "error": "更新失败！原因：{reason}",
             "get-failed": "检查更新失败！原因：{reason}",
             "updating": "正在更新…"
         },
@@ -332,8 +330,10 @@
     },
     "ui": {
         "common": {
+            "actions": "操作",
             "ascending": "升序",
             "cancel": "取消",
+            "close": "关闭",
             "confirm": "确认",
             "continue": "继续",
             "copy": "复制",
@@ -344,6 +344,9 @@
             "next-step": "下一步",
             "ok": "好的",
             "prev-step": "上一步"
+        },
+        "copyable-text": {
+            "tooltip": "点击以复制文本"
         },
         "editor": {
             "lang": {
@@ -388,6 +391,7 @@
                 "login-failed": "用户名或密码错误",
                 "network-error": "网络错误",
                 "permission-denied": "权限不足",
+                "session-not-found": "会话不存在",
                 "user-not-found": "用户不存在",
                 "username-exists": "用户名已存在"
             }
@@ -404,6 +408,12 @@
                 "submit": "登录",
                 "success": "登录成功！",
                 "title": "登录验证"
+            },
+            "logout": {
+                "button": "退出登录",
+                "confirm": "确认退出登录？",
+                "error": "会话删除失败！请自行在用户中心删除会话！原因：{reason}",
+                "success": "退出登录成功！"
             },
             "password": {
                 "format": "8 位字符以上，需包含大小写字母和数字",
@@ -438,8 +448,61 @@
             "exit-dialog": "当前正在运行任务，关闭此标签页将强制终止任务，请保持页面开启。"
         },
         "user-center": {
+            "danger-zone": {
+                "title": "危险操作"
+            },
+            "password-reset": {
+                "error": "重置密码失败！原因：{reason}",
+                "new-password": {
+                    "invalid": "“新密码”需包含大小写字母和数字",
+                    "label": "新密码",
+                    "same-as-old": "“新密码”不能与旧密码相同"
+                },
+                "old-password": {
+                    "invalid": "“旧密码”需包含大小写字母和数字",
+                    "label": "旧密码",
+                    "placeholder": "请输入旧密码…"
+                },
+                "submit": "重置",
+                "success": "重置密码成功！",
+                "title": "重置密码"
+            },
+            "permissions": {
+                "title": "权限列表"
+            },
+            "sessions": {
+                "clear": {
+                    "button": "清除所有会话",
+                    "confirm": "确认清除所有会话？",
+                    "error": "所有会话清除失败！原因：{reason}",
+                    "success": "所有会话清除成功！"
+                },
+                "delete": {
+                    "confirm": "确认删除会话？",
+                    "error": "删除会话失败！原因：{reason}",
+                    "success": "删除会话成功！"
+                },
+                "error": "获取会话列表失败！原因：{reason}",
+                "info": {
+                    "created-at": "创建时间",
+                    "last-active-at": "最后活跃时间",
+                    "last-active-ip": "最后活跃 IP",
+                    "type": {
+                        "label": "会话类型",
+                        "remember": "永久会话",
+                        "temporary": "临时会话"
+                    },
+                    "user-agent": "用户代理"
+                },
+                "title": "会话管理"
+            },
             "title": "用户中心",
-            "user-fetch-error": "获取用户信息失败！原因：{reason}"
+            "user-fetch-error": "获取用户信息失败！原因：{reason}",
+            "user-info": {
+                "created-at": "创建时间",
+                "title": "用户信息",
+                "username": "用户名"
+            }
         },
         "users": {
             "title": "用户管理"

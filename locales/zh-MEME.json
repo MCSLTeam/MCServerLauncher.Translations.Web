@@ -60,7 +60,7 @@
             "title": "控制面板"
         },
         "update": {
-            "failed": "头抬起，你不是最新的，因为 {reason}",
+            "error": "头抬起，你不是最新的，因为 {reason}",
             "get-failed": "你拿不到最新的你了！因为 {reason}",
             "updating": "好东西就要来了..."
         },

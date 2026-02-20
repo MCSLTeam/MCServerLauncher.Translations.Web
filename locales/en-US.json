@@ -92,7 +92,7 @@
             "title": "Tasks"
         },
         "update": {
-            "failed": "Failed to update! Reason: {reason}",
+            "error": "Failed to update! Reason: {reason}",
             "get-failed": "Failed to check update! Reason: {reason}",
             "updating": "Updating…"
         },
