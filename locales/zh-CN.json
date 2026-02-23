@@ -43,10 +43,14 @@
         },
         "create": {
             "button": "创建实例",
-            "title": "实例创建选项",
-            "type": {
+            "daemon": {
+                "placeholder": "请选择守护进程...",
+                "subtitle": "请选择要安装到的守护进程",
+                "title": "守护进程"
+            },
+            "method": {
                 "core": {
-                    "desc": "从互联网下载服务端核心或从本地上传核心",
+                    "desc": "从互联网下载服务器核心或从本地上传核心",
                     "title": "核心安装"
                 },
                 "pack": {
@@ -59,6 +63,27 @@
                 },
                 "subtitle": "选择安装方式以开始安装",
                 "title": "安装方式"
+            },
+            "settings": {
+                "core": {
+                    "desc": "请上传服务器将使用的核心文件",
+                    "error": "请上传实例核心文件！",
+                    "label": "服务器核心"
+                },
+                "create": "创建实例",
+                "script": {
+                    "desc": {
+                        "linux": "请输入 Shell 安装脚本或拖动脚本至此处",
+                        "windows": "请输入 Batch 安装脚本或拖动脚本至此处"
+                    },
+                    "error": "请输入实例安装脚本！",
+                    "label": "安装脚本"
+                },
+                "title": "实例设置"
+            },
+            "title": "实例创建选项",
+            "type": {
+                "title": "实例类型"
             }
         },
         "dashboard": {
@@ -111,7 +136,30 @@
                 "title": "概览"
             },
             "settings": {
-                "title": "设置"
+                "java-path": {
+                    "desc": "请选择启动核心的 Java 运行时",
+                    "label": "Java 运行时",
+                    "placeholder": "请输入 Java 运行时路径...",
+                    "tip": "Minecraft 1.6 以下需要 Java 5+<br>Minecraft 1.6 - 1.11 需要 Java 6+<br>Minecraft 1.12 - 1.16 需要 Java 8+<br>Minecraft 1.17 需要 Java 16+<br>Minecraft 1.18 - 1.20.4 以上需要 Java 17+<br>Minecraft 1.20.5 - 1.21.1 需要 Java 21+<br>Minecraft 26.1+ 需要 Java 25+"
+                },
+                "jvm-args": {
+                    "desc": "（可选）Java 虚拟机参数，一行一个",
+                    "label": "JVM 参数",
+                    "placeholder": "请输入 JVM 参数..."
+                },
+                "name": {
+                    "desc": "给实例起个名吧！",
+                    "label": "实例名称",
+                    "placeholder": "请输入实例名称..."
+                },
+                "start-script": {
+                    "desc": {
+                        "linux": "请输入 Shell 启动脚本或拖动脚本至此处",
+                        "windows": "请输入 Batch 启动脚本或拖动脚本至此处"
+                    },
+                    "error": "请输入实例启动脚本！",
+                    "label": "启动脚本"
+                }
             },
             "status": {
                 "crashed": "已崩溃",
@@ -121,17 +169,17 @@
                 "stopped": "已停止",
                 "stopping": "停止中"
             },
-            "types": {
-                "cs2": "反恐精英2",
+            "type": {
+                "frpc": "Frp 客户端",
                 "hydrid": "混合端",
-                "mc": "Minecraft",
-                "mcbe": "基岩版",
-                "mcje": "Java版",
+                "mcbe": "Minecraft：基岩版",
+                "mcje": "Minecraft：Java版",
                 "minecraft": "Minecraft",
                 "mod": "模组端",
                 "plugin": "插件端",
                 "proxy": "群组端",
-                "terraria": "泰拉瑞亚"
+                "terraria": "泰拉瑞亚",
+                "universal": "通用控制台程序"
             }
         },
         "instances": {
@@ -154,6 +202,34 @@
                 "sorting": "排序："
             },
             "title": "实例管理"
+        },
+        "java-install": {
+            "button": "安装"
+        },
+        "java-search": {
+            "arch": "架构",
+            "button": "搜索",
+            "path": "路径",
+            "title": "搜索到的 Java 运行时",
+            "type": "类型",
+            "vendor": "供应商",
+            "version": "版本"
+        },
+        "jvm-arg-helper": {
+            "button": "参数助手",
+            "encoding": {
+                "placeholder": "请输入编码类型（例如 “utf-8”，“gbk”）...",
+                "title": "编解码"
+            },
+            "memory": {
+                "title": "内存堆大小"
+            },
+            "optimization": {
+                "aggressive-opts": "基础（仅适用于 Java 8 及以下）",
+                "aikar-flags": "Aikar Flag（内存堆大小需小于物理内存大小）",
+                "title": "优化"
+            },
+            "title": "JVM 参数助手"
         },
         "navbar": {
             "back": "后退",
@@ -331,6 +407,7 @@
     "ui": {
         "common": {
             "actions": "操作",
+            "add": "添加",
             "ascending": "升序",
             "cancel": "取消",
             "close": "关闭",
@@ -343,7 +420,9 @@
             "done": "完成",
             "next-step": "下一步",
             "ok": "好的",
-            "prev-step": "上一步"
+            "others": "其他",
+            "prev-step": "上一步",
+            "select": "选择"
         },
         "copyable-text": {
             "tooltip": "点击以复制文本"
@@ -383,26 +462,26 @@
         },
         "upload": {
             "dropper": {
-                "title": "将文件拖放到此处以上传",
                 "subtitle": "或点击以选择文件",
                 "tip": {
+                    "accept": "支持文件格式：{accept}",
                     "multiple": "支持上传多个文件",
                     "multiple-count": "支持上传 {count} 个文件",
-                    "size": "文件大小需小于 {maxSize}",
-                    "accept": "支持文件格式：{accept}"
-                }
+                    "size": "文件大小需小于 {maxSize}"
+                },
+                "title": "将文件拖放到此处以上传"
+            },
+            "error": {
+                "accept": "无法选择文件 {filename}！仅支持文件格式：{accept}",
+                "count": "文件数量过多！最多可选择 {maxCount} 个文件",
+                "empty": "你未选择任何文件！",
+                "size": "无法选择文件 {filename}！文件大小需小于 {maxSize}",
+                "upload": "上传文件 {filename} 失败！原因：{reason}"
             },
             "list": {
                 "title": "已选择文件："
             },
-            "success": "文件上传成功！",
-            "error": {
-                "upload": "上传文件 {filename} 失败！原因：{reason}",
-                "count": "文件数量过多！最多可选择 {maxCount} 个文件",
-                "size": "无法选择文件 {filename}！文件大小需小于 {maxSize}",
-                "accept": "无法选择文件 {filename}！仅支持文件格式：{accept}",
-                "empty": "你未选择任何文件！"
-            }
+            "success": "文件上传成功！"
         }
     },
     "web": {
