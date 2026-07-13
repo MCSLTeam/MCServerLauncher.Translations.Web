@@ -1,687 +1,687 @@
 {
+  "app": {
     "app": {
-        "app": {
-            "name": {
-                "suffix": "Tauri"
-            }
-        }
-    },
-    "dayjs": {
-        "format": {
-            "date": "YYYY-MM-DD",
-            "datetime": "YYYY-MM-DD HH:mm:ss",
-            "time": "HH:mm:ss"
-        }
-    },
-    "language": {
-        "country": "中国",
-        "name": "简体中文"
-    },
-    "shared": {
-        "404": {
-            "back": "返回上一页",
-            "home": "返回首页（{countdown}秒）",
-            "subtitle": "404 - 页面未找到",
-            "title": "啊嘞？页面不见了"
-        },
-        "announcement": {
-            "close": "不再显示此公告",
-            "title": "公告"
-        },
-        "app": {
-            "copyright": "Copyright © 2022-{year} MCSLTeam. All rights reserved.",
-            "desc": "新一代服务器管理工具",
-            "name": {
-                "abbr": "MCSL",
-                "future": "Future",
-                "name": "MCServerLauncher"
-            }
-        },
-        "close-confirm": {
-            "desc": "你所做的更改将会永久消失！（真的很久！）",
-            "title": "你确定要关闭吗？"
-        },
-        "create": {
-            "button": "创建实例",
-            "daemon": {
-                "placeholder": "请选择守护进程...",
-                "subtitle": "请选择要安装到的守护进程",
-                "title": "守护进程"
-            },
-            "method": {
-                "core": {
-                    "desc": "从互联网下载服务器核心或从本地上传核心",
-                    "title": "核心安装"
-                },
-                "pack": {
-                    "desc": "通过压缩包或整合包安装",
-                    "title": "压缩包安装"
-                },
-                "script": {
-                    "desc": "运行自动化脚本以安装核心",
-                    "title": "脚本安装"
-                },
-                "subtitle": "选择安装方式以开始安装",
-                "title": "安装方式"
-            },
-            "settings": {
-                "core": {
-                    "desc": "请上传服务器将使用的核心文件",
-                    "error": "请上传实例核心文件！",
-                    "label": "服务器核心"
-                },
-                "create": "创建实例",
-                "script": {
-                    "desc": {
-                        "linux": "请输入 Shell 安装脚本或拖动脚本至此处",
-                        "windows": "请输入 Batch 安装脚本或拖动脚本至此处"
-                    },
-                    "error": "请输入实例安装脚本！",
-                    "label": "安装脚本"
-                },
-                "title": "实例设置"
-            },
-            "title": "实例创建选项",
-            "type": {
-                "title": "实例类型"
-            }
-        },
-        "dashboard": {
-            "title": "仪表盘"
-        },
-        "eula": {
-            "accept": {
-                "countdown": "同意并进入（{time}秒）",
-                "normal": "同意并进入"
-            },
-            "reject": "不同意并退出",
-            "title": "最终用户许可协议"
-        },
-        "help-center": {
-            "title": "帮助中心"
-        },
-        "instance": {
-            "action": {
-                "kill": "强制停止",
-                "restart": "重启",
-                "start": "启动",
-                "stop": "停止"
-            },
-            "automation": {
-                "title": "自动化任务"
-            },
-            "console": {
-                "input": {
-                    "placeholder": "输入命令…",
-                    "send": "发送"
-                },
-                "title": "控制台"
-            },
-            "files": {
-                "title": "文件管理"
-            },
-            "overview": {
-                "performance": {
-                    "cpu": {
-                        "label": "CPU 使用率",
-                        "title": "CPU 使用率 (%)"
-                    },
-                    "mem": {
-                        "label": "内存占用",
-                        "title": "内存占用 (MiB)"
-                    },
-                    "time": "时间",
-                    "title": "性能监控"
-                },
-                "title": "概览"
-            },
-            "settings": {
-                "java-path": {
-                    "desc": "请选择启动核心的 Java 运行时",
-                    "label": "Java 运行时",
-                    "placeholder": "请输入 Java 运行时路径...",
-                    "tip": "Minecraft 1.6 以下需要 Java 5+<br>Minecraft 1.6 - 1.11 需要 Java 6+<br>Minecraft 1.12 - 1.16 需要 Java 8+<br>Minecraft 1.17 需要 Java 16+<br>Minecraft 1.18 - 1.20.4 以上需要 Java 17+<br>Minecraft 1.20.5 - 1.21.1 需要 Java 21+<br>Minecraft 26.1+ 需要 Java 25+"
-                },
-                "jvm-args": {
-                    "desc": "（可选）Java 虚拟机参数，一行一个",
-                    "label": "JVM 参数",
-                    "placeholder": "请输入 JVM 参数..."
-                },
-                "name": {
-                    "desc": "给实例起个名吧！",
-                    "label": "实例名称",
-                    "placeholder": "请输入实例名称..."
-                },
-                "start-script": {
-                    "desc": {
-                        "linux": "请输入 Shell 启动脚本或拖动脚本至此处",
-                        "windows": "请输入 Batch 启动脚本或拖动脚本至此处"
-                    },
-                    "error": "请输入实例启动脚本！",
-                    "label": "启动脚本"
-                }
-            },
-            "status": {
-                "crashed": "已崩溃",
-                "installing": "安装中",
-                "running": "运行中",
-                "starting": "启动中",
-                "stopped": "已停止",
-                "stopping": "停止中"
-            },
-            "type": {
-                "frpc": "Frp 客户端",
-                "hydrid": "混合端",
-                "mcbe": "Minecraft：基岩版",
-                "mcje": "Minecraft：Java版",
-                "minecraft": "Minecraft",
-                "mod": "模组端",
-                "plugin": "插件端",
-                "proxy": "群组端",
-                "terraria": "泰拉瑞亚",
-                "universal": "通用控制台程序"
-            }
-        },
-        "instances": {
-            "sorting": {
-                "grouping": "分组：",
-                "methods": {
-                    "created": "按创建时间",
-                    "lastrun": "按最近运行时间",
-                    "name": "按实例名称",
-                    "no-grouping": "不分组",
-                    "node": "按节点名称",
-                    "status": "按实例状态",
-                    "type": "按实例类型",
-                    "updated": "按上次修改时间",
-                    "user-grouping": "按自定义分组"
-                },
-                "no-group": "未分组",
-                "search-empty": "没有找到匹配的实例",
-                "search-placeholder": "搜索实例…",
-                "sorting": "排序："
-            },
-            "title": "实例管理"
-        },
-        "java-install": {
-            "button": "安装"
-        },
-        "java-search": {
-            "arch": "架构",
-            "button": "搜索",
-            "path": "路径",
-            "title": "搜索到的 Java 运行时",
-            "type": "类型",
-            "vendor": "供应商",
-            "version": "版本"
-        },
-        "jvm-arg-helper": {
-            "button": "参数助手",
-            "encoding": {
-                "placeholder": "请输入编码类型（例如 “utf-8”，“gbk”）...",
-                "title": "编解码"
-            },
-            "memory": {
-                "title": "内存堆大小"
-            },
-            "optimization": {
-                "aggressive-opts": "基础（仅适用于 Java 8 及以下）",
-                "aikar-flags": "Aikar Flag（内存堆大小需小于物理内存大小）",
-                "title": "优化"
-            },
-            "title": "JVM 参数助手"
-        },
-        "navbar": {
-            "back": "后退",
-            "collapse-sidebar": "折叠侧边栏",
-            "expand-sidebar": "展开菜单",
-            "forward": "前进"
-        },
-        "nodes": {
-            "connect": {
-                "host": {
-                    "label": "主机名",
-                    "placeholder": "请输入主机名…"
-                },
-                "name": {
-                    "label": "守护进程名称",
-                    "placeholder": "请为守护进程命名…"
-                },
-                "password": {
-                    "label": "密码",
-                    "placeholder": "请输入密码…"
-                },
-                "port": {
-                    "label": "端口",
-                    "placeholder": "请输入端口…"
-                },
-                "preview": "你将要连接",
-                "save": "保存连接",
-                "secure": "使用加密连接",
-                "test": {
-                    "failed": "测试连接失败！请检查填写是否正确！",
-                    "success": "测试连接成功！立即保存守护进程吧！",
-                    "test": "测试连接",
-                    "testing": "测试连接中…"
-                },
-                "title": "连接守护进程",
-                "username": {
-                    "label": "用户名",
-                    "placeholder": "请输入用户名…"
-                }
-            },
-            "title": "远程节点"
-        },
-        "resource-center": {
-            "title": "资源中心"
-        },
-        "settings": {
-            "about": {
-                "about": {
-                    "afdian": "爱发电赞助",
-                    "disclaimer": "非 MINECRAFT 官方产品。未经 MOJANG 或 MICROSOFT 批准，也不与 MOJANG 或 MICROSOFT 关联",
-                    "email": "联系邮箱",
-                    "github": "项目仓库",
-                    "i18n": "翻译项目",
-                    "qq": "官方 QQ 群"
-                },
-                "auto-download-updates": {
-                    "desc": "启用后，MCSL Future 会在后台自动检查并下载最新版本。",
-                    "label": "自动下载更新"
-                },
-                "check-updates": {
-                    "button": "检查更新",
-                    "desc": "立即检查 MCSL Future 是否有最新版本。",
-                    "label": "检查更新"
-                },
-                "dependencies": {
-                    "app": "App 依赖项",
-                    "common": "通用依赖项",
-                    "title": "开源项目使用列表",
-                    "web": "Web 依赖项"
-                },
-                "info": {
-                    "build": {
-                        "commit": "提交：**[{commitBranch} - {commitHash}](https://github.com/MCSLTeam/MCServerLauncher-Future-Web/commit/{commitHash})**",
-                        "platform": "平台：**{platform}**",
-                        "time": "构建时间：**{buildTime}**",
-                        "title": "构建信息",
-                        "version": "版本：**{versionCodename} ({version})**"
-                    },
-                    "license": {
-                        "content": "此项目受开源协议 [GNU General Public License Version 3.0](https://github.com/MCSLTeam/MCServerLauncher-Future-Web/blob/main/LICENSE) 保护。\n\n此项目受《中华人民共和国著作权法》和国际条约保护，如未经授权而擅自复制或传播本程序或其中任何部分，将受到严厉的民事和刑事制裁，并将在法律许可的最大限度内受到起诉。",
-                        "title": "开源协议"
-                    },
-                    "title": "软件信息"
-                },
-                "special-thanks": {
-                    "bakaxl": {
-                        "desc": "提供了 Quilt 加载器的部署思路！"
-                    },
-                    "bmcl": {
-                        "desc": "提供了性能强大的 BMCLAPI 镜像！"
-                    },
-                    "inkore": {
-                        "desc": "在开发过程中给予了大量技术支持！"
-                    },
-                    "join-group": "加入群聊",
-                    "qq": {
-                        "desc": "一直陪伴着我们，还给予了很多建议！",
-                        "title": "MCSL QQ 交流群的各位群友"
-                    },
-                    "sponsor": "赞助一下",
-                    "title": "特别鸣谢",
-                    "website": "前往官网"
-                },
-                "title": "关于"
-            },
-            "appearance": {
-                "rendering": {
-                    "advanced": {
-                        "desc": "华丽：启用所有动画与样式，可能在没有硬件加速渲染下造成性能问题。",
-                        "label": "华丽模式"
-                    },
-                    "basic": {
-                        "desc": "基础：移除部分华丽动画，仅保留基础的动效。",
-                        "label": "基础模式"
-                    },
-                    "fast": {
-                        "desc": "流畅：尽可能移除所有动画，以获得更流畅的渲染。",
-                        "label": "流畅模式"
-                    },
-                    "label": "渲染模式"
-                },
-                "theme": {
-                    "dark": "深色模式",
-                    "desc": "切换界面风格，让使用更舒适。",
-                    "label": "主题",
-                    "light": "浅色模式",
-                    "system": "跟随系统"
-                },
-                "title": "外观设置"
-            },
-            "general": {
-                "allow-contextmenu": {
-                    "desc": "是否在无 MCSL 右键菜单的区域，启用系统右键菜单。",
-                    "label": "允许系统右键菜单"
-                },
-                "locale": {
-                    "desc": "切换界面显示语言，让操作更顺畅。",
-                    "label": "语言",
-                    "system": "跟随系统"
-                },
-                "title": "通用设置"
-            },
-            "instance-creation": {
-                "title": "实例创建设置"
-            },
-            "instance-management": {
-                "title": "实例管理设置",
-                "use-terminal-input": {
-                    "desc": "控制台启用仿真终端模式，以使用 Ctrl 等功能键，移动设备开启后可能出现兼容性问题。",
-                    "label": "仿真终端输入"
-                }
-            },
-            "require-reload": "此选项更改后可能需要刷新页面才可生效。",
-            "title": "设置"
-        },
-        "tasks": {
-            "title": "任务列表"
-        },
-        "update": {
-            "error": "更新失败！原因：{reason}",
-            "get-failed": "检查更新失败！原因：{reason}",
-            "updating": "正在更新…"
-        },
-        "welcome": {
-            "done": {
-                "close": "进入 MCSL",
-                "subtitle": "立即开始使用 MCSL Future 吧!",
-                "title": "好耶! 大功告成!"
-            },
-            "settings": "配置 MCSL Future",
-            "subtitle": "请先配置 MCSL Future",
-            "welcome": "欢迎！"
-        }
-    },
-    "ui": {
-        "common": {
-            "actions": "操作",
-            "add": "添加",
-            "ascending": "升序",
-            "cancel": "取消",
-            "close": "关闭",
-            "confirm": "确认",
-            "continue": "继续",
-            "copy": "复制",
-            "delete": "删除",
-            "descending": "降序",
-            "do-not-show-again": "不再显示",
-            "done": "完成",
-            "next-step": "下一步",
-            "ok": "好的",
-            "others": "其他",
-            "prev-step": "上一步",
-            "select": "选择"
-        },
-        "copyable-text": {
-            "tooltip": "点击以复制文本"
-        },
-        "editor": {
-            "lang": {
-                "auto": "自动检测语言",
-                "search-placeholder": "搜索语言…"
-            }
-        },
-        "form": {
-            "invalid": {
-                "format": "格式错误！",
-                "range": "数值必须在 {min} 到 {max} 之间！",
-                "require": "请填写此项！"
-            }
-        },
-        "loading": {
-            "default": "加载中…",
-            "success": "加载成功！"
-        },
-        "meter-group": {
-            "label": "{label}（{percentage}%）",
-            "unallocated": "计算中"
-        },
-        "notification": {
-            "message": {
-                "not-allowed": "系统通知已被禁用！请在浏览器设置中允许！",
-                "not-supported": "当前浏览器不支持系统通知！",
-                "request": "请在弹窗中点击允许以显示系统通知"
-            },
-            "title": {
-                "error": "错误",
-                "success": "成功",
-                "warning": "警告"
-            }
-        },
-        "upload": {
-            "dropper": {
-                "subtitle": "或点击以选择文件",
-                "tip": {
-                    "accept": "支持文件格式：{accept}",
-                    "multiple": "支持上传多个文件",
-                    "multiple-count": "支持上传 {count} 个文件",
-                    "size": "文件大小需小于 {maxSize}"
-                },
-                "title": "将文件拖放到此处以上传"
-            },
-            "error": {
-                "accept": "无法选择文件 {filename}！仅支持文件格式：{accept}",
-                "count": "文件数量过多！最多可选择 {maxCount} 个文件",
-                "empty": "你未选择任何文件！",
-                "size": "无法选择文件 {filename}！文件大小需小于 {maxSize}",
-                "upload": "上传文件 {filename} 失败！原因：{reason}"
-            },
-            "list": {
-                "title": "已选择文件："
-            },
-            "success": "文件上传成功！"
-        }
-    },
-    "web": {
-        "api": {
-            "error": {
-                "admin-exists": "管理员已存在",
-                "internal-server-error": "服务器内部错误",
-                "invalid-token": "无效的登录信息",
-                "login-failed": "用户名或密码错误",
-                "network-error": "网络错误",
-                "permission-denied": "权限不足",
-                "session-not-found": "会话不存在",
-                "user-not-found": "用户不存在",
-                "username-exists": "用户名已存在"
-            }
-        },
-        "app": {
-            "name": {
-                "suffix": "Web"
-            }
-        },
-        "auth": {
-            "login": {
-                "error": "登录失败！原因：{reason}",
-                "expired": "登录过期！请重新登录！",
-                "submit": "登录",
-                "success": "登录成功！",
-                "title": "登录验证"
-            },
-            "logout": {
-                "button": "退出登录",
-                "confirm": "确认退出登录？",
-                "error": "会话删除失败！请自行在用户中心删除会话！原因：{reason}",
-                "success": "退出登录成功！"
-            },
-            "password": {
-                "format": "8 位字符以上，需包含大小写字母和数字",
-                "invalid": "“密码”需包含大小写字母和数字",
-                "label": "密码",
-                "placeholder": "请输入密码…"
-            },
-            "password-confirm": {
-                "invalid": "两次输入的密码不一致！",
-                "label": "确认密码",
-                "placeholder": "请再次输入密码…"
-            },
-            "register": {
-                "error": "注册失败！原因：{reason}",
-                "submit": "注册",
-                "success": "注册成功！请登录账号！",
-                "title": "创建管理员账号"
-            },
-            "remember": "记住此设备",
-            "username": {
-                "format": "2 - 16位字符",
-                "label": "用户名",
-                "placeholder": "请输入用户名…"
-            }
-        },
-        "loading": {
-            "connect-backend": "正在连接 Web 后端…",
-            "connect-backend-error": "无法连接 Web 后端！请刷新页面以重试！原因：{reason}",
-            "user-fetch": "正在获取用户信息…"
-        },
-        "tasks": {
-            "exit-dialog": "当前正在运行任务，关闭此标签页将强制终止任务，请保持页面开启。"
-        },
-        "user-center": {
-            "danger-zone": {
-                "title": "危险操作"
-            },
-            "password-reset": {
-                "error": "重置密码失败！原因：{reason}",
-                "new-password": {
-                    "invalid": "“新密码”需包含大小写字母和数字",
-                    "label": "新密码",
-                    "same-as-old": "“新密码”不能与旧密码相同"
-                },
-                "old-password": {
-                    "invalid": "“旧密码”需包含大小写字母和数字",
-                    "label": "旧密码",
-                    "placeholder": "请输入旧密码…"
-                },
-                "submit": "重置",
-                "success": "重置密码成功！",
-                "title": "重置密码"
-            },
-            "permissions": {
-                "title": "权限列表"
-            },
-            "sessions": {
-                "clear": {
-                    "button": "清除所有会话",
-                    "confirm": "确认清除所有会话？",
-                    "error": "所有会话清除失败！原因：{reason}",
-                    "success": "所有会话清除成功！"
-                },
-                "delete": {
-                    "confirm": "确认删除会话？",
-                    "error": "删除会话失败！原因：{reason}",
-                    "success": "删除会话成功！"
-                },
-                "error": "获取会话列表失败！原因：{reason}",
-                "info": {
-                    "created-at": "创建时间",
-                    "last-active-at": "最后活跃时间",
-                    "last-active-ip": "最后活跃 IP",
-                    "type": {
-                        "label": "会话类型",
-                        "remember": "长期会话",
-                        "temporary": "临时会话"
-                    },
-                    "user-agent": "用户代理"
-                },
-                "title": "会话管理"
-            },
-            "title": "用户中心",
-            "user-fetch-error": "获取用户信息失败！原因：{reason}",
-            "user-info": {
-                "created-at": "创建时间",
-                "title": "用户信息",
-                "username": "用户名"
-            }
-        },
-        "users": {
-            "title": "用户管理"
-        }
-    },
-    "yup": {
-        "array": {
-            "length": "“{label}”必须包含 {length} 个元素",
-            "max": "“{label}”不能超过 {max} 个元素",
-            "min": "“{label}”至少需要 {min} 个元素"
-        },
-        "boolean": {
-            "is-value": "“{label}”的值必须为：{value}",
-            "values": {
-                "false": "否",
-                "true": "是"
-            }
-        },
-        "date": {
-            "max": "“{label}”必须早于 {max}",
-            "min": "“{label}”必须晚于 {min}"
-        },
-        "mixed": {
-            "default": "“{label}”无效",
-            "defined": "“{label}”需被定义",
-            "not-null": "“${label}”不可为 null",
-            "not-one-of": "“{label}”不能是以下值之一：{values}",
-            "not-type": {
-                "cast": "（转换自值“{value}”）",
-                "mixed": "“{label}”必须匹配配置的类型，但当前值为：{value}{cast}",
-                "not-mixed": "“{label}” 必须是{type}，但当前值为：{value}{cast}",
-                "types": {
-                    "array": "一个数组",
-                    "boolean": "一个布尔值",
-                    "date": "一个日期",
-                    "function": "一个函数",
-                    "mixed": "任何类型",
-                    "number": "一个数字",
-                    "object": "一个对象",
-                    "string": "一个字符串",
-                    "tuple": "一个元组"
-                }
-            },
-            "one-of": "“{label}”必须是以下值之一：{values}",
-            "required": "请填写“{label}”"
-        },
-        "number": {
-            "integer": "“{label}”必须是整数",
-            "less-than": "“{label}”必须小于 {less}",
-            "max": "“{label}”必须小于或等于 {max}",
-            "min": "“{label}”必须大于或等于 {min}",
-            "more-than": "“{label}”必须大于 {more}",
-            "negative": "“{label}”必须是负数",
-            "positive": "“{label}”必须是正数"
-        },
-        "object": {
-            "exact": "“{label}”对象包含未声明的属性: {properties}",
-            "no-unknown": "“{label}”包含未指定的键: {unknown}"
-        },
-        "string": {
-            "datetime": "“{label}”必须是有效的 ISO 标准日期时间",
-            "datetime-offset": "“{label}”必须是带 UTC \"Z\" 时区的 ISO 日期时间",
-            "datetime-precision": "“{label}”必须是精确到 {precision} 位小数的 ISO 日期时间",
-            "email": "“{label}”必须是有效的电子邮件地址",
-            "length": "“{label}”的长度必须为 {length} 个字符",
-            "lowercase": "“{label}”必须是小写字符串",
-            "matches": "“{label}”必须匹配正则表达式：{regex}",
-            "max": "“{label}”不能超过 {max} 个字符",
-            "min": "“{label}”至少需要 {min} 个字符",
-            "trim": "“{label}”必须是去空格的字符串",
-            "uppercase": "“{label}”必须是大写字符串",
-            "url": "“{label}”必须是有效的 URL",
-            "uuid": "“{label}”必须是有效的 UUID"
-        },
-        "tuple": {
-            "max": "“{label}”元组的长度过长，预期长度为 {typeLen}，但实际长度为 {valueLen}，提供的值为：{value}",
-            "min": "“{label}”元组的长度过短，预期长度为 {typeLen}，但实际长度为 {valueLen}，提供的值为：{value}"
-        }
+      "name": {
+        "suffix": "Tauri"
+      }
     }
+  },
+  "dayjs": {
+    "format": {
+      "date": "YYYY-MM-DD",
+      "datetime": "YYYY-MM-DD HH:mm:ss",
+      "time": "HH:mm:ss"
+    }
+  },
+  "language": {
+    "country": "中国",
+    "name": "简体中文"
+  },
+  "shared": {
+    "404": {
+      "back": "返回上一页",
+      "home": "返回首页（{countdown}秒）",
+      "subtitle": "404 - 页面未找到",
+      "title": "啊嘞？页面不见了"
+    },
+    "announcement": {
+      "close": "不再显示此公告",
+      "title": "公告"
+    },
+    "app": {
+      "copyright": "Copyright © 2022-{year} MCSLTeam. All rights reserved.",
+      "desc": "新一代服务器管理工具",
+      "name": {
+        "abbr": "MCSL",
+        "future": "Future",
+        "name": "MCServerLauncher"
+      }
+    },
+    "close-confirm": {
+      "desc": "你所做的更改将会永久消失！（真的很久！）",
+      "title": "你确定要关闭吗？"
+    },
+    "create": {
+      "button": "创建实例",
+      "daemon": {
+        "placeholder": "请选择守护进程...",
+        "subtitle": "请选择要安装到的守护进程",
+        "title": "守护进程"
+      },
+      "method": {
+        "core": {
+          "desc": "从互联网下载服务器核心或从本地上传核心",
+          "title": "核心安装"
+        },
+        "pack": {
+          "desc": "通过压缩包或整合包安装",
+          "title": "压缩包安装"
+        },
+        "script": {
+          "desc": "运行自动化脚本以安装核心",
+          "title": "脚本安装"
+        },
+        "subtitle": "选择安装方式以开始安装",
+        "title": "安装方式"
+      },
+      "settings": {
+        "core": {
+          "desc": "请上传服务器将使用的核心文件",
+          "error": "请上传实例核心文件！",
+          "label": "服务器核心"
+        },
+        "create": "创建实例",
+        "script": {
+          "desc": {
+            "linux": "请输入 Shell 安装脚本或拖动脚本至此处",
+            "windows": "请输入 Batch 安装脚本或拖动脚本至此处"
+          },
+          "error": "请输入实例安装脚本！",
+          "label": "安装脚本"
+        },
+        "title": "实例设置"
+      },
+      "title": "新建实例",
+      "type": {
+        "title": "实例类型"
+      }
+    },
+    "dashboard": {
+      "title": "仪表盘"
+    },
+    "eula": {
+      "accept": {
+        "countdown": "同意并进入（{time}秒）",
+        "normal": "同意并进入"
+      },
+      "reject": "不同意并退出",
+      "title": "最终用户许可协议"
+    },
+    "help-center": {
+      "title": "帮助中心"
+    },
+    "instance": {
+      "action": {
+        "kill": "强制停止",
+        "restart": "重启",
+        "start": "启动",
+        "stop": "停止"
+      },
+      "automation": {
+        "title": "自动化任务"
+      },
+      "console": {
+        "input": {
+          "placeholder": "输入命令…",
+          "send": "发送"
+        },
+        "title": "控制台"
+      },
+      "files": {
+        "title": "文件管理"
+      },
+      "overview": {
+        "performance": {
+          "cpu": {
+            "label": "CPU 使用率",
+            "title": "CPU 使用率 (%)"
+          },
+          "mem": {
+            "label": "内存占用",
+            "title": "内存占用 (MiB)"
+          },
+          "time": "时间",
+          "title": "性能监控"
+        },
+        "title": "概览"
+      },
+      "settings": {
+        "java-path": {
+          "desc": "Java 运行时是 Minecraft Java 服务器的必需环境。请务必选择合适的版本，防止启动失败。",
+          "label": "Java 运行时",
+          "placeholder": "请输入 Java 运行时路径...",
+          "tip": "Minecraft 1.6 以下需要 Java 5+<br>Minecraft 1.6 - 1.11 需要 Java 6+<br>Minecraft 1.12 - 1.16 需要 Java 8+<br>Minecraft 1.17 需要 Java 16+<br>Minecraft 1.18 - 1.20.4 以上需要 Java 17+<br>Minecraft 1.20.5 - 1.21.1 需要 Java 21+<br>Minecraft 26.1+ 需要 Java 25+"
+        },
+        "jvm-args": {
+          "desc": "（可选）可在此处添加其他 JVM 参数，一行一个。核心启动参数（-jar xxx.jar）将由程序生成，请勿在此处写入。",
+          "label": "JVM 参数",
+          "placeholder": "请输入 JVM 参数..."
+        },
+        "name": {
+          "desc": "请勿包含特殊符号或使用非法名称。",
+          "label": "实例名称",
+          "placeholder": "请输入实例名称..."
+        },
+        "start-script": {
+          "desc": {
+            "linux": "请输入 Shell 启动脚本或拖动脚本至此处",
+            "windows": "请输入 Batch 启动脚本或拖动脚本至此处"
+          },
+          "error": "请输入实例启动脚本！",
+          "label": "启动脚本"
+        }
+      },
+      "status": {
+        "crashed": "已崩溃",
+        "installing": "安装中",
+        "running": "运行中",
+        "starting": "启动中",
+        "stopped": "已停止",
+        "stopping": "停止中"
+      },
+      "type": {
+        "frpc": "Frp 客户端",
+        "hydrid": "混合端",
+        "mcbe": "Minecraft：基岩版",
+        "mcje": "Minecraft：Java版",
+        "minecraft": "Minecraft",
+        "mod": "模组端",
+        "plugin": "插件端",
+        "proxy": "群组端",
+        "terraria": "泰拉瑞亚",
+        "universal": "通用控制台程序"
+      }
+    },
+    "instances": {
+      "sorting": {
+        "grouping": "分组：",
+        "methods": {
+          "created": "按创建时间",
+          "lastrun": "按最近运行时间",
+          "name": "按实例名称",
+          "no-grouping": "不分组",
+          "node": "按节点名称",
+          "status": "按实例状态",
+          "type": "按实例类型",
+          "updated": "按上次修改时间",
+          "user-grouping": "按自定义分组"
+        },
+        "no-group": "未分组",
+        "search-empty": "没有找到匹配的实例",
+        "search-placeholder": "搜索实例…",
+        "sorting": "排序："
+      },
+      "title": "实例管理"
+    },
+    "java-install": {
+      "button": "安装"
+    },
+    "java-search": {
+      "arch": "架构",
+      "button": "搜索",
+      "path": "路径",
+      "title": "搜索到的 Java 运行时",
+      "type": "类型",
+      "vendor": "供应商",
+      "version": "版本"
+    },
+    "jvm-arg-helper": {
+      "button": "参数助手",
+      "encoding": {
+        "placeholder": "请输入编码类型（例如 “utf-8”，“gbk”）...",
+        "title": "编解码"
+      },
+      "memory": {
+        "title": "内存堆大小"
+      },
+      "optimization": {
+        "aggressive-opts": "基础（仅适用于 Java 8 及以下）",
+        "aikar-flags": "Aikar Flag（内存堆大小需小于物理内存大小）",
+        "title": "优化"
+      },
+      "title": "JVM 参数助手"
+    },
+    "navbar": {
+      "back": "后退",
+      "collapse-sidebar": "折叠侧边栏",
+      "expand-sidebar": "展开菜单",
+      "forward": "前进"
+    },
+    "nodes": {
+      "connect": {
+        "host": {
+          "label": "主机名",
+          "placeholder": "请输入主机名…"
+        },
+        "name": {
+          "label": "守护进程名称",
+          "placeholder": "请为守护进程命名…"
+        },
+        "password": {
+          "label": "密码",
+          "placeholder": "请输入密码…"
+        },
+        "port": {
+          "label": "端口",
+          "placeholder": "请输入端口…"
+        },
+        "preview": "你将要连接",
+        "save": "保存连接",
+        "secure": "使用加密连接",
+        "test": {
+          "failed": "测试连接失败！请检查填写是否正确！",
+          "success": "测试连接成功！立即保存守护进程吧！",
+          "test": "测试连接",
+          "testing": "测试连接中…"
+        },
+        "title": "连接守护进程",
+        "username": {
+          "label": "用户名",
+          "placeholder": "请输入用户名…"
+        }
+      },
+      "title": "远程节点"
+    },
+    "resource-center": {
+      "title": "资源中心"
+    },
+    "settings": {
+      "about": {
+        "about": {
+          "afdian": "爱发电赞助",
+          "disclaimer": "非 MINECRAFT 官方产品。未经 MOJANG 或 MICROSOFT 批准，也不与 MOJANG 或 MICROSOFT 关联",
+          "email": "联系邮箱",
+          "github": "项目仓库",
+          "i18n": "翻译项目",
+          "qq": "官方 QQ 群"
+        },
+        "auto-download-updates": {
+          "desc": "启用后，MCSL Future 会在后台自动检查并下载最新版本。",
+          "label": "自动下载更新"
+        },
+        "check-updates": {
+          "button": "检查更新",
+          "desc": "立即检查 MCSL Future 是否有最新版本。",
+          "label": "检查更新"
+        },
+        "dependencies": {
+          "app": "App 依赖项",
+          "common": "通用依赖项",
+          "title": "开源项目使用列表",
+          "web": "Web 依赖项"
+        },
+        "info": {
+          "build": {
+            "commit": "提交：**[{commitBranch} - {commitHash}](https://github.com/MCSLTeam/MCServerLauncher-Future-Web/commit/{commitHash})**",
+            "platform": "平台：**{platform}**",
+            "time": "构建时间：**{buildTime}**",
+            "title": "构建信息",
+            "version": "版本：**{versionCodename} ({version})**"
+          },
+          "license": {
+            "content": "此项目受开源协议 [GNU General Public License Version 3.0](https://github.com/MCSLTeam/MCServerLauncher-Future-Web/blob/main/LICENSE) 保护。\n\n此项目受《中华人民共和国著作权法》和国际条约保护，如未经授权而擅自复制或传播本程序或其中任何部分，将受到严厉的民事和刑事制裁，并将在法律许可的最大限度内受到起诉。",
+            "title": "开源协议"
+          },
+          "title": "软件信息"
+        },
+        "special-thanks": {
+          "bakaxl": {
+            "desc": "提供了 Quilt 加载器的部署思路！"
+          },
+          "bmcl": {
+            "desc": "提供了性能强大的 BMCLAPI 镜像！"
+          },
+          "inkore": {
+            "desc": "在开发过程中给予了大量技术支持！"
+          },
+          "join-group": "加入群聊",
+          "qq": {
+            "desc": "一直陪伴着我们，还给予了很多建议！",
+            "title": "MCSL QQ 交流群的各位群友"
+          },
+          "sponsor": "赞助一下",
+          "title": "特别鸣谢",
+          "website": "前往官网"
+        },
+        "title": "关于"
+      },
+      "appearance": {
+        "rendering": {
+          "advanced": {
+            "desc": "华丽：启用所有动画与样式，可能在没有硬件加速渲染下造成性能问题。",
+            "label": "华丽模式"
+          },
+          "basic": {
+            "desc": "基础：移除部分华丽动画，仅保留基础的动效。",
+            "label": "基础模式"
+          },
+          "fast": {
+            "desc": "流畅：尽可能移除所有动画，以获得更流畅的渲染。",
+            "label": "流畅模式"
+          },
+          "label": "渲染模式"
+        },
+        "theme": {
+          "dark": "深色模式",
+          "desc": "切换界面风格，让使用更舒适。",
+          "label": "主题",
+          "light": "浅色模式",
+          "system": "跟随系统"
+        },
+        "title": "外观设置"
+      },
+      "general": {
+        "allow-contextmenu": {
+          "desc": "是否在无 MCSL 右键菜单的区域，启用系统右键菜单。",
+          "label": "允许系统右键菜单"
+        },
+        "locale": {
+          "desc": "切换界面显示语言，让操作更顺畅。",
+          "label": "语言",
+          "system": "跟随系统"
+        },
+        "title": "通用设置"
+      },
+      "instance-creation": {
+        "title": "实例创建设置"
+      },
+      "instance-management": {
+        "title": "实例管理设置",
+        "use-terminal-input": {
+          "desc": "控制台启用仿真终端模式，以使用 Ctrl 等功能键，移动设备开启后可能出现兼容性问题。",
+          "label": "仿真终端输入"
+        }
+      },
+      "require-reload": "此选项更改后可能需要刷新页面才可生效。",
+      "title": "设置"
+    },
+    "tasks": {
+      "title": "任务列表"
+    },
+    "update": {
+      "error": "更新失败！原因：{reason}",
+      "get-failed": "检查更新失败！原因：{reason}",
+      "updating": "正在更新…"
+    },
+    "welcome": {
+      "done": {
+        "close": "进入 MCSL",
+        "subtitle": "立即开始使用 MCSL Future 吧!",
+        "title": "好耶! 大功告成!"
+      },
+      "settings": "配置 MCSL Future",
+      "subtitle": "请先配置 MCSL Future",
+      "welcome": "欢迎！"
+    }
+  },
+  "ui": {
+    "common": {
+      "actions": "操作",
+      "add": "添加",
+      "ascending": "升序",
+      "cancel": "取消",
+      "close": "关闭",
+      "confirm": "确认",
+      "continue": "继续",
+      "copy": "复制",
+      "delete": "删除",
+      "descending": "降序",
+      "do-not-show-again": "不再显示",
+      "done": "完成",
+      "next-step": "下一步",
+      "ok": "好的",
+      "others": "其他",
+      "prev-step": "上一步",
+      "select": "选择"
+    },
+    "copyable-text": {
+      "tooltip": "点击以复制文本"
+    },
+    "editor": {
+      "lang": {
+        "auto": "自动检测语言",
+        "search-placeholder": "搜索语言…"
+      }
+    },
+    "form": {
+      "invalid": {
+        "format": "格式错误！",
+        "range": "数值必须在 {min} 到 {max} 之间！",
+        "require": "请填写此项！"
+      }
+    },
+    "loading": {
+      "default": "加载中…",
+      "success": "加载成功！"
+    },
+    "meter-group": {
+      "label": "{label}（{percentage}%）",
+      "unallocated": "计算中"
+    },
+    "notification": {
+      "message": {
+        "not-allowed": "系统通知已被禁用！请在浏览器设置中允许！",
+        "not-supported": "当前浏览器不支持系统通知！",
+        "request": "请在弹窗中点击允许以显示系统通知"
+      },
+      "title": {
+        "error": "错误",
+        "success": "成功",
+        "warning": "警告"
+      }
+    },
+    "upload": {
+      "dropper": {
+        "subtitle": "或点击以选择文件",
+        "tip": {
+          "accept": "支持文件格式：{accept}",
+          "multiple": "支持上传多个文件",
+          "multiple-count": "支持上传 {count} 个文件",
+          "size": "文件大小需小于 {maxSize}"
+        },
+        "title": "将文件拖放到此处以上传"
+      },
+      "error": {
+        "accept": "无法选择文件 {filename}！仅支持文件格式：{accept}",
+        "count": "文件数量过多！最多可选择 {maxCount} 个文件",
+        "empty": "你未选择任何文件！",
+        "size": "无法选择文件 {filename}！文件大小需小于 {maxSize}",
+        "upload": "上传文件 {filename} 失败！原因：{reason}"
+      },
+      "list": {
+        "title": "已选择文件："
+      },
+      "success": "文件上传成功！"
+    }
+  },
+  "web": {
+    "api": {
+      "error": {
+        "admin-exists": "管理员已存在",
+        "internal-server-error": "服务器内部错误",
+        "invalid-token": "无效的登录信息",
+        "login-failed": "用户名或密码错误",
+        "network-error": "网络错误",
+        "permission-denied": "权限不足",
+        "session-not-found": "会话不存在",
+        "user-not-found": "用户不存在",
+        "username-exists": "用户名已存在"
+      }
+    },
+    "app": {
+      "name": {
+        "suffix": "Web"
+      }
+    },
+    "auth": {
+      "login": {
+        "error": "登录失败！原因：{reason}",
+        "expired": "登录过期！请重新登录！",
+        "submit": "登录",
+        "success": "登录成功！",
+        "title": "登录验证"
+      },
+      "logout": {
+        "button": "退出登录",
+        "confirm": "确认退出登录？",
+        "error": "会话删除失败！请自行在用户中心删除会话！原因：{reason}",
+        "success": "退出登录成功！"
+      },
+      "password": {
+        "format": "8 位字符以上，需包含大小写字母和数字",
+        "invalid": "“密码”需包含大小写字母和数字",
+        "label": "密码",
+        "placeholder": "请输入密码…"
+      },
+      "password-confirm": {
+        "invalid": "两次输入的密码不一致！",
+        "label": "确认密码",
+        "placeholder": "请再次输入密码…"
+      },
+      "register": {
+        "error": "注册失败！原因：{reason}",
+        "submit": "注册",
+        "success": "注册成功！请登录账号！",
+        "title": "创建管理员账号"
+      },
+      "remember": "记住此设备",
+      "username": {
+        "format": "2 - 16位字符",
+        "label": "用户名",
+        "placeholder": "请输入用户名…"
+      }
+    },
+    "loading": {
+      "connect-backend": "正在连接 Web 后端…",
+      "connect-backend-error": "无法连接 Web 后端！请刷新页面以重试！原因：{reason}",
+      "user-fetch": "正在获取用户信息…"
+    },
+    "tasks": {
+      "exit-dialog": "当前正在运行任务，关闭此标签页将强制终止任务，请保持页面开启。"
+    },
+    "user-center": {
+      "danger-zone": {
+        "title": "危险操作"
+      },
+      "password-reset": {
+        "error": "重置密码失败！原因：{reason}",
+        "new-password": {
+          "invalid": "“新密码”需包含大小写字母和数字",
+          "label": "新密码",
+          "same-as-old": "“新密码”不能与旧密码相同"
+        },
+        "old-password": {
+          "invalid": "“旧密码”需包含大小写字母和数字",
+          "label": "旧密码",
+          "placeholder": "请输入旧密码…"
+        },
+        "submit": "重置",
+        "success": "重置密码成功！",
+        "title": "重置密码"
+      },
+      "permissions": {
+        "title": "权限列表"
+      },
+      "sessions": {
+        "clear": {
+          "button": "清除所有会话",
+          "confirm": "确认清除所有会话？",
+          "error": "所有会话清除失败！原因：{reason}",
+          "success": "所有会话清除成功！"
+        },
+        "delete": {
+          "confirm": "确认删除会话？",
+          "error": "删除会话失败！原因：{reason}",
+          "success": "删除会话成功！"
+        },
+        "error": "获取会话列表失败！原因：{reason}",
+        "info": {
+          "created-at": "创建时间",
+          "last-active-at": "最后活跃时间",
+          "last-active-ip": "最后活跃 IP",
+          "type": {
+            "label": "会话类型",
+            "remember": "长期会话",
+            "temporary": "临时会话"
+          },
+          "user-agent": "用户代理"
+        },
+        "title": "会话管理"
+      },
+      "title": "用户中心",
+      "user-fetch-error": "获取用户信息失败！原因：{reason}",
+      "user-info": {
+        "created-at": "创建时间",
+        "title": "用户信息",
+        "username": "用户名"
+      }
+    },
+    "users": {
+      "title": "用户管理"
+    }
+  },
+  "yup": {
+    "array": {
+      "length": "“{label}”必须包含 {length} 个元素",
+      "max": "“{label}”不能超过 {max} 个元素",
+      "min": "“{label}”至少需要 {min} 个元素"
+    },
+    "boolean": {
+      "is-value": "“{label}”的值必须为：{value}",
+      "values": {
+        "false": "否",
+        "true": "是"
+      }
+    },
+    "date": {
+      "max": "“{label}”必须早于 {max}",
+      "min": "“{label}”必须晚于 {min}"
+    },
+    "mixed": {
+      "default": "“{label}”无效",
+      "defined": "“{label}”需被定义",
+      "not-null": "“${label}”不可为 null",
+      "not-one-of": "“{label}”不能是以下值之一：{values}",
+      "not-type": {
+        "cast": "（转换自值“{value}”）",
+        "mixed": "“{label}”必须匹配配置的类型，但当前值为：{value}{cast}",
+        "not-mixed": "“{label}” 必须是{type}，但当前值为：{value}{cast}",
+        "types": {
+          "array": "一个数组",
+          "boolean": "一个布尔值",
+          "date": "一个日期",
+          "function": "一个函数",
+          "mixed": "任何类型",
+          "number": "一个数字",
+          "object": "一个对象",
+          "string": "一个字符串",
+          "tuple": "一个元组"
+        }
+      },
+      "one-of": "“{label}”必须是以下值之一：{values}",
+      "required": "请填写“{label}”"
+    },
+    "number": {
+      "integer": "“{label}”必须是整数",
+      "less-than": "“{label}”必须小于 {less}",
+      "max": "“{label}”必须小于或等于 {max}",
+      "min": "“{label}”必须大于或等于 {min}",
+      "more-than": "“{label}”必须大于 {more}",
+      "negative": "“{label}”必须是负数",
+      "positive": "“{label}”必须是正数"
+    },
+    "object": {
+      "exact": "“{label}”对象包含未声明的属性: {properties}",
+      "no-unknown": "“{label}”包含未指定的键: {unknown}"
+    },
+    "string": {
+      "datetime": "“{label}”必须是有效的 ISO 标准日期时间",
+      "datetime-offset": "“{label}”必须是带 UTC \"Z\" 时区的 ISO 日期时间",
+      "datetime-precision": "“{label}”必须是精确到 {precision} 位小数的 ISO 日期时间",
+      "email": "“{label}”必须是有效的电子邮件地址",
+      "length": "“{label}”的长度必须为 {length} 个字符",
+      "lowercase": "“{label}”必须是小写字符串",
+      "matches": "“{label}”必须匹配正则表达式：{regex}",
+      "max": "“{label}”不能超过 {max} 个字符",
+      "min": "“{label}”至少需要 {min} 个字符",
+      "trim": "“{label}”必须是去空格的字符串",
+      "uppercase": "“{label}”必须是大写字符串",
+      "url": "“{label}”必须是有效的 URL",
+      "uuid": "“{label}”必须是有效的 UUID"
+    },
+    "tuple": {
+      "max": "“{label}”元组的长度过长，预期长度为 {typeLen}，但实际长度为 {valueLen}，提供的值为：{value}",
+      "min": "“{label}”元组的长度过短，预期长度为 {typeLen}，但实际长度为 {valueLen}，提供的值为：{value}"
+    }
+  }
 }
