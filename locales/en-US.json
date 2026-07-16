@@ -4,6 +4,9 @@
         "name": "English"
     },
     "shared": {
+        "account": {
+            "subtitle": "View profile, change password, and manage signed-in sessions."
+        },
         "announcement": {
             "close": "Do not show again",
             "title": "Announcement"
@@ -16,8 +19,234 @@
                 "name": "MCServerLauncher"
             }
         },
+        "brand": {
+            "platform": {
+                "tauri": "Tauri (cross-platform)",
+                "web": "Web (browser)"
+            }
+        },
+        "create": {
+            "back": "Back",
+            "badge": {
+                "not-ready": "Not ready",
+                "partial": "Partial"
+            },
+            "button": "Create Instance",
+            "category": {
+                "frp": {
+                    "desc": "frpc and third-party tunnel clients (not ready).",
+                    "title": "Fast Reverse Proxy Client (Frpc)"
+                },
+                "import": {
+                    "desc": "Import an existing instance from disk (not ready).",
+                    "title": "Import"
+                },
+                "minecraft": {
+                    "desc": "Java / Forge / Fabric / NeoForge / Quilt / Bedrock",
+                    "title": "Minecraft Server"
+                },
+                "other": {
+                    "desc": "Any console app / generic executable",
+                    "title": "Other Executable Programs"
+                },
+                "terraria": {
+                    "desc": "Terraria server (experimental)",
+                    "title": "Terraria Server"
+                },
+                "title": "Choose category"
+            },
+            "confirm": {
+                "cancel": "Cancel",
+                "desc": "Are you sure you want to create the following instance?",
+                "ok": "Next",
+                "title": "Confirm Instance Creation"
+            },
+            "daemon": {
+                "title": "New Connection"
+            },
+            "field": {
+                "archive": "Archive",
+                "core-jar": {
+                    "hint": "Please select the core file that this server will use. If you don't know where to download it, click the button on the right to jump.",
+                    "label": "Minecraft Server Core"
+                },
+                "java": {
+                    "label": "Java Runtime",
+                    "manual": "Or enter Java executable path",
+                    "refresh": "Auto search",
+                    "select": "Java Path"
+                },
+                "jvm-args": "JVM arguments",
+                "loader-version": "Loader version",
+                "mc-version": "Minecraft Version",
+                "name": {
+                    "label": "Instance Name",
+                    "placeholder": "Do not include special symbols or use illegal names."
+                },
+                "only-stable": "Stable only",
+                "select": "Browse",
+                "use-mirror": "After enabling this option, resources will be downloaded using BMCLAPI. Recommended for Chinese users."
+            },
+            "finish": "Next",
+            "jvm-arg": {
+                "add": "Add",
+                "remove": "Delete"
+            },
+            "jvm-helper": {
+                "apply": "Apply to args",
+                "cancel": "Cancel",
+                "dialog": {
+                    "desc": "Configure memory, encoding and templates, then insert into the argument list."
+                },
+                "encoding": {
+                    "desc": "Writes -Dfile.encoding=… to reduce console mojibake.",
+                    "label": "Encoding"
+                },
+                "insert": "Insert",
+                "max": "Maximum memory",
+                "mem": {
+                    "desc": "This determines how much memory your Minecraft Java Edition server will be able to use.",
+                    "title": "JVM Memory Heap"
+                },
+                "min": "Minimum Memory",
+                "template": {
+                    "advanced": "Advanced G1",
+                    "basic": "Basic",
+                    "desc": "Optional GC templates.",
+                    "label": "Template",
+                    "none": "None"
+                },
+                "title": "JVM Memory Heap",
+                "unit": "Unit"
+            },
+            "need-node": {
+                "desc": "Connect and select a remote host before creating an instance.",
+                "title": "Select a remote host first"
+            },
+            "run-command": {
+                "desc": "Enter the run command here.",
+                "label": "Run Command"
+            },
+            "settings": {
+                "title": "Instance Settings"
+            },
+            "status": {
+                "creating": "Creating instance...",
+                "experimental": "Experimental type; Daemon may not have a matching factory.",
+                "failed": "Failed to create instance",
+                "loading-java": "Scanning Java…",
+                "loading-versions": "Loading versions…",
+                "request-failed": "Request failed {status}: {url}",
+                "success": "Instance created successfully",
+                "upload-failed": "Failed to upload file",
+                "uploading": "Uploading file"
+            },
+            "step": {
+                "archive": {
+                    "desc": "Please import the downloaded zip file here. If you don't know where to download, click the button on the right to jump.",
+                    "title": "Archive"
+                },
+                "core": {
+                    "desc": "Please select the core file that this server will use. If you don't know where to download it, click the button on the right to jump.",
+                    "title": "Minecraft Server Core"
+                },
+                "java": {
+                    "desc": "The Java runtime is required for the Minecraft Java server. Be sure to select the appropriate version to prevent startup failures.",
+                    "title": "Java Runtime"
+                },
+                "jvm": {
+                    "desc": "(Optional) You can add additional JVM arguments here, one per line.",
+                    "no-jar-tip": "Do not add -jar and the core file name; they are applied automatically.",
+                    "title": "JVM Arguments"
+                },
+                "loader": {
+                    "desc": "Please select the version of Minecraft that this server will run.",
+                    "title": "Select game and loader versions"
+                },
+                "name": {
+                    "desc": "Do not include special symbols or use illegal names.",
+                    "title": "Instance Name"
+                }
+            },
+            "submit": {
+                "blocked": "Remote host is not connected. Open Remote Host, confirm address and token, and ensure MCSL Daemon is running."
+            },
+            "subtitle": "Choose an operation, complete the configuration, then select Continue.",
+            "title": "Create Instance",
+            "type": {
+                "bungeecord": "BungeeCord",
+                "fabric": "Minecraft Fabric Server",
+                "forge": "Minecraft Forge Server",
+                "frpc": "frpc",
+                "geyser": "Minecraft Geyser",
+                "import": "Import existing instance",
+                "locyanfrp": "LoCyanFrp",
+                "mcbe": "Minecraft Bedrock Edition Server",
+                "mcje": "Universal Minecraft Java Edition Server",
+                "mefrp": "ME Frp",
+                "mossfrp": "MossFrp",
+                "neoforge": "Minecraft NeoForge Server",
+                "openfrp": "OpenFrp",
+                "quilt": "Minecraft Quilt Server",
+                "terraria": "Terraria Server",
+                "title": "Instance Type",
+                "travertine": "Travertine",
+                "universal": "Other Executable Programs",
+                "velocity": "Velocity",
+                "waterfall": "Waterfall"
+            },
+            "validation": {
+                "archive": "Choose an archive or program file",
+                "jar": {
+                    "empty": "Select a server core jar file",
+                    "ext": "Core file must be a .jar"
+                },
+                "java": {
+                    "display": "Select a concrete Java executable path",
+                    "empty": "Select or enter a Java path"
+                },
+                "loader": "Select Minecraft and loader versions",
+                "name": {
+                    "dot": "Instance name cannot be . or ..",
+                    "empty": "Instance name is required",
+                    "invalid": "Instance name contains invalid characters"
+                },
+                "not-ready": "This create flow is not ready yet (same as WPF).",
+                "run-or-file": "Enter a run command or upload a program file",
+                "unsupported": "This type cannot be submitted yet"
+            }
+        },
+        "daemon": {
+            "error": {
+                "action-failed": "Action failed: {action}",
+                "connect-failed": "Failed to connect to daemon",
+                "create-no-config": "Instance created but no config returned",
+                "disconnected": "Failed to connect to daemon",
+                "node-missing": "Remote host not found",
+                "not-connected": "Remote host is not connected",
+                "operation-failed": "Operation failed",
+                "read-logs-failed": "Failed to read logs",
+                "refresh-failed": "Refresh failed",
+                "request-timeout": "Request timed out: {action}",
+                "system-info": "Failed to connect to daemon",
+                "token-missing": "Access token is missing",
+                "upload-cancelled": "Upload cancelled",
+                "upload-chunk-timeout": "Upload chunk timed out",
+                "upload-session": "Failed to create upload session",
+                "ws-closed": "WebSocket connection closed",
+                "ws-failed": "WebSocket connection failed"
+            }
+        },
         "dashboard": {
-            "title": "Dashboard"
+            "subtitle": {
+                "default": "Check account status and jump to remote hosts or instances.",
+                "tauri": "Connect remote hosts and manage instance lifecycle and consoles."
+            },
+            "title": "Home",
+            "welcome": "Welcome to MCSL Future"
+        },
+        "download": {
+            "cancelled": "Download cancelled"
         },
         "eula": {
             "accept": {
@@ -28,21 +257,188 @@
             "title": "End User License Agreement"
         },
         "help-center": {
+            "faq": {
+                "connect": "Cannot connect: check Daemon is running, host/port/token, and ws/wss.",
+                "console": "Instance console tabs match the WPF console window: board, terminal, files, events, components, settings.",
+                "create": "Creating instances needs at least one connected remote host.",
+                "title": "FAQ"
+            },
+            "getting-started": "Getting started",
+            "links": {
+                "title": "Links"
+            },
+            "subtitle": "FAQs and getting-started tips for setup and day-to-day ops.",
             "title": "Help Center"
         },
+        "home": {
+            "announcement": {
+                "body": "MCServerLauncher Future is a new MCSL project. This web console shares the Daemon protocol with the WPF client.",
+                "title": "Announcement"
+            }
+        },
+        "instance": {
+            "action": {
+                "delete": "Delete",
+                "kill": "Force Close",
+                "remove": "Delete",
+                "restart": "Restart",
+                "start": "Start",
+                "stop": "Stop"
+            },
+            "components": {
+                "empty": "No component info yet."
+            },
+            "console": {
+                "empty": "No logs yet. Start the instance or send a command to see output.",
+                "need-connection": "Connect a remote host before using this feature. Save and connect MCSL Daemon under Remote Host first.",
+                "placeholder": "Type command here...",
+                "send": "Send",
+                "title": "Dashboard"
+            },
+            "detail": {
+                "automation": "Events System",
+                "board": "Board",
+                "command": "Console",
+                "components": "Components",
+                "connected": "Remote host connected. You can control this instance.",
+                "console": "Console",
+                "files": "Files",
+                "overview": "Board",
+                "placeholder": "Secondary layout matches the WPF console; full features will arrive later.",
+                "settings": "Instance Settings"
+            },
+            "events": {
+                "empty": "No event rules yet."
+            },
+            "files": {
+                "empty": "This directory is empty.",
+                "load-failed": "Failed to read directory",
+                "parent": "Parent",
+                "pending": "File manager and advanced settings will arrive in a later release.",
+                "root": "Instance directory"
+            },
+            "settings": {
+                "args": "Arguments",
+                "java": "Java Path",
+                "target": "Target",
+                "working-dir": "Working directory"
+            },
+            "status": {
+                "crashed": "Crashed",
+                "running": "Running",
+                "stopped": "Stopped"
+            }
+        },
         "instances": {
-            "title": "Instances"
+            "action": {
+                "delete": "Delete",
+                "failed": "Instance operation failed",
+                "kill": "Force Close",
+                "restart": "Restart",
+                "start": "Start",
+                "stop": "Stop"
+            },
+            "confirm": {
+                "kill": "Force Close Instance",
+                "remove": "Delete Instance",
+                "restart": "Restart Instance",
+                "start": "Start Instance",
+                "stop": "Stop Instance"
+            },
+            "connect-daemon": "Connect to Remote Host",
+            "disabled": {
+                "description": "This function is disabled because no remote host is connected.",
+                "title": "Function disabled"
+            },
+            "empty": {
+                "description": "Try to add something interesting here.",
+                "no-data": {
+                    "desc": "Remote host configuration is saved. After connecting the daemon, existing instances appear here; you can also create a new one.",
+                    "title": "No instances yet"
+                },
+                "no-nodes": {
+                    "desc": "Instances run on remote hosts. Add and connect an MCSL Daemon host, then create a server.",
+                    "title": "No instances to manage"
+                },
+                "not-connected": "Remote host is not connected. Connect MCSL Daemon under Remote Host, then refresh.",
+                "title": "Nothing here yet"
+            },
+            "interval": {
+                "minute": "1 minute"
+            },
+            "open": "Open",
+            "refresh": "Refresh",
+            "sorting": {
+                "methods": {
+                    "node": "By remote host name"
+                },
+                "search-placeholder": "Search name, type, or node…"
+            },
+            "status": {
+                "all": "All Statuses",
+                "crashed": "Crashed",
+                "running": "Running",
+                "starting": "Starting",
+                "stopped": "Stopped",
+                "stopping": "Stopping"
+            },
+            "subtitle": "View server instances on each remote host, then start, stop, or open the console.",
+            "summary": "Showing {instances} instances · remote hosts online {online}/{total}",
+            "table": {
+                "name": "Name",
+                "status": "Status",
+                "type": "Type",
+                "version": "Version"
+            },
+            "tip": "Panoramic view, all within your rule.",
+            "title": "Instance Manager",
+            "type-label": "Instance type:",
+            "version-label": "Version:"
+        },
+        "locale": {
+            "en-US": "English",
+            "ja-JP": "Japanese",
+            "ru-RU": "Russian",
+            "zh-CN": "Simplified Chinese",
+            "zh-HK": "Traditional Chinese (Hong Kong)",
+            "zh-MEME": "Meme Chinese",
+            "zh-TW": "Traditional Chinese (Taiwan)"
+        },
+        "navbar": {
+            "core": "Core",
+            "resources": "Resources",
+            "support": "Support"
         },
         "nodes": {
+            "auto-refresh": {
+                "interval": "{sec}s",
+                "label": "Auto Refresh",
+                "off": "Auto refresh: Off",
+                "on": "Auto refresh: On"
+            },
+            "card": {
+                "daemon": "Node version",
+                "resource": "Resource Usage",
+                "status": "Connection Status",
+                "system": "System",
+                "uri": "Remote Address",
+                "view-error": "View error"
+            },
             "connect": {
+                "action": "Connect",
+                "all": "Connect all",
+                "failed": {
+                    "desc": "Please check your network and try again. If your network is fine, the remote host might be down or the firewall is blocking the connection."
+                },
                 "host": {
                     "label": "Hostname",
                     "placeholder": "Please input hostname…"
                 },
                 "name": {
-                    "label": "Daemon Name",
+                    "label": "Comment Name",
                     "placeholder": "Please name the daemon…"
                 },
+                "new": "New connection",
                 "password": {
                     "label": "Password",
                     "placeholder": "Please input password…"
@@ -52,44 +448,202 @@
                     "placeholder": "Please enter the port…"
                 },
                 "preview": "Please enter the port",
-                "save": "Save the connection",
+                "retry": "Retry",
+                "save": "Save",
+                "scheme": "Scheme",
                 "secure": "Use an encrypted connection",
+                "success": "Daemon connected.",
                 "test": {
                     "failed": "Test connection failed! Please check if the information filled in is correct!",
+                    "label": "Test connection",
                     "success": "Connection test successful! Save the daemon immediately!",
                     "test": "Test connection",
                     "testing": "Testing the connection…"
                 },
-                "title": "Connect to the daemon",
+                "title": "New Connection",
+                "token": {
+                    "label": "Access token"
+                },
                 "username": {
                     "label": "username",
                     "placeholder": "Please enter a username…"
                 }
             },
-            "title": "Remote Nodes"
+            "delete": {
+                "confirm": "Are you sure you want to delete remote host '{name}'?",
+                "failed": "Failed to delete remote host: {reason}",
+                "success": "Remote host deleted"
+            },
+            "disconnect": "Disconnect",
+            "disconnected": "Node disconnected.",
+            "form": {
+                "add": "Add remote host",
+                "create": "New Connection",
+                "desc": "Connection details stay in this browser.",
+                "edit": "Edit Connection",
+                "save": "Save"
+            },
+            "list": {
+                "empty": {
+                    "desc": "Prepare a host running MCSL Daemon, then fill in host, port and access token.",
+                    "title": "No remote hosts yet"
+                },
+                "title": "Remote host list"
+            },
+            "refresh": "Refresh",
+            "refresh-interval": "Interval",
+            "resource": {
+                "cpu": "CPU",
+                "disk": "Drive",
+                "drive": "Disk",
+                "load-failed": "Load failed",
+                "memory": "Memory",
+                "not-loaded": "Not loaded"
+            },
+            "saved": "Remote host saved.",
+            "search": {
+                "empty": {
+                    "desc": "Try another keyword, or clear the search.",
+                    "title": "No remote hosts found"
+                },
+                "placeholder": "Search"
+            },
+            "status": {
+                "connecting": "Connecting",
+                "error": "Error",
+                "offline": "Offline",
+                "ok": "OK",
+                "online": "Online",
+                "reconnecting": "Reconnecting"
+            },
+            "subtitle": "Secure guardianship at your fingertips.",
+            "tip": "Secure escort, in the palm of your hand.",
+            "title": "Remote Host",
+            "token": {
+                "label": "Access token",
+                "missing": "No token",
+                "optional": "Access token (leave blank to keep)",
+                "placeholder": "Access token from Daemon",
+                "saved": "Token saved"
+            }
+        },
+        "preferences": {
+            "language": "Language",
+            "root": "Preferences",
+            "theme": {
+                "root": "Theme"
+            }
         },
         "resource-center": {
-            "title": "Resource Center"
+            "build-version": "Build version",
+            "cores": "Server cores",
+            "download": "Download",
+            "history": {
+                "cancel": "Cancel",
+                "clear": "Clear finished",
+                "desc": "Track resource downloads and cancel active tasks.",
+                "empty": "No download history yet (WPF title-bar history will arrive later on Web).",
+                "remove": "Remove",
+                "saved-path": "Saved to",
+                "status": {
+                    "cancelled": "Download cancelled",
+                    "completed": "Download complete",
+                    "failed": "Download failed",
+                    "queued": "Queued",
+                    "running": "Downloading file..."
+                },
+                "title": "Downloads"
+            },
+            "minecraft-version": "Minecraft version",
+            "no-files": "No files available",
+            "note": "Download and install still happen on the remote host; the panel does not replace Daemon installers.",
+            "open-external": "Open official site in a new tab",
+            "open-homepage": "Open homepage",
+            "provider": {
+                "desc": "Matches the WPF ResDownload main frame. Official download links for now; full providers later.",
+                "error": "Failed to load provider",
+                "title": "Sources / common cores"
+            },
+            "subtitle": "Common server cores and docs. Download and install are still completed on the remote host.",
+            "tag": {
+                "bedrock": "Bedrock",
+                "mod": "Mods",
+                "proxy": "Proxy",
+                "pure": "Purity",
+                "vanilla": "Vanilla"
+            },
+            "title": "Resource Download",
+            "wpf-tip": "Everything you need. (Using {provider})",
+            "wpf-title": "Resource Download"
         },
         "settings": {
+            "about": {
+                "info": {
+                    "name": "Name",
+                    "title": "App info",
+                    "version": "Version"
+                },
+                "title": "About MCServerLauncher Future"
+            },
             "appearance": {
                 "theme": {
                     "dark": "Dark",
-                    "label": "Theme",
+                    "desc": "Following system changes by default, also you can set by yourself.",
+                    "label": "App Theme",
                     "light": "Light",
                     "system": "System"
+                },
+                "title": "Appearance"
+            },
+            "download": {
+                "failure": {
+                    "desc": "Choose what happens after a failed download.",
+                    "label": "On download failure",
+                    "retry1": "Retry once",
+                    "retry3": "Retry 3 times",
+                    "stop": "Stop"
+                },
+                "source": {
+                    "desc": "Choose the mirror provider used by Resource Download.",
+                    "label": "Download source"
+                },
+                "threads": {
+                    "desc": "Parallel download threads, from 1 to 256.",
+                    "label": "Download threads"
                 }
             },
             "general": {
+                "allow-contextmenu": {
+                    "desc": "Enable the system context menu where MCSL custom menus apply.",
+                    "label": "Allow system context menu"
+                },
                 "locale": {
-                    "label": "Language",
+                    "desc": "Select the language used in this program.",
+                    "label": " Language",
                     "system": "System"
+                },
+                "title": "General"
+            },
+            "instance-management": {
+                "title": "Instance management",
+                "use-terminal-input": {
+                    "desc": "Use an emulated terminal for the console so Ctrl and function keys work. Mobile devices may have compatibility issues.",
+                    "label": "Emulated terminal input"
                 }
             },
+            "require-reload": "Changing this option may require a page reload.",
+            "save": "Save",
+            "saved": "Settings saved successfully",
+            "subtitle": "Adjust local console appearance and preferences. Saved in this browser.",
             "title": "Settings"
         },
         "tasks": {
             "title": "Tasks"
+        },
+        "tauri": {
+            "save-dialog": {
+                "title": "Save download"
+            }
         },
         "update": {
             "error": "Failed to update! Reason: {reason}",
@@ -109,20 +663,28 @@
     },
     "ui": {
         "common": {
+            "actions": "Actions",
+            "all": "All",
             "cancel": "Cancel",
+            "close": "Close",
             "confirm": "Confirm",
             "continue": "Continue",
             "copy": "copy",
+            "delete": "Delete",
             "done": "Completed",
+            "edit": "Edit",
+            "more": "More",
             "next-step": "Next",
             "prev-step": "Back"
         },
         "form": {
             "invalid": {
                 "format": "Error format!",
+                "generic": "Please check this field.",
                 "range": "The value must be between {min} and {max}!",
                 "require": "Please input!"
-            }
+            },
+            "ready": "Looks good."
         },
         "loading": {
             "default": "Loading…",
@@ -141,6 +703,22 @@
         }
     },
     "web": {
+        "api": {
+            "error": {
+                "admin-exists": "An admin account already exists. Please sign in.",
+                "fallback": "Operation failed. Please try again later.",
+                "internal-server-error": "Server is busy. Please try again later.",
+                "invalid-password": "Password does not meet requirements.",
+                "invalid-token": "Session expired. Please sign in again.",
+                "login-failed": "Incorrect username or password.",
+                "network-error": "Cannot reach the server. Check the network or panel service.",
+                "permission-denied": "You do not have permission for this action.",
+                "user-not-found": "User not found.",
+                "username-exists": "This username is already taken.",
+                "with-code": "Operation failed ({code})",
+                "wrong-password": "Current password is incorrect."
+            }
+        },
         "app": {
             "name": {
                 "suffix": "Web"
@@ -152,13 +730,124 @@
                 "success": "Logged in!",
                 "title": "Login verification"
             },
+            "login-failed": "Sign-in failed",
+            "logout": {
+                "button": "Sign out"
+            },
+            "password": {
+                "format": "At least 8 characters, including upper/lowercase letters and numbers",
+                "invalid": "Password must include upper/lowercase letters and numbers",
+                "label": "Password",
+                "placeholder": "Enter password…"
+            },
+            "password-confirm": {
+                "invalid": "The two passwords do not match.",
+                "label": "Confirm password",
+                "placeholder": "Enter password again…"
+            },
             "register": {
+                "error": "Registration failed. Reason: {reason}",
                 "submit": "Create",
                 "success": "Administrator account created! Please login!",
                 "title": "Creating Administrator Account"
+            },
+            "register-failed": "Registration failed",
+            "remember": "Remember this device",
+            "username": {
+                "format": "2–16 characters",
+                "label": "Username",
+                "placeholder": "Enter username…"
+            }
+        },
+        "user-center": {
+            "password-reset": {
+                "error": "Password reset failed. Reason: {reason}",
+                "new-password": {
+                    "label": "New password",
+                    "same-as-old": "New password cannot match the old password"
+                },
+                "old-password": {
+                    "label": "Old password",
+                    "placeholder": "Enter old password…"
+                },
+                "submit": "Reset",
+                "success": "Password reset successful.",
+                "title": "Reset password"
+            },
+            "permissions": {
+                "title": "Permissions"
+            },
+            "sessions": {
+                "clear": {
+                    "button": "Clear all sessions",
+                    "confirm": "Clear all sessions?"
+                },
+                "delete": {
+                    "confirm": "Delete this session?",
+                    "error": "Failed to delete session. Reason: {reason}",
+                    "success": "Session deleted."
+                },
+                "info": {
+                    "last-active-at": "Last active",
+                    "last-active-ip": "Last active IP",
+                    "type": {
+                        "label": "Session type",
+                        "remember": "Long-lived session",
+                        "temporary": "Temporary session"
+                    },
+                    "user-agent": "User agent"
+                },
+                "title": "Sessions"
+            },
+            "title": "User center",
+            "user-info": {
+                "created-at": "Created at",
+                "title": "User info",
+                "username": "Username"
             }
         },
         "users": {
+            "create": {
+                "denied": {
+                    "desc": "You need the create-user permission from an admin before adding accounts.",
+                    "title": "You cannot create users"
+                },
+                "desc": "New users can sign in with this username. Choose a permission preset.",
+                "error": "Failed to create user.",
+                "submit": "Create account",
+                "success": "Created user “{username}”.",
+                "title": "Create user"
+            },
+            "delete": {
+                "confirm": "Delete user “{username}”? Their sessions will also end.",
+                "error": "Failed to delete user.",
+                "self": "You cannot delete the signed-in account.",
+                "success": "Deleted user “{username}”."
+            },
+            "list": {
+                "count": "{count} accounts",
+                "empty": {
+                    "desc": "Only accounts you can access appear here. Admins can create users on the right.",
+                    "title": "No accounts visible"
+                },
+                "self": "You",
+                "title": "Accounts"
+            },
+            "load": {
+                "error": "Could not load users. Sign in and check your permissions."
+            },
+            "permissions": {
+                "summary": "Permissions"
+            },
+            "preset": {
+                "admin": "Admin",
+                "desc": "Admin: full access. Operator: manage users. Viewer: read-only.",
+                "label": "Role",
+                "operator": "Operator",
+                "viewer": "Viewer"
+            },
+            "refresh": "Refresh",
+            "subtitle": "Review panel accounts. Only the first admin is created at setup; later users are created here.",
             "title": "Users"
         }
     },

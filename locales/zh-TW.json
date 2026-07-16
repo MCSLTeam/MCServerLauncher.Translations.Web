@@ -4,6 +4,9 @@
         "name": "繁體中文"
     },
     "shared": {
+        "account": {
+            "subtitle": "查看资料、修改密码，并管理已登录的设备会话。"
+        },
         "announcement": {
             "close": "不再顯示此公告",
             "title": "公告"
@@ -16,6 +19,235 @@
                 "name": "MCServerLauncher"
             }
         },
+        "brand": {
+            "platform": {
+                "tauri": "Tauri (跨平台)",
+                "web": "Web (浏览器)"
+            }
+        },
+        "create": {
+            "back": "返回",
+            "badge": {
+                "not-ready": "功能未就绪",
+                "partial": "实验"
+            },
+            "button": "新建實例",
+            "category": {
+                "frp": {
+                    "desc": "frpc 与第三方内网穿透客户端（功能未就绪）。",
+                    "title": "快速反向代理客戶端 Frpc"
+                },
+                "import": {
+                    "desc": "从本地目录导入已有实例（功能未就绪）。",
+                    "title": "导入"
+                },
+                "minecraft": {
+                    "desc": "Java / Forge / Fabric / NeoForge / Quilt / 基岩版",
+                    "title": "Minecraft 伺服器"
+                },
+                "other": {
+                    "desc": "任意控制台程序 / 通用可执行文件",
+                    "title": "其他控制臺程式"
+                },
+                "terraria": {
+                    "desc": "泰拉瑞亚服务器（实验性）",
+                    "title": "Terraria 游戲伺服器"
+                },
+                "title": "选择类别"
+            },
+            "confirm": {
+                "cancel": "取消",
+                "desc": "您確定要建立以下實例嗎？",
+                "ok": "繼續",
+                "title": "確認建立實例"
+            },
+            "daemon": {
+                "title": "新建連接"
+            },
+            "field": {
+                "archive": "壓縮包",
+                "core-jar": {
+                    "hint": "請選擇該伺服器將要使用的核心檔案。若不知道在何處下載，可點擊右側按鈕跳轉。",
+                    "label": "Minecraft 伺服器核心"
+                },
+                "java": {
+                    "label": "Java 運行時",
+                    "manual": "或手动填写 Java 可执行路径",
+                    "refresh": "自動搜尋",
+                    "select": "Java 路徑"
+                },
+                "jvm-args": "JVM 参数",
+                "loader-version": "Loader 版本",
+                "mc-version": "Minecraft 版本",
+                "name": {
+                    "label": "實例名稱",
+                    "placeholder": "請勿包含特殊符號或使用非法名稱。"
+                },
+                "only-stable": "仅显示稳定版",
+                "select": "瀏覽",
+                "use-mirror": "啓用後將使用 BMCLAPI 進行資源下載，建議中國用戶開啓。"
+            },
+            "finish": "繼續",
+            "jvm-arg": {
+                "add": "添加參數",
+                "remove": "刪除"
+            },
+            "jvm-helper": {
+                "apply": "应用到参数框",
+                "cancel": "取消",
+                "dialog": {
+                    "desc": "配置内存、编码与优化模板，然后插入到参数列表。"
+                },
+                "encoding": {
+                    "desc": "写入 -Dfile.encoding=…，可减轻控制台乱码。",
+                    "label": "编码"
+                },
+                "insert": "插入",
+                "max": "最大使用記憶體",
+                "mem": {
+                    "desc": "這決定了您的 Minecraft Java 伺服器將能使用多少記憶體。",
+                    "title": "JVM 堆記憶"
+                },
+                "min": "最小使用記憶體",
+                "template": {
+                    "advanced": "进阶 G1",
+                    "basic": "基础",
+                    "desc": "可选 GC 优化模板（勿与内存重复填写冲突）。",
+                    "label": "参数模板",
+                    "none": "无"
+                },
+                "title": "JVM 堆記憶",
+                "unit": "单位"
+            },
+            "need-node": {
+                "desc": "创建实例前需要连接并选择一台远程主机。",
+                "title": "请先选择远程主机"
+            },
+            "run-command": {
+                "desc": "在此處輸入運行命令。",
+                "label": "執行命令"
+            },
+            "settings": {
+                "title": "實例設定"
+            },
+            "status": {
+                "creating": "正在建立實例...",
+                "experimental": "此类型为实验性提交，Daemon 可能未注册对应工厂。",
+                "failed": "建立實例失敗",
+                "loading-java": "正在扫描 Java…",
+                "loading-versions": "正在加载版本列表…",
+                "request-failed": "请求失败 {status}: {url}",
+                "success": "實例建立成功",
+                "upload-failed": "檔案上傳失敗",
+                "uploading": "正在上傳檔案"
+            },
+            "step": {
+                "archive": {
+                    "desc": "請在此處導入下載的壓縮包。如果不知道在哪裡下載，可點擊右側按鈕跳轉。",
+                    "title": "壓縮包"
+                },
+                "core": {
+                    "desc": "請選擇該伺服器將要使用的核心檔案。若不知道在何處下載，可點擊右側按鈕跳轉。",
+                    "title": "Minecraft 伺服器核心"
+                },
+                "java": {
+                    "desc": "Java 運行時是 Minecraft Java 伺服器的必須環境。請務必選擇合適的版本，防止啓動失敗。",
+                    "title": "Java 運行時"
+                },
+                "jvm": {
+                    "desc": "(可選項) 在此處添加其他 JVM參數，一行一個。",
+                    "no-jar-tip": "请勿手动添加 -jar 与核心文件名，系统会自动处理。",
+                    "title": "JVM 參數"
+                },
+                "loader": {
+                    "desc": "請選擇該伺服器將要運行的 Minecraft 版本。",
+                    "title": "选择游戏与加载器版本"
+                },
+                "name": {
+                    "desc": "請勿包含特殊符號或使用非法名稱。",
+                    "title": "實例名稱"
+                }
+            },
+            "submit": {
+                "blocked": "遠程主機尚未連接成功。請到「遠程主機」確認位址與權杖，並確保 MCSL Daemon 正在執行。"
+            },
+            "subtitle": "请选择欲操作的方式；完成配置后单击“继续”。",
+            "title": "新建實例",
+            "type": {
+                "bungeecord": "BungeeCord",
+                "fabric": "Minecraft Fabric 伺服器",
+                "forge": "Minecraft Forge 伺服器",
+                "frpc": "frpc",
+                "geyser": "Minecraft Geyser",
+                "import": "导入已有实例",
+                "locyanfrp": "LoCyanFrp",
+                "mcbe": "Minecraft 基岩版伺服器",
+                "mcje": "通用 Minecraft Java 版伺服器",
+                "mefrp": "ME Frp",
+                "mossfrp": "MossFrp",
+                "neoforge": "Minecraft NeoForge 伺服器",
+                "openfrp": "OpenFrp",
+                "quilt": "Minecraft Quilt伺服器",
+                "terraria": "Terraria 游戲伺服器",
+                "title": "實例類型",
+                "travertine": "Travertine",
+                "universal": "其他控制臺程式",
+                "velocity": "Velocity",
+                "waterfall": "Waterfall"
+            },
+            "validation": {
+                "archive": "请选择压缩包或程序文件",
+                "jar": {
+                    "empty": "请选择服务器核心 jar 文件",
+                    "ext": "核心文件必须是 .jar"
+                },
+                "java": {
+                    "display": "请选择具体的 Java 可执行文件路径",
+                    "empty": "请选择或填写 Java 路径"
+                },
+                "loader": "请选择 Minecraft 版本与 Loader 版本",
+                "name": {
+                    "dot": "实例名称不能为 . 或 ..",
+                    "empty": "实例名称不能为空",
+                    "invalid": "实例名称包含非法字符"
+                },
+                "not-ready": "该实例类型创建流程尚未就绪（与 WPF 一致）。",
+                "run-or-file": "请填写运行命令或上传程序文件",
+                "unsupported": "当前类型暂不支持提交"
+            }
+        },
+        "daemon": {
+            "error": {
+                "action-failed": "Action 失败：{action}",
+                "connect-failed": "無法連線到遠端主機",
+                "create-no-config": "创建实例成功但未返回配置",
+                "disconnected": "無法連線到遠端主機",
+                "node-missing": "远程主机不存在",
+                "not-connected": "远程主机未连接",
+                "operation-failed": "操作失败",
+                "read-logs-failed": "读取日志失败",
+                "refresh-failed": "刷新失败",
+                "request-timeout": "请求超时：{action}",
+                "system-info": "無法連線到遠端主機",
+                "token-missing": "缺少访问令牌",
+                "upload-cancelled": "上传已取消",
+                "upload-chunk-timeout": "文件分片上传超时",
+                "upload-session": "文件上传会话创建失败",
+                "ws-closed": "WebSocket 连接关闭",
+                "ws-failed": "WebSocket 连接失败"
+            }
+        },
+        "dashboard": {
+            "subtitle": {
+                "default": "在这里查看账户状态，并快速前往远程主机与实例管理。",
+                "tauri": "连接远程主机，管理实例生命周期与控制台。"
+            },
+            "title": "主頁",
+            "welcome": "欢迎使用 MCSL Future"
+        },
+        "download": {
+            "cancelled": "下載已取消"
+        },
         "eula": {
             "accept": {
                 "countdown": "同意並進入（{time}秒）",
@@ -25,61 +257,376 @@
             "title": "最終使用者許可協定"
         },
         "help-center": {
+            "faq": {
+                "connect": "无法連線遠程主機：检查 Daemon 是否运行、主机端口、访问令牌，以及是否使用了正确的 ws/wss。",
+                "console": "实例控制台二级页包含看板、终端、文件、事件、组件与设置，布局对齐 WPF 独立控制台窗口。",
+                "create": "创建实例前需至少有一台已连接的远程主机；無遠程主機时请先到「远程主机」添加连接。",
+                "title": "常见问题"
+            },
+            "getting-started": "快速上手",
+            "links": {
+                "title": "相关链接"
+            },
+            "subtitle": "常见问题与上手指引，帮助你更快完成部署与日常运维。",
             "title": "幫助中心"
         },
+        "home": {
+            "announcement": {
+                "body": "MCServerLauncher Future 是 MCSL 开发组全新的项目。Web 控制台与 WPF 客户端共用 Daemon 协议，可在浏览器中管理远程主机与实例。",
+                "title": "公告"
+            }
+        },
+        "instance": {
+            "action": {
+                "delete": "刪除",
+                "kill": "強制關閉",
+                "remove": "刪除",
+                "restart": "重啓",
+                "start": "啟動",
+                "stop": "關閉"
+            },
+            "components": {
+                "empty": "暂无组件信息。"
+            },
+            "console": {
+                "empty": "暂无日志。启动实例或发送命令后会出现在这里。",
+                "need-connection": "需要連接遠程主機後才能使用此功能。請先在「遠程主機」中儲存并連接 MCSL Daemon。",
+                "placeholder": "在此輸入命令...",
+                "send": "发送",
+                "title": "控制臺"
+            },
+            "detail": {
+                "automation": "觸發事件",
+                "board": "實例看板",
+                "command": "實時終端",
+                "components": "組件管理",
+                "connected": "遠程主機已連接，可操作此實例。",
+                "console": "实时终端",
+                "files": "檔案總管",
+                "overview": "实例看板",
+                "placeholder": "此二级页结构已对齐 WPF 控制台，完整能力将在后续接入。",
+                "settings": "實例設定"
+            },
+            "events": {
+                "empty": "暂无事件规则。"
+            },
+            "files": {
+                "empty": "此目录为空。",
+                "load-failed": "无法读取目录",
+                "parent": "上级目录",
+                "pending": "文件管理与高级设置将在后续版本接入。",
+                "root": "实例目录"
+            },
+            "settings": {
+                "args": "启动参数",
+                "java": "Java 路徑",
+                "target": "启动目标",
+                "working-dir": "工作目录"
+            },
+            "status": {
+                "crashed": "已崩溃",
+                "running": "运行中",
+                "stopped": "已停止"
+            }
+        },
         "instances": {
-            "title": "實例管理"
+            "action": {
+                "delete": "刪除",
+                "failed": "实例操作失败",
+                "kill": "強制關閉",
+                "restart": "重啓",
+                "start": "啟動",
+                "stop": "關閉"
+            },
+            "confirm": {
+                "kill": "強制關閉實例",
+                "remove": "確認刪除",
+                "restart": "確認重啟",
+                "start": "啟動實例",
+                "stop": "確認停止"
+            },
+            "connect-daemon": "連接遠端主機",
+            "disabled": {
+                "description": "由於沒有連結任何遠端主機，此功能已被停用",
+                "title": "功能已停用"
+            },
+            "empty": {
+                "description": "試著往這裡面放點東西",
+                "no-data": {
+                    "desc": "已儲存遠程主機設定。連接守護進程後，已有實例会出現在此清單；也可以立即建立新實例。",
+                    "title": "当前没有实例"
+                },
+                "no-nodes": {
+                    "desc": "實例執行在遠程主機上。請先新增并連接 MCSL Daemon 遠程主機，再建立伺服器。",
+                    "title": "还没有可管理的实例"
+                },
+                "not-connected": "遠程主機尚未連上。請到「遠程主機」連接 MCSL Daemon 後再重新整理。",
+                "title": "这里空空如也"
+            },
+            "interval": {
+                "minute": "1 分钟"
+            },
+            "open": "打开",
+            "refresh": "刷新实例",
+            "sorting": {
+                "methods": {
+                    "node": "按遠程主機名稱"
+                },
+                "search-placeholder": "搜索实例名称、类型或节点…"
+            },
+            "status": {
+                "all": "所有狀態",
+                "crashed": "已崩潰",
+                "running": "執行中",
+                "starting": "啟動中",
+                "stopped": "已停止",
+                "stopping": "關閉中"
+            },
+            "subtitle": "檢視各遠程主機上的伺服器實例，進行啟動、停止與進入控制台等操作。",
+            "summary": "顯示 {instances} 個實例 · 遠程主機線上 {online}/{total}",
+            "table": {
+                "name": "名称",
+                "status": "状态",
+                "type": "类型",
+                "version": "版本"
+            },
+            "tip": "總攬全局，以觀天下。",
+            "title": "實例管理",
+            "type-label": "实例类型：",
+            "version-label": "版本："
+        },
+        "locale": {
+            "en-US": "English",
+            "ja-JP": "日本語",
+            "ru-RU": "Русский",
+            "zh-CN": "简体中文",
+            "zh-HK": "繁體中文（香港）",
+            "zh-MEME": "梗体中文",
+            "zh-TW": "繁體中文（台灣）"
+        },
+        "navbar": {
+            "core": "核心",
+            "resources": "资源",
+            "support": "支持"
         },
         "nodes": {
+            "auto-refresh": {
+                "interval": "{sec} 秒",
+                "label": "自動重新整理",
+                "off": "自動重新整理: 關",
+                "on": "自動重新整理: 開"
+            },
+            "card": {
+                "daemon": "节点版本",
+                "resource": "資源占用",
+                "status": "鏈接狀態",
+                "system": "系統",
+                "uri": "遠端位址",
+                "view-error": "查看错误"
+            },
             "connect": {
+                "action": "连接",
+                "all": "全部连接",
+                "failed": {
+                    "desc": "請檢查網路並重試。若您的電腦網路正常，則您的遠端主機極大可能出現了異常，或遠端防火牆未放行。"
+                },
                 "host": {
-                    "label": "主機名",
+                    "label": "主机地址",
                     "placeholder": "請輸入主機名…"
                 },
                 "name": {
-                    "label": "守護進程名稱",
+                    "label": "備注名",
                     "placeholder": "請為守護進程命名…"
                 },
+                "new": "新建连接",
                 "password": {
                     "label": "密碼",
                     "placeholder": "請輸入密碼…"
                 },
                 "port": {
-                    "label": "連接埠",
+                    "label": "端口",
                     "placeholder": "請輸入連接埠…"
                 },
                 "preview": "你將要連接",
-                "save": "保存連接",
+                "retry": "重试连接",
+                "save": "保存",
+                "scheme": "协议",
                 "secure": "使用加密連接",
+                "success": "已连接守护进程。",
                 "test": {
                     "failed": "測試連接失敗！請確認填寫無誤！",
+                    "label": "测试连接",
                     "success": "連接測試成功！ 立即保存守護進程吧！",
                     "test": "測試連接",
                     "testing": "測試連線中…"
                 },
-                "title": "連接守護進程",
+                "title": "新建連接",
+                "token": {
+                    "label": "访问令牌"
+                },
                 "username": {
                     "label": "用戶名",
                     "placeholder": "請輸入用戶名…"
                 }
+            },
+            "delete": {
+                "confirm": "確定要刪除遠端主機「{name}」嗎？",
+                "failed": "刪除遠端主機失敗：{reason}",
+                "success": "已刪除遠端主機"
+            },
+            "disconnect": "断开",
+            "disconnected": "已断开遠程主機連接。",
+            "form": {
+                "add": "新增遠程主機",
+                "create": "新建連接",
+                "desc": "连接信息仅保存在当前浏览器，不会上传到面板服务器。",
+                "edit": "編輯連接",
+                "save": "保存"
+            },
+            "list": {
+                "empty": {
+                    "desc": "请准备一台已运行 MCSL Daemon 的服务器，并填写主机、端口与访问令牌。",
+                    "title": "尚未新增遠程主機"
+                },
+                "title": "遠程主機列表"
+            },
+            "refresh": "刷新",
+            "refresh-interval": "刷新间隔",
+            "resource": {
+                "cpu": "CPU",
+                "disk": "磁碟",
+                "drive": "磁盘",
+                "load-failed": "加载失败",
+                "memory": "記憶體",
+                "not-loaded": "未加载"
+            },
+            "saved": "遠程主機已儲存。",
+            "search": {
+                "empty": {
+                    "desc": "试试其他关键词，或清空搜索。",
+                    "title": "没有匹配的遠程主機"
+                },
+                "placeholder": "搜尋"
+            },
+            "status": {
+                "connecting": "連接中",
+                "error": "异常",
+                "offline": "離線",
+                "ok": "正常",
+                "online": "在線",
+                "reconnecting": "重连中"
+            },
+            "subtitle": "安全护航，只在指掌。",
+            "tip": "安全護航，只在執掌。",
+            "title": "遠端主機",
+            "token": {
+                "label": "访问密钥",
+                "missing": "未保存令牌",
+                "optional": "访问令牌（留空表示不修改）",
+                "placeholder": "Daemon 提供的访问令牌",
+                "saved": "已保存令牌"
             }
         },
+        "preferences": {
+            "language": "语言",
+            "root": "偏好设置",
+            "theme": {
+                "root": "主题"
+            }
+        },
+        "resource-center": {
+            "build-version": "构建版本",
+            "cores": "服务器核心",
+            "download": "下载",
+            "history": {
+                "cancel": "取消",
+                "clear": "清除已完成",
+                "desc": "查看资源下载进度，可取消进行中的任务。",
+                "empty": "暂无下载历史（WPF 标题栏下载历史将在 Web 侧后续实现）。",
+                "remove": "移除",
+                "saved-path": "已保存到",
+                "status": {
+                    "cancelled": "下載已取消",
+                    "completed": "下載完成",
+                    "failed": "下載失敗",
+                    "queued": "排队中",
+                    "running": "正在下載檔案..."
+                },
+                "title": "下載歷史"
+            },
+            "minecraft-version": "Minecraft 版本",
+            "no-files": "暂无可用文件",
+            "note": "下载與安裝仍需在遠程主機側完成；面板不会代替 Daemon 執行安裝。",
+            "open-external": "在新标签页打开官方站点",
+            "open-homepage": "打开官网",
+            "provider": {
+                "desc": "对齐 WPF 资源下载页的主内容区。当前提供常用官方下载入口；完整镜像源将在后续接入。",
+                "error": "下载源加载失败",
+                "title": "下载源 / 常用核心"
+            },
+            "subtitle": "常用伺服端核心與文件入口。下载與安裝仍由你在遠程主機上完成。",
+            "tag": {
+                "bedrock": "基岩",
+                "mod": "模組",
+                "proxy": "網路代理",
+                "pure": "純净",
+                "vanilla": "原版"
+            },
+            "title": "資源下載",
+            "wpf-tip": "你想要的，这里都有。（当前正在使用 {provider} 下载源）",
+            "wpf-title": "资源下载"
+        },
         "settings": {
+            "about": {
+                "info": {
+                    "name": "名称",
+                    "title": "应用信息",
+                    "version": "版本"
+                },
+                "title": "關於 MCServerLauncher Future"
+            },
             "appearance": {
                 "theme": {
-                    "dark": "深色模式",
-                    "label": "主題",
-                    "light": "淺色模式",
+                    "dark": "深色",
+                    "desc": "默認跟隨系統變化，當然也可以自己設定。",
+                    "label": "應用主題",
+                    "light": "淺色",
                     "system": "跟隨系統"
+                }
+            },
+            "download": {
+                "failure": {
+                    "desc": "设置下载失败后的处理方式。",
+                    "label": "下载失败处理",
+                    "retry1": "重试 1 次",
+                    "retry3": "重试 3 次",
+                    "stop": "停止"
+                },
+                "source": {
+                    "desc": "选择资源下载页面使用的镜像提供商。",
+                    "label": "下载源"
+                },
+                "threads": {
+                    "desc": "并行下载线程数，范围 1 至 256。",
+                    "label": "下载线程数"
                 }
             },
             "general": {
                 "locale": {
-                    "label": "語言",
+                    "desc": "選擇本程式使用的語言。",
+                    "label": " ·設定語言",
                     "system": "跟隨系統"
                 }
             },
-            "title": "設置"
+            "save": "保存",
+            "saved": "設定已儲存",
+            "subtitle": "调整本机控制台外观与操作偏好。这些设置保存在当前浏览器。",
+            "title": "程式設定"
+        },
+        "tauri": {
+            "save-dialog": {
+                "title": "保存下载文件"
+            }
         },
         "update": {
             "error": "更新失敗！原因：{reason}",
@@ -99,20 +646,28 @@
     },
     "ui": {
         "common": {
+            "actions": "操作",
+            "all": "全部",
             "cancel": "取消",
+            "close": "关闭",
             "confirm": "確認",
             "continue": "繼續",
             "copy": "複製",
+            "delete": "删除",
             "done": "完成",
+            "edit": "编辑",
+            "more": "更多",
             "next-step": "下一步",
             "prev-step": "上一步"
         },
         "form": {
             "invalid": {
                 "format": "格式錯誤！",
+                "generic": "请检查填写内容。",
                 "range": "數值必須在 {min} 到 {max} 之間！",
                 "require": "請填寫此項！"
-            }
+            },
+            "ready": "填写正确。"
         },
         "loading": {
             "default": "正在加載…",
@@ -131,6 +686,22 @@
         }
     },
     "web": {
+        "api": {
+            "error": {
+                "admin-exists": "已存在管理员账户，请直接登录。",
+                "fallback": "操作失败，请稍后重试。",
+                "internal-server-error": "服务器繁忙，请稍后重试。",
+                "invalid-password": "密码不符合要求。",
+                "invalid-token": "登录已失效，请重新登录。",
+                "login-failed": "用户名或密码不正确。",
+                "network-error": "无法连接服务器，请检查网络或确认面板服务已启动。",
+                "permission-denied": "没有权限执行此操作。",
+                "user-not-found": "找不到该用户。",
+                "username-exists": "该用户名已被使用。",
+                "with-code": "操作失败（{code}）",
+                "wrong-password": "原密码不正确。"
+            }
+        },
         "app": {
             "name": {
                 "suffix": "Web"
@@ -142,11 +713,56 @@
                 "success": "登錄成功！",
                 "title": "登錄驗證"
             },
+            "login-failed": "登录失败",
             "register": {
                 "submit": "註冊",
                 "success": "註冊成功！請登錄賬號！",
                 "title": "創建管理員賬號"
-            }
+            },
+            "register-failed": "注册失败"
+        },
+        "users": {
+            "create": {
+                "denied": {
+                    "desc": "需要管理员授予「创建用户」权限后，才能在面板内添加其他账号。",
+                    "title": "当前账号不能创建用户"
+                },
+                "desc": "新用户创建后即可用该用户名登录面板。权限可按角色预设选择。",
+                "error": "创建用户失败。",
+                "submit": "创建账号",
+                "success": "已创建用户「{username}」。",
+                "title": "创建用户"
+            },
+            "delete": {
+                "confirm": "确定删除用户「{username}」？其会话也会失效。",
+                "error": "删除用户失败。",
+                "self": "不能删除当前登录的账号。",
+                "success": "已删除用户「{username}」。"
+            },
+            "list": {
+                "count": "共 {count} 个账号",
+                "empty": {
+                    "desc": "列表只显示你有权查看的账号。若你是管理员，可在右侧创建新用户。",
+                    "title": "暂时看不到其他账号"
+                },
+                "self": "当前登录",
+                "title": "账号列表"
+            },
+            "load": {
+                "error": "无法加载用户列表。请确认已登录且具备查看权限。"
+            },
+            "permissions": {
+                "summary": "权限"
+            },
+            "preset": {
+                "admin": "管理员",
+                "desc": "管理员：全部权限。运维：可管理其他用户。只读：仅可查看。",
+                "label": "权限角色",
+                "operator": "运维",
+                "viewer": "只读"
+            },
+            "refresh": "刷新列表",
+            "subtitle": "查看面板账号，并由管理员创建后续用户。首次安装只能注册一名管理员。"
         }
     },
     "yup": {
