@@ -662,7 +662,38 @@
             "save": "Save",
             "saved": "Settings saved successfully",
             "subtitle": "Adjust local console appearance and preferences. Saved in this browser.",
-            "title": "Settings"
+            "title": "Settings",
+            "instance-creation": {
+                "title": "Instance Creation Settings",
+                "auto-accept-eula": {
+                    "label": "Auto Accept Minecraft's EULA (Minecraft Java Edition Server Instance)",
+                    "desc": "Accepting automatically means you agree to the Minecraft End User License Agreement and that MCSL bears no liability."
+                },
+                "auto-disable-java-online": {
+                    "label": "Automatically Disable Online Authentication (Minecraft Java Edition Instance)",
+                    "desc": "Turns off online-mode when creating Java Edition instances."
+                },
+                "auto-disable-bedrock-online": {
+                    "label": "Automatically Disable Online Authentication (Minecraft Bedrock Edition Instance)",
+                    "desc": "Disables online authentication when creating Bedrock Edition instances."
+                },
+                "use-mirror": {
+                    "label": "Use Mirror for Installation",
+                    "desc": "After enabling, resources will be downloaded using BMCLAPI. Recommended for Chinese users."
+                },
+                "use-mirror-forge": {
+                    "label": "Use Mirror for Installation (Minecraft Forge Server Instance)"
+                },
+                "use-mirror-fabric": {
+                    "label": "Use Mirror for Installation (Minecraft Fabric Server Instance)"
+                },
+                "use-mirror-neoforge": {
+                    "label": "Use Mirror for Installation (Minecraft NeoForge Server Instance)"
+                },
+                "use-mirror-quilt": {
+                    "label": "Use Mirror for Installation (Minecraft Quilt Server Instance)"
+                }
+            }
         },
         "tasks": {
             "title": "Tasks"

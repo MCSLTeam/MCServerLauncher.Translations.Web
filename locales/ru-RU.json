@@ -609,7 +609,38 @@
             "save": "Save",
             "saved": "Настройки сохранены",
             "subtitle": "Adjust local console appearance and preferences. Saved in this browser.",
-            "title": "Настройки программы"
+            "title": "Настройки программы",
+            "instance-creation": {
+                "title": "Настройки создания экземпляра",
+                "auto-accept-eula": {
+                    "label": "Автоматическое согласие с EULA Minecraft (экземпляр сервера Java Edition)",
+                    "desc": "Автоматическое согласие означает, что вы принимаете лицензионное соглашение Minecraft, а MCSL не несёт ответственности."
+                },
+                "auto-disable-java-online": {
+                    "label": "Автоматическое отключение проверки подлинности (экземпляр Java Edition)",
+                    "desc": "Отключает online-mode при создании экземпляров Java Edition."
+                },
+                "auto-disable-bedrock-online": {
+                    "label": "Автоматическое отключение проверки подлинности (экземпляр Bedrock Edition)",
+                    "desc": "Отключает онлайн-авторизацию при создании экземпляров Bedrock Edition."
+                },
+                "use-mirror": {
+                    "label": "Развертывание с зеркальным источником",
+                    "desc": "После включения ресурсы будут загружаться через BMCLAPI. Рекомендуется для пользователей из Китая."
+                },
+                "use-mirror-forge": {
+                    "label": "Развертывание с зеркальным источником (экземпляр Minecraft Forge)"
+                },
+                "use-mirror-fabric": {
+                    "label": "Развертывание с помощью зеркального источника (экземпляр Minecraft Fabric)"
+                },
+                "use-mirror-neoforge": {
+                    "label": "Развертывание с помощью зеркального источника (экземпляр Minecraft NeoForge)"
+                },
+                "use-mirror-quilt": {
+                    "label": "Развертывание с помощью зеркального источника (экземпляр Minecraft Quilt)"
+                }
+            }
         },
         "tauri": {
             "save-dialog": {

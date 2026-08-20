@@ -648,7 +648,38 @@
             "save": "保存",
             "saved": "設定已儲存",
             "subtitle": "调整本机控制台外观与操作偏好。这些设置保存在当前浏览器。",
-            "title": "程式設定"
+            "title": "程式設定",
+            "instance-creation": {
+                "title": "實例創建設置",
+                "auto-accept-eula": {
+                    "label": "自動同意 EULA（Minecraft Java 版伺服器實例）",
+                    "desc": "自動同意即代表您遵守 Minecraft 最終使用者授權合約，且認同 MCSL 不承擔任何連帶責任。"
+                },
+                "auto-disable-java-online": {
+                    "label": "自動禁用正版驗證（Minecraft Java 版伺服器實例）",
+                    "desc": "建立 Java 版執行個體時自動關閉線上模式。"
+                },
+                "auto-disable-bedrock-online": {
+                    "label": "自動禁用正版驗證（Minecraft 基岩版伺服器執行個體）",
+                    "desc": "建立基岩版執行個體時自動關閉線上驗證。"
+                },
+                "use-mirror": {
+                    "label": "使用鏡像來源進行部署",
+                    "desc": "啟用後將使用 BMCLAPI 進行資源下載，建議中國使用者啟用。"
+                },
+                "use-mirror-forge": {
+                    "label": "使用鏡像來源進行部署（Minecraft Forge 伺服器執行個體）"
+                },
+                "use-mirror-fabric": {
+                    "label": "使用鏡像來源進行部署（Minecraft Fabric 伺服器執行個體）"
+                },
+                "use-mirror-neoforge": {
+                    "label": "使用鏡像來源進行部署（Minecraft NeoForge 伺服器執行個體）"
+                },
+                "use-mirror-quilt": {
+                    "label": "使用鏡像來源進行部署（Minecraft Quilt 伺服器執行個體）"
+                }
+            }
         },
         "tauri": {
             "save-dialog": {

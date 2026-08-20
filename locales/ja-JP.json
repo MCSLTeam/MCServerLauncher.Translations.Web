@@ -609,7 +609,38 @@
             "save": "Save",
             "saved": "設定を保存しました",
             "subtitle": "Adjust local console appearance and preferences. Saved in this browser.",
-            "title": "プログラム設定"
+            "title": "プログラム設定",
+            "instance-creation": {
+                "title": "インスタンス作成設定",
+                "auto-accept-eula": {
+                    "label": "EULA に自動同意する（Minecraft Java 版サーバーインスタンス）",
+                    "desc": "自動同意は Minecraft の利用規約に同意し、MCSL が一切の責任を負わないことを意味します。"
+                },
+                "auto-disable-java-online": {
+                    "label": "オンラインモードを自動的に無効にする（Minecraft Java 版サーバーインスタンス）",
+                    "desc": "Java 版インスタンス作成時にオンラインモードを自動で無効にします。"
+                },
+                "auto-disable-bedrock-online": {
+                    "label": "オンラインモードを自動的に無効にする（Minecraft 統合版サーバーインスタンス）",
+                    "desc": "統合版インスタンス作成時にオンライン認証を無効にします。"
+                },
+                "use-mirror": {
+                    "label": "ミラーソースを使用してデプロイする",
+                    "desc": "有効にすると、リソースのダウンロードに BMCLAPI が使用されます。中国のユーザーは有効にすることをお勧めします。"
+                },
+                "use-mirror-forge": {
+                    "label": "ミラーソースを使用してデプロイする（Minecraft Forge サーバーインスタンス）"
+                },
+                "use-mirror-fabric": {
+                    "label": "ミラーソースを使用してデプロイする（Minecraft Fabric サーバーインスタンス）"
+                },
+                "use-mirror-neoforge": {
+                    "label": "ミラーソースを使用してデプロイする（Minecraft NeoForge サーバーインスタンス）"
+                },
+                "use-mirror-quilt": {
+                    "label": "ミラーソースを使用してデプロイする（Minecraft Quilt サーバーインスタンス）"
+                }
+            }
         },
         "tauri": {
             "save-dialog": {
