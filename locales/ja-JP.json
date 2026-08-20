@@ -388,7 +388,10 @@
             "tip": "全体を見渡し、世界を観る。",
             "title": "インスタンス管理",
             "type-label": "Instance type:",
-            "version-label": "Version:"
+            "version-label": "Version:",
+            "delete": {
+                "type-name-tip": "削除を確定するにはインスタンス名を入力してください。"
+            }
         },
         "locale": {
             "en-US": "English",
@@ -461,7 +464,8 @@
             "delete": {
                 "confirm": "リモートホスト「{name}」を削除してもよろしいですか？",
                 "failed": "リモートホストの削除に失敗しました: {reason}",
-                "success": "リモートホストを削除しました"
+                "success": "リモートホストを削除しました",
+                "type-name-tip": "削除を確定するにはリモートホスト名を入力してください。"
             },
             "disconnect": "Disconnect",
             "disconnected": "Node disconnected.",
@@ -640,6 +644,41 @@
                 "use-mirror-quilt": {
                     "label": "ミラーソースを使用してデプロイする（Minecraft Quilt サーバーインスタンス）"
                 }
+            },
+            "desktop": {
+                "title": "デスクトップ / 詳細設定",
+                "follow-startup": {
+                    "label": "起動時に自動起動",
+                    "desc": "ログイン後、MCSL Future を自動起動します（tauri デスクトップ）。"
+                },
+                "check-updates-on-launch": {
+                    "label": "起動時に更新を確認",
+                    "desc": "起動後、最新バージョンを自動確認します。"
+                },
+                "check-now": {
+                    "label": "更新を確認",
+                    "desc": "最新バージョンを確認します。"
+                },
+                "up-to-date": "最新バージョンです（{version}）。",
+                "update-found": "新バージョン {latest} があります。リリースページからダウンロードしてください。",
+                "unavailable": "この環境では更新を確認できません。"
+            },
+            "action-on-double-click": {
+                "title": "インスタンスカードのダブルクリック動作",
+                "desc": "インスタンスカードをダブルクリックしたときの動作（WPF に合わせます）。",
+                "none": "何もしない",
+                "console": "コンソールを開く",
+                "settings": "設定を開く",
+                "start": "起動",
+                "stop": "停止",
+                "restart": "再起動",
+                "kill": "強制終了"
+            },
+            "delete-confirm": {
+                "title": "インスタンス削除の確認方法",
+                "desc": "誤操作による削除を防ぎます。",
+                "confirm": "ダイアログで確認",
+                "type-name": "インスタンス名を入力して確認"
             }
         },
         "tauri": {

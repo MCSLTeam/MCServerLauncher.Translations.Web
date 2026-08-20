@@ -408,7 +408,10 @@
             "tip": "Panoramic view, all within your rule.",
             "title": "Instance Manager",
             "type-label": "Instance type:",
-            "version-label": "Version:"
+            "version-label": "Version:",
+            "delete": {
+                "type-name-tip": "Type the instance name to confirm deletion."
+            }
         },
         "locale": {
             "en-US": "English",
@@ -499,7 +502,8 @@
             "delete": {
                 "confirm": "Are you sure you want to delete remote host '{name}'?",
                 "failed": "Failed to delete remote host: {reason}",
-                "success": "Remote host deleted"
+                "success": "Remote host deleted",
+                "type-name-tip": "Type the remote host name to confirm deletion."
             },
             "disconnect": "Disconnect",
             "disconnected": "Node disconnected.",
@@ -693,6 +697,41 @@
                 "use-mirror-quilt": {
                     "label": "Use Mirror for Installation (Minecraft Quilt Server Instance)"
                 }
+            },
+            "desktop": {
+                "title": "Desktop / More Settings",
+                "follow-startup": {
+                    "label": "Launch at Startup",
+                    "desc": "Start MCSL Future automatically after logging in (tauri desktop)."
+                },
+                "check-updates-on-launch": {
+                    "label": "Check for Updates on Launch",
+                    "desc": "Query the latest version after the app starts."
+                },
+                "check-now": {
+                    "label": "Check for Updates",
+                    "desc": "Query the latest version now."
+                },
+                "up-to-date": "You are up to date ({version}).",
+                "update-found": "New version {latest} available. Go to the release page to download.",
+                "unavailable": "Cannot check for updates in this environment."
+            },
+            "action-on-double-click": {
+                "title": "Instance Card Double-click Action",
+                "desc": "Choose what happens when double-clicking an instance card (aligned with WPF).",
+                "none": "Do nothing",
+                "console": "Open console",
+                "settings": "Open settings",
+                "start": "Start",
+                "stop": "Stop",
+                "restart": "Restart",
+                "kill": "Force quit"
+            },
+            "delete-confirm": {
+                "title": "Instance Deletion Confirmation Method",
+                "desc": "This can prevent instances from being deleted due to accidental operations.",
+                "confirm": "Confirmation dialog",
+                "type-name": "Type instance name to confirm"
             }
         },
         "tasks": {

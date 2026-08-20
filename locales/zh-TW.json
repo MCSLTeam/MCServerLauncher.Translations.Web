@@ -408,7 +408,10 @@
             "tip": "總攬全局，以觀天下。",
             "title": "實例管理",
             "type-label": "实例类型：",
-            "version-label": "版本："
+            "version-label": "版本：",
+            "delete": {
+                "type-name-tip": "請輸入執行個體名稱以確認刪除。"
+            }
         },
         "locale": {
             "en-US": "English",
@@ -499,7 +502,8 @@
             "delete": {
                 "confirm": "確定要刪除遠端主機「{name}」嗎？",
                 "failed": "刪除遠端主機失敗：{reason}",
-                "success": "已刪除遠端主機"
+                "success": "已刪除遠端主機",
+                "type-name-tip": "請輸入遠端主機名稱以確認刪除。"
             },
             "disconnect": "断开",
             "disconnected": "已断开遠程主機連接。",
@@ -679,6 +683,41 @@
                 "use-mirror-quilt": {
                     "label": "使用鏡像來源進行部署（Minecraft Quilt 伺服器執行個體）"
                 }
+            },
+            "desktop": {
+                "title": "桌面 / 更多設定",
+                "follow-startup": {
+                    "label": "開機自啟動",
+                    "desc": "登入系統後自動啟動 MCSL Future（tauri 桌面端）。"
+                },
+                "check-updates-on-launch": {
+                    "label": "啟動時自動檢查更新",
+                    "desc": "應用程式啟動後自動查詢最新版本。"
+                },
+                "check-now": {
+                    "label": "檢查更新",
+                    "desc": "立即查詢最新版本。"
+                },
+                "up-to-date": "已是最新版本（{version}）。",
+                "update-found": "發現新版本 {latest}，請前往發佈頁下載。",
+                "unavailable": "目前環境無法檢查更新。"
+            },
+            "action-on-double-click": {
+                "title": "實例卡片雙擊動作",
+                "desc": "設定雙擊實例卡片時執行的操作（對齊 WPF 雙擊行為）。",
+                "none": "無操作",
+                "console": "開啟主控台",
+                "settings": "開啟設定",
+                "start": "啟動",
+                "stop": "停止",
+                "restart": "重新啟動",
+                "kill": "強制結束"
+            },
+            "delete-confirm": {
+                "title": "刪除實例確認方式",
+                "desc": "此功能可防止誤操作導致實例被刪除。",
+                "confirm": "彈窗確認",
+                "type-name": "輸入實例名稱確認"
             }
         },
         "tauri": {
