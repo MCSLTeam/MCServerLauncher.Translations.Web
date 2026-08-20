@@ -337,6 +337,18 @@
             }
         },
         "instance": {
+            "batch": {
+                "select-all": "全选",
+                "selected": "已选 {count} 项",
+                "cancel": "取消",
+                "start": "批量启动",
+                "stop": "批量停止",
+                "remove": "批量删除",
+                "confirm.start": "启动 {count} 个实例？",
+                "confirm.stop": "关闭 {count} 个实例？",
+                "confirm.remove": "删除 {count} 项？",
+                "complete": "成功 {success} · 失败 {fail}"
+            },
             "action": {
                 "delete": "删除",
                 "kill": "强制关闭",
@@ -576,6 +588,18 @@
             "support": "支持"
         },
         "nodes": {
+            "batch": {
+                "select-all": "全选",
+                "selected": "已选 {count} 项",
+                "cancel": "取消",
+                "start": "批量启动",
+                "stop": "批量停止",
+                "remove": "批量删除",
+                "confirm.start": "启动 {count} 个实例？",
+                "confirm.stop": "关闭 {count} 个实例？",
+                "confirm.remove": "删除 {count} 项？",
+                "complete": "成功 {success} · 失败 {fail}"
+            },
             "auto-refresh": {
                 "interval": "{sec} 秒",
                 "label": "自动刷新",

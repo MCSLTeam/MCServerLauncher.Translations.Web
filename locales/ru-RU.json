@@ -260,6 +260,18 @@
             }
         },
         "instance": {
+            "batch": {
+                "select-all": "Выбрать все",
+                "selected": "Выбрано: {count}",
+                "cancel": "Отмена",
+                "start": "Запустить выбранные",
+                "stop": "Остановить выбранные",
+                "remove": "Удалить выбранные",
+                "confirm.start": "Запустить {count} экземпляров?",
+                "confirm.stop": "Остановить {count} экземпляров?",
+                "confirm.remove": "Удалить {count} элементов?",
+                "complete": "Успех {success} · Ошибок {fail}"
+            },
             "action": {
                 "delete": "Удалить",
                 "kill": "Принудительно закрыть",
@@ -393,6 +405,18 @@
             "support": "Support"
         },
         "nodes": {
+            "batch": {
+                "select-all": "Выбрать все",
+                "selected": "Выбрано: {count}",
+                "cancel": "Отмена",
+                "start": "Запустить выбранные",
+                "stop": "Остановить выбранные",
+                "remove": "Удалить выбранные",
+                "confirm.start": "Запустить {count} экземпляров?",
+                "confirm.stop": "Остановить {count} экземпляров?",
+                "confirm.remove": "Удалить {count} элементов?",
+                "complete": "Успех {success} · Ошибок {fail}"
+            },
             "auto-refresh": {
                 "interval": "{sec}s",
                 "label": "Автообновление",

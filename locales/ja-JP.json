@@ -260,6 +260,18 @@
             }
         },
         "instance": {
+            "batch": {
+                "select-all": "すべて選択",
+                "selected": "{count} 件選択中",
+                "cancel": "キャンセル",
+                "start": "一括起動",
+                "stop": "一括停止",
+                "remove": "一括削除",
+                "confirm.start": "{count} 個のインスタンスを起動しますか？",
+                "confirm.stop": "{count} 個のインスタンスを停止しますか？",
+                "confirm.remove": "{count} 件を削除しますか？",
+                "complete": "成功 {success} · 失敗 {fail}"
+            },
             "action": {
                 "delete": "削除",
                 "kill": "強制的に閉じる",
@@ -393,6 +405,18 @@
             "support": "Support"
         },
         "nodes": {
+            "batch": {
+                "select-all": "すべて選択",
+                "selected": "{count} 件選択中",
+                "cancel": "キャンセル",
+                "start": "一括起動",
+                "stop": "一括停止",
+                "remove": "一括削除",
+                "confirm.start": "{count} 個のインスタンスを起動しますか？",
+                "confirm.stop": "{count} 個のインスタンスを停止しますか？",
+                "confirm.remove": "{count} 件を削除しますか？",
+                "complete": "成功 {success} · 失敗 {fail}"
+            },
             "auto-refresh": {
                 "interval": "{sec}s",
                 "label": "自動更新",

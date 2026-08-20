@@ -280,6 +280,18 @@
             }
         },
         "instance": {
+            "batch": {
+                "select-all": "Select all",
+                "selected": "Selected {count}",
+                "cancel": "Cancel",
+                "start": "Start batch",
+                "stop": "Stop batch",
+                "remove": "Delete batch",
+                "confirm.start": "Start {count} instances?",
+                "confirm.stop": "Stop {count} instances?",
+                "confirm.remove": "Delete {count} items?",
+                "complete": "{success} succeeded · {fail} failed"
+            },
             "action": {
                 "delete": "Delete",
                 "kill": "Force Close",
@@ -413,6 +425,18 @@
             "support": "Support"
         },
         "nodes": {
+            "batch": {
+                "select-all": "Select all",
+                "selected": "Selected {count}",
+                "cancel": "Cancel",
+                "start": "Start batch",
+                "stop": "Stop batch",
+                "remove": "Delete batch",
+                "confirm.start": "Start {count} instances?",
+                "confirm.stop": "Stop {count} instances?",
+                "confirm.remove": "Delete {count} items?",
+                "complete": "{success} succeeded · {fail} failed"
+            },
             "auto-refresh": {
                 "interval": "{sec}s",
                 "label": "Auto Refresh",
