@@ -237,6 +237,9 @@
             "cancelled": "ダウンロードキャンセル"
         },
         "eula": {},
+        "extension-center": {
+            "title": "拡張 / プラグイン"
+        },
         "help-center": {
             "faq": {
                 "connect": "Cannot connect: check Daemon is running, host/port/token, and ws/wss.",

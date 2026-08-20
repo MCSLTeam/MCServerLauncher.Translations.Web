@@ -237,6 +237,9 @@
             "cancelled": "下载已取消"
         },
         "eula": {},
+        "extension-center": {
+            "title": "Расширения / плагины"
+        },
         "help-center": {
             "faq": {
                 "connect": "Cannot connect: check Daemon is running, host/port/token, and ws/wss.",

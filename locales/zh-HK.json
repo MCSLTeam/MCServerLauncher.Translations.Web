@@ -237,6 +237,9 @@
             "cancelled": "下载已取消"
         },
         "eula": {},
+        "extension-center": {
+            "title": "擴充 / 外掛"
+        },
         "help-center": {
             "faq": {
                 "connect": "无法連線遠程主機：检查 Daemon 是否运行、主机端口、访问令牌，以及是否使用了正确的 ws/wss。",

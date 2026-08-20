@@ -256,6 +256,9 @@
             "reject": "Reject & Quit",
             "title": "End User License Agreement"
         },
+        "extension-center": {
+            "title": "Extensions / Plugins"
+        },
         "help-center": {
             "faq": {
                 "connect": "Cannot connect: check Daemon is running, host/port/token, and ws/wss.",

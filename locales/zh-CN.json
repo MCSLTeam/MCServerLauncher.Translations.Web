@@ -313,6 +313,9 @@
             "reject": "不同意并退出",
             "title": "最终用户许可协议"
         },
+        "extension-center": {
+            "title": "扩展 / 插件"
+        },
         "help-center": {
             "faq": {
                 "connect": "无法连接远程主机：检查 Daemon 是否运行、主机端口、访问令牌，以及是否使用了正确的 ws/wss。",
